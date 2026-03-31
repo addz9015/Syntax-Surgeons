@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
 
 :root {
   color-scheme: dark;
@@ -294,6 +294,24 @@ textarea {
   color: #edf6f9;
 }
 
+select {
+  color-scheme: normal;
+}
+
+select option,
+select optgroup {
+  color: #122033;
+  background: #f4f7fb;
+}
+
+select:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid rgba(123, 223, 242, 0.35);
+  outline-offset: 2px;
+  border-color: rgba(123, 223, 242, 0.5);
+}
+
 .primary-button {
   cursor: pointer;
   background: linear-gradient(135deg, #0f8b8d, #3d9970);
@@ -413,6 +431,30 @@ tbody tr:hover {
   color: #c9d6e2;
   background: rgba(10, 20, 36, 0.8);
 }
+
+.explanation-block,
+.alternative-block {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.explanation-block strong,
+.alternative-block strong {
+  display: block;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #7bdff2;
+  margin-bottom: 8px;
+}
+.explanation-block ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 4px; }
+.explanation-block li { font-size: 0.82rem; color: #c9d6e2; }
+.exp-feature { font-weight: 600; color: #e2ecf4; }
+.exp-value, .exp-shap { color: #9fb3c8; }
+.alternative-block p { font-size: 0.88rem; color: #c9d6e2; margin: 0; }
+.alternative-block span { color: #9fb3c8; font-size: 0.82rem; }
 
 @media (max-width: 1160px) {
   .layout-shell {

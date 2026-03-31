@@ -55,6 +55,31 @@ export default function PrescribingRoute({ dashboard }) {
               <h3>{dashboard.simulation.conflict.conflict}</h3>
               <p>{dashboard.simulation.conflict.reason}</p>
               <p>ABS score: {formatNumber(dashboard.simulation.abs_score, 1)}</p>
+
+                    {dashboard.simulation?.top_explanations?.length > 0 ? (
+                      <div className="explanation-block">
+                        <strong>Top SHAP risk factors</strong>
+                        <ul>
+                          {dashboard.simulation.top_explanations.map((exp, i) => (
+                            <li key={i}>
+                              <span className="exp-feature">{String(exp.Feature || exp.feature || '—')}</span>
+                              <span className="exp-value"> value {formatNumber(exp.Value ?? exp.value, 3)}</span>
+                              <span className="exp-shap"> · SHAP {formatNumber(exp.SHAP_Value ?? exp.shap_value, 4)}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : null}
+
+                    {dashboard.simulation?.recommended_alternative ? (
+                      <div className="alternative-block">
+                        <strong>Recommended safer alternative</strong>
+                        <p>
+                          {dashboard.simulation.recommended_alternative.Medicine_Name}{' '}
+                          <span>({dashboard.simulation.recommended_alternative.Allergen_Class})</span>
+                        </p>
+                      </div>
+                    ) : null}
             </div>
           </div>
         ) : null}

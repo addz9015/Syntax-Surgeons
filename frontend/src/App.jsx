@@ -58,7 +58,7 @@ export default function App() {
           <div>
             <span className="eyebrow">React operations console</span>
             <h2>{activeLabel}</h2>
-            <p>This screen maps 1:1 to the Streamlit sections and runs directly on FastAPI endpoints.</p>
+            <p>Five-section clinical intelligence console powered by FastAPI endpoints.</p>
           </div>
         </header>
 

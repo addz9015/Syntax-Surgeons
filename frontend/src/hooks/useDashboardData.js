@@ -168,16 +168,19 @@ export function useDashboardData() {
     return Array.from(counts.entries()).map(([name, value]) => ({ name, value }))
   }, [summary.patients])
 
-  const clusterScatter = useMemo(
-    () =>
-      summary.patients.map((patient) => ({
-        x: Number(patient.IgE_Level_Avg || 0),
+  const clusterScatter = useMemo(() => {
+    const groups = {}
+    summary.patients.forEach((patient) => {
+      const label = patient.Cluster_Label || 'Unknown'
+      if (!groups[label]) groups[label] = []
+      groups[label].push({
+        x: Number(patient.ABS_Base_Score || 0),
         y: Number(patient.Allergy_Burden_Score || 0),
-        z: Number(patient.Active_Allergen_Class_Count || 1),
         label: patient.Patient_ID,
-      })),
-    [summary.patients],
-  )
+      })
+    })
+    return groups
+  }, [summary.patients])
 
   const selectedPatientSummary = summary.patients.find((patient) => String(patient.Patient_ID) === selectedPatient)
   const selectedMedicineSummary = summary.medicines.find((medicine) => String(medicine.Medicine_ID) === selectedMedicine)
@@ -186,7 +189,10 @@ export function useDashboardData() {
     if (!summary.quality) {
       return []
     }
-    return Object.entries(summary.quality).map(([metric, value]) => ({ metric, value }))
+    return Object.entries(summary.quality).map(([metric, value]) => ({
+      metric: metric.replaceAll('_', ' ').replace(/\b\w/g, (c) => c.toUpperCase()),
+      value,
+    }))
   }, [summary.quality])
 
   return {
