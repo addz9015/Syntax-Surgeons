@@ -1,0 +1,201 @@
+Medicine_ID,Medicine_Name,Generic_Name,Brand_Name,Allergen_Class,Active_Ingredients,Cross_Reactive_With,Contraindicated_Allergies,Dosage,Form,Route,Manufacturer,Requires_Allergy_Check
+MED0001,Amoxicillin 5mg,Amoxicillin,AmoxicillinBrand2,Beta-lactam,Amoxicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,5mg,Patch,Subcutaneous,Pharma Co 3,True
+MED0002,Ibuprofen 250mg,Ibuprofen,IbuprofenBrand1,NSAID,Ibuprofen,Aspirin|Ketoprofen,NSAID,250mg,Cream,Inhalation,Pharma Co 19,True
+MED0003,Cetirizine 5mg,Cetirizine,CetirizineBrand5,Antihistamine,Cetirizine HCl,None,Antihistamine,5mg,Cream,Subcutaneous,Pharma Co 4,False
+MED0004,Metformin 50mg,Metformin,MetforminBrand5,Biguanide,Metformin HCl,None,Biguanide,50mg,Cream,Topical,Pharma Co 17,False
+MED0005,Atorvastatin 10mg,Atorvastatin,AtorvastatinBrand5,Statin,Atorvastatin calcium,None,Statin,10mg,Injection,IM,Pharma Co 7,True
+MED0006,Ciprofloxacin 500mg,Ciprofloxacin,CiprofloxacinBrand5,Fluoroquinolone,Ciprofloxacin HCl,Ofloxacin,Fluoroquinolone,500mg,Capsule,IM,Pharma Co 8,True
+MED0007,Azithromycin 250mg,Azithromycin,AzithromycinBrand3,Macrolide,Azithromycin dihydrate,Erythromycin,Macrolide,250mg,Syrup,IM,Pharma Co 4,True
+MED0008,Sulfamethoxazole 10mg,Sulfamethoxazole,SulfamethoxazoleBrand2,Sulfonamide,Sulfamethoxazole|Trimethoprim,None,Sulfonamide,10mg,Inhaler,Topical,Pharma Co 12,True
+MED0009,Cephalexin 1g,Cephalexin,CephalexinBrand1,Cephalosporin,Cephalexin monohydrate,Beta-lactam|Penicillin,Cephalosporin,1g,Cream,Inhalation,Pharma Co 3,True
+MED0010,Lisinopril 10mg,Lisinopril,LisinoprilBrand3,ACE-Inhibitor,Lisinopril,Enalapril,ACE-Inhibitor,10mg,Cream,IV,Pharma Co 15,True
+MED0011,Codeine 250mg,Codeine,CodeineBrand4,Opioid,Codeine phosphate,Morphine|Tramadol,Opioid,250mg,Cream,IV,Pharma Co 18,True
+MED0012,Warfarin 5mg,Warfarin,WarfarinBrand2,Anticoagulant,Warfarin sodium,None,Anticoagulant,5mg,Inhaler,Inhalation,Pharma Co 5,True
+MED0013,Doxycycline 500mg,Doxycycline,DoxycyclineBrand5,Tetracycline,Doxycycline hyclate,Minocycline,Tetracycline,500mg,Patch,IM,Pharma Co 11,True
+MED0014,Paracetamol 100mg,Paracetamol,ParacetamolBrand3,Analgesic,Paracetamol,None,Analgesic,100mg,Tablet,Topical,Pharma Co 14,False
+MED0015,Ranitidine 200mg,Ranitidine,RanitidineBrand5,H2 Blocker,Ranitidine HCl,None,H2 Blocker,200mg,Cream,Topical,Pharma Co 7,False
+MED0016,Diclofenac 10mg,Diclofenac,DiclofenacBrand2,NSAID,Diclofenac sodium,Ibuprofen|Aspirin,NSAID,10mg,Tablet,IV,Pharma Co 4,True
+MED0017,Ampicillin 500mg,Ampicillin,AmpicillinBrand4,Beta-lactam,Ampicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,500mg,Patch,Inhalation,Pharma Co 16,True
+MED0018,Prednisolone 200mg,Prednisolone,PrednisoloneBrand1,Corticosteroid,Prednisolone sodium phosphate,None,Corticosteroid,200mg,Patch,Oral,Pharma Co 14,False
+MED0019,Omeprazole 200mg,Omeprazole,OmeprazoleBrand1,PPI,Omeprazole magnesium,None,PPI,200mg,Tablet,IV,Pharma Co 17,False
+MED0020,Metoprolol 5mg,Metoprolol,MetoprololBrand5,Beta-blocker,Metoprolol tartrate,None,Beta-blocker,5mg,Syrup,IM,Pharma Co 5,False
+MED0021,Amoxicillin 20mg,Amoxicillin,AmoxicillinBrand4,Beta-lactam,Amoxicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,20mg,Capsule,Subcutaneous,Pharma Co 10,True
+MED0022,Ibuprofen 1g,Ibuprofen,IbuprofenBrand1,NSAID,Ibuprofen,Aspirin|Ketoprofen,NSAID,1g,Patch,IM,Pharma Co 19,True
+MED0023,Cetirizine 100mg,Cetirizine,CetirizineBrand5,Antihistamine,Cetirizine HCl,None,Antihistamine,100mg,Inhaler,Oral,Pharma Co 3,False
+MED0024,Metformin 10mg,Metformin,MetforminBrand3,Biguanide,Metformin HCl,None,Biguanide,10mg,Syrup,Subcutaneous,Pharma Co 15,False
+MED0025,Atorvastatin 500mg,Atorvastatin,AtorvastatinBrand4,Statin,Atorvastatin calcium,None,Statin,500mg,Patch,Topical,Pharma Co 5,True
+MED0026,Ciprofloxacin 20mg,Ciprofloxacin,CiprofloxacinBrand2,Fluoroquinolone,Ciprofloxacin HCl,Ofloxacin,Fluoroquinolone,20mg,Tablet,IV,Pharma Co 1,True
+MED0027,Azithromycin 1g,Azithromycin,AzithromycinBrand5,Macrolide,Azithromycin dihydrate,Erythromycin,Macrolide,1g,Inhaler,Subcutaneous,Pharma Co 15,True
+MED0028,Sulfamethoxazole 1g,Sulfamethoxazole,SulfamethoxazoleBrand4,Sulfonamide,Sulfamethoxazole|Trimethoprim,None,Sulfonamide,1g,Syrup,IV,Pharma Co 17,True
+MED0029,Cephalexin 500mg,Cephalexin,CephalexinBrand5,Cephalosporin,Cephalexin monohydrate,Beta-lactam|Penicillin,Cephalosporin,500mg,Patch,Oral,Pharma Co 8,True
+MED0030,Lisinopril 10mg,Lisinopril,LisinoprilBrand3,ACE-Inhibitor,Lisinopril,Enalapril,ACE-Inhibitor,10mg,Injection,Oral,Pharma Co 19,True
+MED0031,Codeine 20mg,Codeine,CodeineBrand5,Opioid,Codeine phosphate,Morphine|Tramadol,Opioid,20mg,Cream,Inhalation,Pharma Co 14,True
+MED0032,Warfarin 1g,Warfarin,WarfarinBrand3,Anticoagulant,Warfarin sodium,None,Anticoagulant,1g,Syrup,IM,Pharma Co 6,True
+MED0033,Doxycycline 50mg,Doxycycline,DoxycyclineBrand2,Tetracycline,Doxycycline hyclate,Minocycline,Tetracycline,50mg,Patch,Subcutaneous,Pharma Co 7,True
+MED0034,Paracetamol 20mg,Paracetamol,ParacetamolBrand4,Analgesic,Paracetamol,None,Analgesic,20mg,Injection,Inhalation,Pharma Co 20,False
+MED0035,Ranitidine 100mg,Ranitidine,RanitidineBrand3,H2 Blocker,Ranitidine HCl,None,H2 Blocker,100mg,Injection,IM,Pharma Co 6,False
+MED0036,Diclofenac 500mg,Diclofenac,DiclofenacBrand1,NSAID,Diclofenac sodium,Ibuprofen|Aspirin,NSAID,500mg,Injection,Topical,Pharma Co 15,True
+MED0037,Ampicillin 200mg,Ampicillin,AmpicillinBrand2,Beta-lactam,Ampicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,200mg,Injection,IM,Pharma Co 20,True
+MED0038,Prednisolone 250mg,Prednisolone,PrednisoloneBrand1,Corticosteroid,Prednisolone sodium phosphate,None,Corticosteroid,250mg,Inhaler,IM,Pharma Co 5,False
+MED0039,Omeprazole 250mg,Omeprazole,OmeprazoleBrand1,PPI,Omeprazole magnesium,None,PPI,250mg,Cream,Inhalation,Pharma Co 6,False
+MED0040,Metoprolol 50mg,Metoprolol,MetoprololBrand1,Beta-blocker,Metoprolol tartrate,None,Beta-blocker,50mg,Cream,Inhalation,Pharma Co 7,False
+MED0041,Amoxicillin 10mg,Amoxicillin,AmoxicillinBrand1,Beta-lactam,Amoxicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,10mg,Patch,Oral,Pharma Co 12,True
+MED0042,Ibuprofen 500mg,Ibuprofen,IbuprofenBrand2,NSAID,Ibuprofen,Aspirin|Ketoprofen,NSAID,500mg,Cream,Topical,Pharma Co 15,True
+MED0043,Cetirizine 200mg,Cetirizine,CetirizineBrand5,Antihistamine,Cetirizine HCl,None,Antihistamine,200mg,Patch,Topical,Pharma Co 10,False
+MED0044,Metformin 100mg,Metformin,MetforminBrand1,Biguanide,Metformin HCl,None,Biguanide,100mg,Syrup,Topical,Pharma Co 16,False
+MED0045,Atorvastatin 100mg,Atorvastatin,AtorvastatinBrand3,Statin,Atorvastatin calcium,None,Statin,100mg,Patch,IV,Pharma Co 9,True
+MED0046,Ciprofloxacin 1g,Ciprofloxacin,CiprofloxacinBrand1,Fluoroquinolone,Ciprofloxacin HCl,Ofloxacin,Fluoroquinolone,1g,Patch,Oral,Pharma Co 8,True
+MED0047,Azithromycin 1g,Azithromycin,AzithromycinBrand1,Macrolide,Azithromycin dihydrate,Erythromycin,Macrolide,1g,Capsule,Inhalation,Pharma Co 11,True
+MED0048,Sulfamethoxazole 10mg,Sulfamethoxazole,SulfamethoxazoleBrand3,Sulfonamide,Sulfamethoxazole|Trimethoprim,None,Sulfonamide,10mg,Inhaler,Subcutaneous,Pharma Co 17,True
+MED0049,Cephalexin 1g,Cephalexin,CephalexinBrand1,Cephalosporin,Cephalexin monohydrate,Beta-lactam|Penicillin,Cephalosporin,1g,Tablet,Topical,Pharma Co 4,True
+MED0050,Lisinopril 1g,Lisinopril,LisinoprilBrand5,ACE-Inhibitor,Lisinopril,Enalapril,ACE-Inhibitor,1g,Capsule,Inhalation,Pharma Co 2,True
+MED0051,Codeine 250mg,Codeine,CodeineBrand1,Opioid,Codeine phosphate,Morphine|Tramadol,Opioid,250mg,Capsule,Inhalation,Pharma Co 13,True
+MED0052,Warfarin 250mg,Warfarin,WarfarinBrand2,Anticoagulant,Warfarin sodium,None,Anticoagulant,250mg,Injection,Topical,Pharma Co 5,True
+MED0053,Doxycycline 200mg,Doxycycline,DoxycyclineBrand4,Tetracycline,Doxycycline hyclate,Minocycline,Tetracycline,200mg,Inhaler,Topical,Pharma Co 10,True
+MED0054,Paracetamol 250mg,Paracetamol,ParacetamolBrand2,Analgesic,Paracetamol,None,Analgesic,250mg,Inhaler,Oral,Pharma Co 17,False
+MED0055,Ranitidine 50mg,Ranitidine,RanitidineBrand2,H2 Blocker,Ranitidine HCl,None,H2 Blocker,50mg,Syrup,Oral,Pharma Co 16,False
+MED0056,Diclofenac 250mg,Diclofenac,DiclofenacBrand5,NSAID,Diclofenac sodium,Ibuprofen|Aspirin,NSAID,250mg,Inhaler,IV,Pharma Co 2,True
+MED0057,Ampicillin 500mg,Ampicillin,AmpicillinBrand4,Beta-lactam,Ampicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,500mg,Cream,Topical,Pharma Co 19,True
+MED0058,Prednisolone 1g,Prednisolone,PrednisoloneBrand2,Corticosteroid,Prednisolone sodium phosphate,None,Corticosteroid,1g,Syrup,Inhalation,Pharma Co 6,False
+MED0059,Omeprazole 250mg,Omeprazole,OmeprazoleBrand3,PPI,Omeprazole magnesium,None,PPI,250mg,Injection,Subcutaneous,Pharma Co 16,False
+MED0060,Metoprolol 5mg,Metoprolol,MetoprololBrand4,Beta-blocker,Metoprolol tartrate,None,Beta-blocker,5mg,Cream,IM,Pharma Co 18,False
+MED0061,Amoxicillin 500mg,Amoxicillin,AmoxicillinBrand4,Beta-lactam,Amoxicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,500mg,Tablet,IV,Pharma Co 4,True
+MED0062,Ibuprofen 5mg,Ibuprofen,IbuprofenBrand3,NSAID,Ibuprofen,Aspirin|Ketoprofen,NSAID,5mg,Syrup,IM,Pharma Co 8,True
+MED0063,Cetirizine 100mg,Cetirizine,CetirizineBrand4,Antihistamine,Cetirizine HCl,None,Antihistamine,100mg,Capsule,Topical,Pharma Co 11,False
+MED0064,Metformin 1g,Metformin,MetforminBrand1,Biguanide,Metformin HCl,None,Biguanide,1g,Inhaler,Topical,Pharma Co 5,False
+MED0065,Atorvastatin 10mg,Atorvastatin,AtorvastatinBrand4,Statin,Atorvastatin calcium,None,Statin,10mg,Cream,Topical,Pharma Co 8,True
+MED0066,Ciprofloxacin 500mg,Ciprofloxacin,CiprofloxacinBrand1,Fluoroquinolone,Ciprofloxacin HCl,Ofloxacin,Fluoroquinolone,500mg,Injection,Inhalation,Pharma Co 7,True
+MED0067,Azithromycin 50mg,Azithromycin,AzithromycinBrand4,Macrolide,Azithromycin dihydrate,Erythromycin,Macrolide,50mg,Cream,IM,Pharma Co 9,True
+MED0068,Sulfamethoxazole 5mg,Sulfamethoxazole,SulfamethoxazoleBrand3,Sulfonamide,Sulfamethoxazole|Trimethoprim,None,Sulfonamide,5mg,Syrup,Topical,Pharma Co 14,True
+MED0069,Cephalexin 500mg,Cephalexin,CephalexinBrand4,Cephalosporin,Cephalexin monohydrate,Beta-lactam|Penicillin,Cephalosporin,500mg,Tablet,IM,Pharma Co 16,True
+MED0070,Lisinopril 1g,Lisinopril,LisinoprilBrand2,ACE-Inhibitor,Lisinopril,Enalapril,ACE-Inhibitor,1g,Inhaler,Oral,Pharma Co 10,True
+MED0071,Codeine 5mg,Codeine,CodeineBrand4,Opioid,Codeine phosphate,Morphine|Tramadol,Opioid,5mg,Capsule,Inhalation,Pharma Co 6,True
+MED0072,Warfarin 250mg,Warfarin,WarfarinBrand5,Anticoagulant,Warfarin sodium,None,Anticoagulant,250mg,Patch,Subcutaneous,Pharma Co 4,True
+MED0073,Doxycycline 1g,Doxycycline,DoxycyclineBrand5,Tetracycline,Doxycycline hyclate,Minocycline,Tetracycline,1g,Capsule,Inhalation,Pharma Co 18,True
+MED0074,Paracetamol 50mg,Paracetamol,ParacetamolBrand1,Analgesic,Paracetamol,None,Analgesic,50mg,Patch,Topical,Pharma Co 3,False
+MED0075,Ranitidine 1g,Ranitidine,RanitidineBrand3,H2 Blocker,Ranitidine HCl,None,H2 Blocker,1g,Patch,Inhalation,Pharma Co 3,False
+MED0076,Diclofenac 20mg,Diclofenac,DiclofenacBrand1,NSAID,Diclofenac sodium,Ibuprofen|Aspirin,NSAID,20mg,Capsule,IM,Pharma Co 18,True
+MED0077,Ampicillin 200mg,Ampicillin,AmpicillinBrand2,Beta-lactam,Ampicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,200mg,Patch,Inhalation,Pharma Co 13,True
+MED0078,Prednisolone 500mg,Prednisolone,PrednisoloneBrand2,Corticosteroid,Prednisolone sodium phosphate,None,Corticosteroid,500mg,Patch,IV,Pharma Co 12,False
+MED0079,Omeprazole 5mg,Omeprazole,OmeprazoleBrand3,PPI,Omeprazole magnesium,None,PPI,5mg,Capsule,Inhalation,Pharma Co 8,False
+MED0080,Metoprolol 50mg,Metoprolol,MetoprololBrand1,Beta-blocker,Metoprolol tartrate,None,Beta-blocker,50mg,Patch,Oral,Pharma Co 17,False
+MED0081,Amoxicillin 20mg,Amoxicillin,AmoxicillinBrand1,Beta-lactam,Amoxicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,20mg,Syrup,Topical,Pharma Co 2,True
+MED0082,Ibuprofen 500mg,Ibuprofen,IbuprofenBrand2,NSAID,Ibuprofen,Aspirin|Ketoprofen,NSAID,500mg,Injection,Oral,Pharma Co 8,True
+MED0083,Cetirizine 50mg,Cetirizine,CetirizineBrand2,Antihistamine,Cetirizine HCl,None,Antihistamine,50mg,Injection,Subcutaneous,Pharma Co 4,False
+MED0084,Metformin 5mg,Metformin,MetforminBrand4,Biguanide,Metformin HCl,None,Biguanide,5mg,Capsule,Subcutaneous,Pharma Co 9,False
+MED0085,Atorvastatin 100mg,Atorvastatin,AtorvastatinBrand1,Statin,Atorvastatin calcium,None,Statin,100mg,Tablet,Inhalation,Pharma Co 14,True
+MED0086,Ciprofloxacin 50mg,Ciprofloxacin,CiprofloxacinBrand1,Fluoroquinolone,Ciprofloxacin HCl,Ofloxacin,Fluoroquinolone,50mg,Inhaler,Inhalation,Pharma Co 20,True
+MED0087,Azithromycin 100mg,Azithromycin,AzithromycinBrand2,Macrolide,Azithromycin dihydrate,Erythromycin,Macrolide,100mg,Inhaler,Inhalation,Pharma Co 13,True
+MED0088,Sulfamethoxazole 500mg,Sulfamethoxazole,SulfamethoxazoleBrand2,Sulfonamide,Sulfamethoxazole|Trimethoprim,None,Sulfonamide,500mg,Patch,IM,Pharma Co 14,True
+MED0089,Cephalexin 50mg,Cephalexin,CephalexinBrand5,Cephalosporin,Cephalexin monohydrate,Beta-lactam|Penicillin,Cephalosporin,50mg,Injection,IM,Pharma Co 15,True
+MED0090,Lisinopril 100mg,Lisinopril,LisinoprilBrand2,ACE-Inhibitor,Lisinopril,Enalapril,ACE-Inhibitor,100mg,Injection,Subcutaneous,Pharma Co 19,True
+MED0091,Codeine 5mg,Codeine,CodeineBrand4,Opioid,Codeine phosphate,Morphine|Tramadol,Opioid,5mg,Injection,Topical,Pharma Co 3,True
+MED0092,Warfarin 5mg,Warfarin,WarfarinBrand2,Anticoagulant,Warfarin sodium,None,Anticoagulant,5mg,Cream,IM,Pharma Co 16,True
+MED0093,Doxycycline 20mg,Doxycycline,DoxycyclineBrand3,Tetracycline,Doxycycline hyclate,Minocycline,Tetracycline,20mg,Cream,IV,Pharma Co 13,True
+MED0094,Paracetamol 10mg,Paracetamol,ParacetamolBrand1,Analgesic,Paracetamol,None,Analgesic,10mg,Inhaler,Topical,Pharma Co 12,False
+MED0095,Ranitidine 100mg,Ranitidine,RanitidineBrand5,H2 Blocker,Ranitidine HCl,None,H2 Blocker,100mg,Syrup,IV,Pharma Co 19,False
+MED0096,Diclofenac 5mg,Diclofenac,DiclofenacBrand1,NSAID,Diclofenac sodium,Ibuprofen|Aspirin,NSAID,5mg,Patch,IV,Pharma Co 15,True
+MED0097,Ampicillin 10mg,Ampicillin,AmpicillinBrand3,Beta-lactam,Ampicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,10mg,Cream,Oral,Pharma Co 10,True
+MED0098,Prednisolone 200mg,Prednisolone,PrednisoloneBrand3,Corticosteroid,Prednisolone sodium phosphate,None,Corticosteroid,200mg,Patch,Subcutaneous,Pharma Co 3,False
+MED0099,Omeprazole 20mg,Omeprazole,OmeprazoleBrand1,PPI,Omeprazole magnesium,None,PPI,20mg,Capsule,IV,Pharma Co 16,False
+MED0100,Metoprolol 250mg,Metoprolol,MetoprololBrand5,Beta-blocker,Metoprolol tartrate,None,Beta-blocker,250mg,Tablet,IV,Pharma Co 13,False
+MED0101,Amoxicillin 10mg,Amoxicillin,AmoxicillinBrand5,Beta-lactam,Amoxicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,10mg,Cream,Subcutaneous,Pharma Co 19,True
+MED0102,Ibuprofen 50mg,Ibuprofen,IbuprofenBrand2,NSAID,Ibuprofen,Aspirin|Ketoprofen,NSAID,50mg,Patch,Topical,Pharma Co 9,True
+MED0103,Cetirizine 500mg,Cetirizine,CetirizineBrand4,Antihistamine,Cetirizine HCl,None,Antihistamine,500mg,Inhaler,IM,Pharma Co 5,False
+MED0104,Metformin 1g,Metformin,MetforminBrand1,Biguanide,Metformin HCl,None,Biguanide,1g,Inhaler,Inhalation,Pharma Co 20,False
+MED0105,Atorvastatin 50mg,Atorvastatin,AtorvastatinBrand4,Statin,Atorvastatin calcium,None,Statin,50mg,Injection,Subcutaneous,Pharma Co 7,True
+MED0106,Ciprofloxacin 10mg,Ciprofloxacin,CiprofloxacinBrand5,Fluoroquinolone,Ciprofloxacin HCl,Ofloxacin,Fluoroquinolone,10mg,Cream,Topical,Pharma Co 11,True
+MED0107,Azithromycin 1g,Azithromycin,AzithromycinBrand2,Macrolide,Azithromycin dihydrate,Erythromycin,Macrolide,1g,Syrup,Subcutaneous,Pharma Co 16,True
+MED0108,Sulfamethoxazole 20mg,Sulfamethoxazole,SulfamethoxazoleBrand5,Sulfonamide,Sulfamethoxazole|Trimethoprim,None,Sulfonamide,20mg,Patch,Subcutaneous,Pharma Co 3,True
+MED0109,Cephalexin 5mg,Cephalexin,CephalexinBrand1,Cephalosporin,Cephalexin monohydrate,Beta-lactam|Penicillin,Cephalosporin,5mg,Inhaler,Oral,Pharma Co 13,True
+MED0110,Lisinopril 50mg,Lisinopril,LisinoprilBrand2,ACE-Inhibitor,Lisinopril,Enalapril,ACE-Inhibitor,50mg,Capsule,Inhalation,Pharma Co 4,True
+MED0111,Codeine 250mg,Codeine,CodeineBrand2,Opioid,Codeine phosphate,Morphine|Tramadol,Opioid,250mg,Syrup,Oral,Pharma Co 2,True
+MED0112,Warfarin 10mg,Warfarin,WarfarinBrand4,Anticoagulant,Warfarin sodium,None,Anticoagulant,10mg,Capsule,Subcutaneous,Pharma Co 17,True
+MED0113,Doxycycline 200mg,Doxycycline,DoxycyclineBrand4,Tetracycline,Doxycycline hyclate,Minocycline,Tetracycline,200mg,Inhaler,Inhalation,Pharma Co 14,True
+MED0114,Paracetamol 50mg,Paracetamol,ParacetamolBrand4,Analgesic,Paracetamol,None,Analgesic,50mg,Injection,Oral,Pharma Co 14,False
+MED0115,Ranitidine 500mg,Ranitidine,RanitidineBrand3,H2 Blocker,Ranitidine HCl,None,H2 Blocker,500mg,Cream,IM,Pharma Co 20,False
+MED0116,Diclofenac 200mg,Diclofenac,DiclofenacBrand3,NSAID,Diclofenac sodium,Ibuprofen|Aspirin,NSAID,200mg,Capsule,IM,Pharma Co 17,True
+MED0117,Ampicillin 1g,Ampicillin,AmpicillinBrand2,Beta-lactam,Ampicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,1g,Cream,Inhalation,Pharma Co 9,True
+MED0118,Prednisolone 10mg,Prednisolone,PrednisoloneBrand4,Corticosteroid,Prednisolone sodium phosphate,None,Corticosteroid,10mg,Capsule,IM,Pharma Co 5,False
+MED0119,Omeprazole 20mg,Omeprazole,OmeprazoleBrand2,PPI,Omeprazole magnesium,None,PPI,20mg,Inhaler,Topical,Pharma Co 1,False
+MED0120,Metoprolol 5mg,Metoprolol,MetoprololBrand3,Beta-blocker,Metoprolol tartrate,None,Beta-blocker,5mg,Capsule,IV,Pharma Co 16,False
+MED0121,Amoxicillin 50mg,Amoxicillin,AmoxicillinBrand1,Beta-lactam,Amoxicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,50mg,Injection,Subcutaneous,Pharma Co 7,True
+MED0122,Ibuprofen 100mg,Ibuprofen,IbuprofenBrand2,NSAID,Ibuprofen,Aspirin|Ketoprofen,NSAID,100mg,Cream,Topical,Pharma Co 11,True
+MED0123,Cetirizine 50mg,Cetirizine,CetirizineBrand1,Antihistamine,Cetirizine HCl,None,Antihistamine,50mg,Cream,Topical,Pharma Co 20,False
+MED0124,Metformin 100mg,Metformin,MetforminBrand2,Biguanide,Metformin HCl,None,Biguanide,100mg,Injection,Subcutaneous,Pharma Co 18,False
+MED0125,Atorvastatin 1g,Atorvastatin,AtorvastatinBrand2,Statin,Atorvastatin calcium,None,Statin,1g,Inhaler,Oral,Pharma Co 7,True
+MED0126,Ciprofloxacin 500mg,Ciprofloxacin,CiprofloxacinBrand3,Fluoroquinolone,Ciprofloxacin HCl,Ofloxacin,Fluoroquinolone,500mg,Patch,Topical,Pharma Co 19,True
+MED0127,Azithromycin 1g,Azithromycin,AzithromycinBrand3,Macrolide,Azithromycin dihydrate,Erythromycin,Macrolide,1g,Cream,Topical,Pharma Co 9,True
+MED0128,Sulfamethoxazole 20mg,Sulfamethoxazole,SulfamethoxazoleBrand5,Sulfonamide,Sulfamethoxazole|Trimethoprim,None,Sulfonamide,20mg,Inhaler,Subcutaneous,Pharma Co 7,True
+MED0129,Cephalexin 200mg,Cephalexin,CephalexinBrand1,Cephalosporin,Cephalexin monohydrate,Beta-lactam|Penicillin,Cephalosporin,200mg,Tablet,Subcutaneous,Pharma Co 7,True
+MED0130,Lisinopril 200mg,Lisinopril,LisinoprilBrand3,ACE-Inhibitor,Lisinopril,Enalapril,ACE-Inhibitor,200mg,Injection,Inhalation,Pharma Co 4,True
+MED0131,Codeine 20mg,Codeine,CodeineBrand2,Opioid,Codeine phosphate,Morphine|Tramadol,Opioid,20mg,Cream,Subcutaneous,Pharma Co 13,True
+MED0132,Warfarin 500mg,Warfarin,WarfarinBrand3,Anticoagulant,Warfarin sodium,None,Anticoagulant,500mg,Patch,Subcutaneous,Pharma Co 20,True
+MED0133,Doxycycline 250mg,Doxycycline,DoxycyclineBrand4,Tetracycline,Doxycycline hyclate,Minocycline,Tetracycline,250mg,Capsule,Oral,Pharma Co 8,True
+MED0134,Paracetamol 100mg,Paracetamol,ParacetamolBrand2,Analgesic,Paracetamol,None,Analgesic,100mg,Patch,Inhalation,Pharma Co 5,False
+MED0135,Ranitidine 200mg,Ranitidine,RanitidineBrand2,H2 Blocker,Ranitidine HCl,None,H2 Blocker,200mg,Syrup,Oral,Pharma Co 11,False
+MED0136,Diclofenac 50mg,Diclofenac,DiclofenacBrand1,NSAID,Diclofenac sodium,Ibuprofen|Aspirin,NSAID,50mg,Capsule,Inhalation,Pharma Co 15,True
+MED0137,Ampicillin 10mg,Ampicillin,AmpicillinBrand4,Beta-lactam,Ampicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,10mg,Injection,IM,Pharma Co 17,True
+MED0138,Prednisolone 250mg,Prednisolone,PrednisoloneBrand1,Corticosteroid,Prednisolone sodium phosphate,None,Corticosteroid,250mg,Cream,Topical,Pharma Co 13,False
+MED0139,Omeprazole 10mg,Omeprazole,OmeprazoleBrand4,PPI,Omeprazole magnesium,None,PPI,10mg,Injection,IM,Pharma Co 17,False
+MED0140,Metoprolol 20mg,Metoprolol,MetoprololBrand3,Beta-blocker,Metoprolol tartrate,None,Beta-blocker,20mg,Tablet,Inhalation,Pharma Co 7,False
+MED0141,Amoxicillin 500mg,Amoxicillin,AmoxicillinBrand2,Beta-lactam,Amoxicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,500mg,Inhaler,IV,Pharma Co 14,True
+MED0142,Ibuprofen 10mg,Ibuprofen,IbuprofenBrand5,NSAID,Ibuprofen,Aspirin|Ketoprofen,NSAID,10mg,Syrup,Subcutaneous,Pharma Co 9,True
+MED0143,Cetirizine 20mg,Cetirizine,CetirizineBrand1,Antihistamine,Cetirizine HCl,None,Antihistamine,20mg,Syrup,Subcutaneous,Pharma Co 12,False
+MED0144,Metformin 50mg,Metformin,MetforminBrand2,Biguanide,Metformin HCl,None,Biguanide,50mg,Patch,IM,Pharma Co 15,False
+MED0145,Atorvastatin 5mg,Atorvastatin,AtorvastatinBrand3,Statin,Atorvastatin calcium,None,Statin,5mg,Capsule,Inhalation,Pharma Co 18,True
+MED0146,Ciprofloxacin 5mg,Ciprofloxacin,CiprofloxacinBrand2,Fluoroquinolone,Ciprofloxacin HCl,Ofloxacin,Fluoroquinolone,5mg,Injection,IV,Pharma Co 1,True
+MED0147,Azithromycin 10mg,Azithromycin,AzithromycinBrand2,Macrolide,Azithromycin dihydrate,Erythromycin,Macrolide,10mg,Injection,Inhalation,Pharma Co 7,True
+MED0148,Sulfamethoxazole 500mg,Sulfamethoxazole,SulfamethoxazoleBrand1,Sulfonamide,Sulfamethoxazole|Trimethoprim,None,Sulfonamide,500mg,Injection,Oral,Pharma Co 12,True
+MED0149,Cephalexin 20mg,Cephalexin,CephalexinBrand3,Cephalosporin,Cephalexin monohydrate,Beta-lactam|Penicillin,Cephalosporin,20mg,Tablet,Inhalation,Pharma Co 9,True
+MED0150,Lisinopril 500mg,Lisinopril,LisinoprilBrand1,ACE-Inhibitor,Lisinopril,Enalapril,ACE-Inhibitor,500mg,Inhaler,Topical,Pharma Co 13,True
+MED0151,Codeine 500mg,Codeine,CodeineBrand1,Opioid,Codeine phosphate,Morphine|Tramadol,Opioid,500mg,Injection,Subcutaneous,Pharma Co 2,True
+MED0152,Warfarin 50mg,Warfarin,WarfarinBrand5,Anticoagulant,Warfarin sodium,None,Anticoagulant,50mg,Patch,Subcutaneous,Pharma Co 16,True
+MED0153,Doxycycline 10mg,Doxycycline,DoxycyclineBrand5,Tetracycline,Doxycycline hyclate,Minocycline,Tetracycline,10mg,Syrup,IV,Pharma Co 16,True
+MED0154,Paracetamol 100mg,Paracetamol,ParacetamolBrand5,Analgesic,Paracetamol,None,Analgesic,100mg,Tablet,IM,Pharma Co 1,False
+MED0155,Ranitidine 200mg,Ranitidine,RanitidineBrand5,H2 Blocker,Ranitidine HCl,None,H2 Blocker,200mg,Inhaler,Subcutaneous,Pharma Co 6,False
+MED0156,Diclofenac 100mg,Diclofenac,DiclofenacBrand2,NSAID,Diclofenac sodium,Ibuprofen|Aspirin,NSAID,100mg,Syrup,Oral,Pharma Co 2,True
+MED0157,Ampicillin 50mg,Ampicillin,AmpicillinBrand4,Beta-lactam,Ampicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,50mg,Injection,Oral,Pharma Co 18,True
+MED0158,Prednisolone 250mg,Prednisolone,PrednisoloneBrand3,Corticosteroid,Prednisolone sodium phosphate,None,Corticosteroid,250mg,Inhaler,Inhalation,Pharma Co 1,False
+MED0159,Omeprazole 1g,Omeprazole,OmeprazoleBrand3,PPI,Omeprazole magnesium,None,PPI,1g,Inhaler,IV,Pharma Co 19,False
+MED0160,Metoprolol 20mg,Metoprolol,MetoprololBrand3,Beta-blocker,Metoprolol tartrate,None,Beta-blocker,20mg,Tablet,Subcutaneous,Pharma Co 13,False
+MED0161,Amoxicillin 50mg,Amoxicillin,AmoxicillinBrand4,Beta-lactam,Amoxicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,50mg,Tablet,IV,Pharma Co 17,True
+MED0162,Ibuprofen 500mg,Ibuprofen,IbuprofenBrand2,NSAID,Ibuprofen,Aspirin|Ketoprofen,NSAID,500mg,Tablet,IV,Pharma Co 15,True
+MED0163,Cetirizine 500mg,Cetirizine,CetirizineBrand1,Antihistamine,Cetirizine HCl,None,Antihistamine,500mg,Cream,IV,Pharma Co 17,False
+MED0164,Metformin 200mg,Metformin,MetforminBrand4,Biguanide,Metformin HCl,None,Biguanide,200mg,Inhaler,Subcutaneous,Pharma Co 1,False
+MED0165,Atorvastatin 500mg,Atorvastatin,AtorvastatinBrand3,Statin,Atorvastatin calcium,None,Statin,500mg,Cream,IM,Pharma Co 4,True
+MED0166,Ciprofloxacin 10mg,Ciprofloxacin,CiprofloxacinBrand3,Fluoroquinolone,Ciprofloxacin HCl,Ofloxacin,Fluoroquinolone,10mg,Cream,Subcutaneous,Pharma Co 3,True
+MED0167,Azithromycin 10mg,Azithromycin,AzithromycinBrand5,Macrolide,Azithromycin dihydrate,Erythromycin,Macrolide,10mg,Tablet,Oral,Pharma Co 3,True
+MED0168,Sulfamethoxazole 100mg,Sulfamethoxazole,SulfamethoxazoleBrand2,Sulfonamide,Sulfamethoxazole|Trimethoprim,None,Sulfonamide,100mg,Capsule,IM,Pharma Co 19,True
+MED0169,Cephalexin 200mg,Cephalexin,CephalexinBrand1,Cephalosporin,Cephalexin monohydrate,Beta-lactam|Penicillin,Cephalosporin,200mg,Patch,Oral,Pharma Co 7,True
+MED0170,Lisinopril 10mg,Lisinopril,LisinoprilBrand3,ACE-Inhibitor,Lisinopril,Enalapril,ACE-Inhibitor,10mg,Tablet,Subcutaneous,Pharma Co 8,True
+MED0171,Codeine 250mg,Codeine,CodeineBrand3,Opioid,Codeine phosphate,Morphine|Tramadol,Opioid,250mg,Inhaler,Subcutaneous,Pharma Co 5,True
+MED0172,Warfarin 50mg,Warfarin,WarfarinBrand3,Anticoagulant,Warfarin sodium,None,Anticoagulant,50mg,Syrup,Subcutaneous,Pharma Co 10,True
+MED0173,Doxycycline 500mg,Doxycycline,DoxycyclineBrand2,Tetracycline,Doxycycline hyclate,Minocycline,Tetracycline,500mg,Capsule,Inhalation,Pharma Co 11,True
+MED0174,Paracetamol 250mg,Paracetamol,ParacetamolBrand4,Analgesic,Paracetamol,None,Analgesic,250mg,Patch,IV,Pharma Co 9,False
+MED0175,Ranitidine 200mg,Ranitidine,RanitidineBrand2,H2 Blocker,Ranitidine HCl,None,H2 Blocker,200mg,Injection,IM,Pharma Co 15,False
+MED0176,Diclofenac 100mg,Diclofenac,DiclofenacBrand3,NSAID,Diclofenac sodium,Ibuprofen|Aspirin,NSAID,100mg,Syrup,IM,Pharma Co 19,True
+MED0177,Ampicillin 1g,Ampicillin,AmpicillinBrand3,Beta-lactam,Ampicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,1g,Patch,Subcutaneous,Pharma Co 17,True
+MED0178,Prednisolone 200mg,Prednisolone,PrednisoloneBrand4,Corticosteroid,Prednisolone sodium phosphate,None,Corticosteroid,200mg,Tablet,Inhalation,Pharma Co 13,False
+MED0179,Omeprazole 20mg,Omeprazole,OmeprazoleBrand2,PPI,Omeprazole magnesium,None,PPI,20mg,Cream,IV,Pharma Co 14,False
+MED0180,Metoprolol 500mg,Metoprolol,MetoprololBrand3,Beta-blocker,Metoprolol tartrate,None,Beta-blocker,500mg,Capsule,IM,Pharma Co 17,False
+MED0181,Amoxicillin 500mg,Amoxicillin,AmoxicillinBrand5,Beta-lactam,Amoxicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,500mg,Tablet,Inhalation,Pharma Co 7,True
+MED0182,Ibuprofen 250mg,Ibuprofen,IbuprofenBrand3,NSAID,Ibuprofen,Aspirin|Ketoprofen,NSAID,250mg,Syrup,IM,Pharma Co 2,True
+MED0183,Cetirizine 20mg,Cetirizine,CetirizineBrand1,Antihistamine,Cetirizine HCl,None,Antihistamine,20mg,Inhaler,Subcutaneous,Pharma Co 6,False
+MED0184,Metformin 200mg,Metformin,MetforminBrand4,Biguanide,Metformin HCl,None,Biguanide,200mg,Syrup,Inhalation,Pharma Co 11,False
+MED0185,Atorvastatin 5mg,Atorvastatin,AtorvastatinBrand3,Statin,Atorvastatin calcium,None,Statin,5mg,Inhaler,Inhalation,Pharma Co 2,True
+MED0186,Ciprofloxacin 100mg,Ciprofloxacin,CiprofloxacinBrand3,Fluoroquinolone,Ciprofloxacin HCl,Ofloxacin,Fluoroquinolone,100mg,Inhaler,IM,Pharma Co 1,True
+MED0187,Azithromycin 5mg,Azithromycin,AzithromycinBrand2,Macrolide,Azithromycin dihydrate,Erythromycin,Macrolide,5mg,Syrup,IM,Pharma Co 11,True
+MED0188,Sulfamethoxazole 200mg,Sulfamethoxazole,SulfamethoxazoleBrand1,Sulfonamide,Sulfamethoxazole|Trimethoprim,None,Sulfonamide,200mg,Injection,IM,Pharma Co 6,True
+MED0189,Cephalexin 20mg,Cephalexin,CephalexinBrand4,Cephalosporin,Cephalexin monohydrate,Beta-lactam|Penicillin,Cephalosporin,20mg,Capsule,Oral,Pharma Co 15,True
+MED0190,Lisinopril 10mg,Lisinopril,LisinoprilBrand5,ACE-Inhibitor,Lisinopril,Enalapril,ACE-Inhibitor,10mg,Cream,Inhalation,Pharma Co 14,True
+MED0191,Codeine 10mg,Codeine,CodeineBrand4,Opioid,Codeine phosphate,Morphine|Tramadol,Opioid,10mg,Patch,IV,Pharma Co 9,True
+MED0192,Warfarin 1g,Warfarin,WarfarinBrand3,Anticoagulant,Warfarin sodium,None,Anticoagulant,1g,Syrup,Subcutaneous,Pharma Co 13,True
+MED0193,Doxycycline 50mg,Doxycycline,DoxycyclineBrand3,Tetracycline,Doxycycline hyclate,Minocycline,Tetracycline,50mg,Capsule,Inhalation,Pharma Co 4,True
+MED0194,Paracetamol 5mg,Paracetamol,ParacetamolBrand4,Analgesic,Paracetamol,None,Analgesic,5mg,Patch,IM,Pharma Co 19,False
+MED0195,Ranitidine 50mg,Ranitidine,RanitidineBrand4,H2 Blocker,Ranitidine HCl,None,H2 Blocker,50mg,Capsule,Inhalation,Pharma Co 6,False
+MED0196,Diclofenac 20mg,Diclofenac,DiclofenacBrand3,NSAID,Diclofenac sodium,Ibuprofen|Aspirin,NSAID,20mg,Capsule,Inhalation,Pharma Co 5,True
+MED0197,Ampicillin 1g,Ampicillin,AmpicillinBrand2,Beta-lactam,Ampicillin trihydrate,Penicillin|Cephalosporin,Beta-lactam,1g,Patch,Oral,Pharma Co 3,True
+MED0198,Prednisolone 200mg,Prednisolone,PrednisoloneBrand3,Corticosteroid,Prednisolone sodium phosphate,None,Corticosteroid,200mg,Patch,IM,Pharma Co 15,False
+MED0199,Omeprazole 200mg,Omeprazole,OmeprazoleBrand4,PPI,Omeprazole magnesium,None,PPI,200mg,Syrup,Oral,Pharma Co 5,False
+MED0200,Metoprolol 200mg,Metoprolol,MetoprololBrand2,Beta-blocker,Metoprolol tartrate,None,Beta-blocker,200mg,Injection,IM,Pharma Co 3,False

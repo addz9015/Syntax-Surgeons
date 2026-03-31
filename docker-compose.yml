@@ -1,0 +1,24 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: vitaledge-api
+    ports:
+      - "8000:8000"
+    environment:
+      VITALEDGE_CORS_ORIGINS: "http://localhost:8501"
+    restart: unless-stopped
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.dashboard
+    container_name: vitaledge-dashboard
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+    environment:
+      VITALEDGE_API_BASE_URL: "http://api:8000"
+    restart: unless-stopped

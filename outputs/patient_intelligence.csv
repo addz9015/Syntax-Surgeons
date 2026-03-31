@@ -1,0 +1,501 @@
+Patient_ID,Age,BMI,Comorbidity_1,Comorbidity_2,Severity_Component,Allergen_Count_Component,Reaction_History_Component,Lab_Marker_Component,ABS_Base_Score,Comorbidity_Count,Active_Allergen_Class_Count,IgE_Level_Avg,Eosinophil_Count_Avg,Reaction_Rate,Allergy_Burden_Score,ABS_Risk_Band,Cluster_ID,Cluster_Label
+PAT0001,19,28.1,Diabetes Type 2,COPD,0.0,0.0,0.0,8.658726804696846,1.73,2,0,0.0,3.88,0.0,0.0,LOW,3,High-Risk Complex
+PAT0002,74,25.1,Asthma,Epilepsy,0.0,0.0,0.0,6.716217526846361,1.34,2,0,0.0,3.49,0.0,0.0,LOW,3,High-Risk Complex
+PAT0003,18,26.2,Epilepsy,Diabetes Type 2,0.0,0.0,0.0,15.332989451670317,3.07,2,0,46.95,5.22,0.0,0.0,LOW,3,High-Risk Complex
+PAT0004,78,25.6,Diabetes Type 2,COPD,0.0,0.0,0.0,0.0,0.0,2,0,59.48,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0005,25,22.4,COPD,Asthma,0.0,0.0,0.0,0.0,0.0,2,0,41.28,2.13,0.0,0.0,LOW,3,High-Risk Complex
+PAT0006,76,26.7,Epilepsy,CKD,0.0,0.0,0.0,0.0,0.0,2,0,30.94,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0007,32,22.0,,,75.0,20.0,0.0,29.044188387177794,33.31,0,1,225.41,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0008,56,20.8,Diabetes Type 2,Asthma,0.0,0.0,0.0,0.0,0.0,2,0,54.76,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0009,53,20.3,CKD,,0.0,0.0,0.0,0.0,0.0,1,0,31.93,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0010,5,21.6,CKD,,58.333333333333336,60.0,0.0,0.0,32.5,1,3,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0011,74,34.2,CKD,COPD,100.0,20.0,0.0,8.359879223489077,36.67,2,1,0.0,3.82,0.0,0.0,LOW,3,High-Risk Complex
+PAT0012,67,21.6,CKD,,75.0,20.0,0.0,17.255071138974795,30.95,1,1,158.1,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0013,30,23.5,COPD,Diabetes Type 2,25.0,20.0,0.0,53.06627430459344,23.11,2,1,190.56,8.19,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0014,33,20.1,Diabetes Type 2,,100.0,20.0,0.0,0.0,35.0,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0015,21,22.9,,Epilepsy,75.0,40.0,0.0,43.150770456475016,41.13,1,2,141.91,7.91,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0016,11,15.3,Diabetes Type 2,COPD,75.0,20.0,0.0,0.0,27.5,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0017,28,23.9,Hypertension,Diabetes Type 2,25.0,20.0,50.0,74.41329450190518,39.88,2,1,292.25,8.9,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0018,56,27.9,Rheumatoid Arthritis,CKD,25.0,20.0,0.0,28.85584250132179,18.27,2,1,0.0,7.9350000000000005,0.0,0.0,LOW,3,High-Risk Complex
+PAT0019,67,26.6,,Rheumatoid Arthritis,62.5,40.0,50.0,10.252580571138273,43.3,1,2,0.0,4.2,0.2,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0020,15,27.6,,COPD,100.0,20.0,0.0,0.0,35.0,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0021,79,20.9,,,100.0,20.0,50.0,31.885066143318824,53.88,0,1,241.63,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0022,6,22.9,Asthma,Heart Failure,0.0,0.0,0.0,0.0,0.0,2,0,8.91,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0023,74,22.7,Asthma,CKD,0.0,0.0,0.0,0.0,0.0,2,0,0.0,1.49,0.0,0.0,LOW,3,High-Risk Complex
+PAT0024,41,18.6,CKD,Hypertension,75.0,40.0,0.0,82.94984513311773,49.09,2,2,233.21,12.69,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0025,5,23.3,Diabetes Type 2,Diabetes Type 2,75.0,20.0,0.0,17.628133384386654,31.03,2,1,160.23,0.8,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0026,75,26.6,Heart Failure,COPD,0.0,0.0,0.0,0.988305553697485,0.2,2,0,0.0,2.34,0.0,0.0,LOW,3,High-Risk Complex
+PAT0027,57,31.9,Heart Failure,Epilepsy,0.0,0.0,0.0,2.3082157040317917,0.46,2,0,0.0,2.605,0.0,0.0,LOW,3,High-Risk Complex
+PAT0028,53,23.3,COPD,COPD,75.0,40.0,0.0,0.0,32.5,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0029,13,28.1,Asthma,,100.0,20.0,0.0,15.880876683884557,38.18,1,1,0.0,5.33,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0030,45,23.7,Epilepsy,Hypertension,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0031,30,23.4,,CKD,0.0,0.0,0.0,2.656871215440852,0.53,1,0,2.1,2.675,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0032,21,25.8,CKD,Epilepsy,75.0,20.0,0.0,15.32670713804306,30.57,2,1,147.09,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0033,79,21.4,Asthma,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0034,47,22.0,Hypertension,COPD,50.0,60.0,0.0,10.53995072156129,32.11,2,3,119.76,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0035,58,28.9,Hypertension,Diabetes Type 2,100.0,20.0,0.0,0.0,35.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0036,71,20.6,Rheumatoid Arthritis,,75.0,20.0,0.0,88.662305975765,45.23,1,1,341.47,10.03,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0037,83,28.3,COPD,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0038,35,15.8,,Diabetes Type 2,0.0,0.0,0.0,0.0,0.0,1,0,16.78,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0039,32,28.7,,Hypertension,0.0,0.0,0.0,0.0,0.0,1,0,25.9,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0040,43,26.3,CKD,Epilepsy,87.5,40.0,50.0,0.0,48.75,2,2,0.0,0.0,0.5,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0041,56,23.1,,Hypertension,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0042,28,16.0,Epilepsy,CKD,0.0,0.0,0.0,6.666409596645065,1.33,2,0,0.0,3.48,0.0,0.0,LOW,3,High-Risk Complex
+PAT0043,74,35.0,,Asthma,100.0,20.0,0.0,1.5361927859117266,35.31,1,1,0.0,2.45,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0044,32,28.1,Asthma,CKD,75.0,20.0,0.0,32.23886226338078,33.95,2,1,243.65,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0045,53,18.8,,Diabetes Type 2,0.0,0.0,0.0,0.0,0.0,1,0,37.6,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0046,52,28.8,Diabetes Type 2,Epilepsy,0.0,0.0,0.0,0.0,0.0,2,0,37.14,1.72,0.0,0.0,LOW,3,High-Risk Complex
+PAT0047,60,26.9,,CKD,0.0,0.0,0.0,0.0,0.0,1,0,34.185,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0048,62,29.4,Rheumatoid Arthritis,Heart Failure,0.0,0.0,0.0,1.0381134838987807,0.21,2,0,0.0,2.35,0.0,0.0,LOW,3,High-Risk Complex
+PAT0049,48,23.4,Epilepsy,Rheumatoid Arthritis,0.0,0.0,50.0,0.0,12.5,2,0,0.0,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0050,67,30.5,COPD,CKD,25.0,20.0,0.0,26.763909432867415,17.85,2,1,0.0,7.515,0.0,0.0,LOW,3,High-Risk Complex
+PAT0051,59,30.2,COPD,Heart Failure,75.0,40.0,0.0,41.909584798508305,40.88,2,2,159.28,7.05,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0052,28,24.4,COPD,CKD,25.0,60.0,50.0,55.529676570082344,46.11,2,3,220.55,7.63,0.3333333333333333,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0053,73,25.5,,CKD,75.0,20.0,0.0,24.148993097299453,32.33,1,1,0.0,6.99,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0054,37,25.5,,,50.0,20.0,0.0,34.75808223017519,26.95,0,1,0.0,9.120000000000001,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0055,15,26.8,Epilepsy,Rheumatoid Arthritis,25.0,20.0,0.0,6.474798272730629,13.79,2,1,96.55,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0056,44,24.4,,COPD,25.0,20.0,0.0,49.100224876432385,22.32,1,1,339.92,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0057,75,24.8,CKD,Rheumatoid Arthritis,58.333333333333336,60.0,0.0,18.445985089251227,36.19,2,3,0.0,5.845,0.0,0.0,LOW,3,High-Risk Complex
+PAT0058,80,24.6,CKD,Asthma,100.0,20.0,0.0,55.07971775230337,46.02,2,1,0.0,13.2,0.0,0.0,LOW,3,High-Risk Complex
+PAT0059,77,28.8,,Hypertension,91.66666666666666,60.0,50.0,55.39645614156466,66.08,1,3,169.17000000000002,9.41,0.5,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0060,16,22.2,CKD,,75.0,20.0,50.0,0.0,40.0,1,1,0.0,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0061,61,27.0,Heart Failure,Heart Failure,75.0,40.0,50.0,8.108915995591037,46.62,2,2,105.88,0.0,0.5,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0062,41,23.1,CKD,Heart Failure,50.0,40.0,50.0,13.066728627511415,40.11,2,2,0.0,4.765,0.3333333333333333,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0063,74,23.0,COPD,CKD,75.0,20.0,0.0,0.0,27.5,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0064,67,24.9,Hypertension,,50.0,20.0,50.0,0.0,32.5,1,1,0.0,0.5,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0065,64,30.6,Rheumatoid Arthritis,Rheumatoid Arthritis,0.0,0.0,0.0,3.2794703429570338,0.66,2,0,0.0,2.8,0.0,0.0,LOW,3,High-Risk Complex
+PAT0066,81,22.4,,CKD,100.0,20.0,0.0,2.0342720879246703,35.41,1,1,0.0,2.55,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0067,79,29.7,,Epilepsy,0.0,0.0,0.0,2.3165170257320082,0.46,1,0,0.0,2.606666666666667,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0068,35,24.5,Epilepsy,Epilepsy,75.0,20.0,0.0,17.92237966245798,31.08,2,1,161.91,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0069,47,30.8,Asthma,Diabetes Type 2,50.0,20.0,50.0,20.83676573891336,36.67,2,1,0.0,6.324999999999999,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0070,15,17.8,Rheumatoid Arthritis,,62.5,40.0,0.0,33.16538774611728,35.38,1,2,248.94,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0071,41,32.0,Hypertension,Hypertension,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0072,23,24.4,Diabetes Type 2,,0.0,0.0,0.0,0.0,0.0,1,0,50.375,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0073,23,25.2,Asthma,Diabetes Type 2,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0074,37,30.9,Epilepsy,,75.0,60.0,0.0,20.796535271476127,41.66,1,3,178.32,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0075,7,31.0,COPD,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0076,22,23.6,Heart Failure,Asthma,50.0,20.0,0.0,0.0,20.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0077,30,28.3,Rheumatoid Arthritis,CKD,50.0,20.0,0.0,0.0,20.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0078,33,28.6,Epilepsy,Hypertension,100.0,20.0,0.0,25.063106303510374,40.01,2,1,202.68,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0079,38,17.3,Heart Failure,,25.0,20.0,0.0,17.5020278366418,16.0,1,1,159.51,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0080,43,20.3,Diabetes Type 2,Diabetes Type 2,0.0,0.0,0.0,0.0,0.0,2,0,2.95,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0081,74,18.0,Heart Failure,COPD,100.0,20.0,0.0,24.348224818104633,39.87,2,1,0.0,7.03,0.0,0.0,LOW,3,High-Risk Complex
+PAT0082,52,28.1,Diabetes Type 2,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,2,0,14.8,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0083,7,28.4,COPD,Heart Failure,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0084,21,25.8,Heart Failure,COPD,0.0,0.0,0.0,9.45565368791756,1.89,2,0,42.165,4.04,0.0,0.0,LOW,3,High-Risk Complex
+PAT0085,21,24.2,COPD,,75.0,20.0,0.0,0.0,27.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0086,71,19.0,Epilepsy,,66.66666666666666,60.0,50.0,11.597394686573224,49.82,1,3,0.0,4.47,0.5,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0087,15,23.4,,CKD,100.0,20.0,0.0,41.99051846747117,43.4,1,1,192.73,5.89,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0088,19,26.8,COPD,Epilepsy,0.0,0.0,0.0,1.2124412396033102,0.24,2,0,0.0,2.385,0.0,0.0,LOW,3,High-Risk Complex
+PAT0089,45,18.5,Diabetes Type 2,Epilepsy,25.0,20.0,0.0,42.86015599944633,21.07,2,1,215.32666666666668,5.27,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0090,76,27.5,,Epilepsy,0.0,0.0,0.0,0.0,0.0,1,0,35.65,1.58,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0091,78,21.9,CKD,,100.0,20.0,0.0,0.0,35.0,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0092,83,24.4,CKD,CKD,75.0,40.0,50.0,0.0,45.0,2,2,0.0,0.0,0.5,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0093,77,23.6,Rheumatoid Arthritis,Heart Failure,25.0,20.0,0.0,19.541759553679704,16.41,2,1,0.0,6.0649999999999995,0.0,0.0,LOW,3,High-Risk Complex
+PAT0094,81,23.1,CKD,Rheumatoid Arthritis,100.0,20.0,0.0,0.0,35.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0095,32,24.6,Epilepsy,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,2.01,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0096,22,22.3,Epilepsy,Asthma,0.0,0.0,0.0,4.15110912147969,0.83,2,0,0.0,2.975,0.0,0.0,LOW,3,High-Risk Complex
+PAT0097,76,28.6,,Epilepsy,100.0,40.0,0.0,0.0,40.0,1,2,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0098,19,17.4,Heart Failure,Diabetes Type 2,0.0,0.0,0.0,0.0,0.0,2,0,25.445,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0099,72,32.5,Diabetes Type 2,,0.0,0.0,0.0,0.0,0.0,1,0,21.71,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0100,23,28.8,,Diabetes Type 2,0.0,0.0,0.0,2.509479382531314,0.5,1,0,73.91,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0101,79,14.8,Diabetes Type 2,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0102,12,27.7,Heart Failure,CKD,100.0,20.0,0.0,49.94950094157003,44.99,2,1,0.0,12.17,0.0,0.0,LOW,3,High-Risk Complex
+PAT0103,83,20.8,Rheumatoid Arthritis,,25.0,20.0,0.0,0.0,12.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0104,15,22.0,,,75.0,40.0,0.0,0.0,32.5,0,2,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0105,57,25.5,,Epilepsy,0.0,0.0,0.0,12.742977081203003,2.55,1,0,0.0,4.7,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0106,24,17.8,,Epilepsy,62.5,40.0,0.0,48.256031314726016,38.4,1,2,0.0,11.83,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0107,76,18.8,Hypertension,Heart Failure,50.0,40.0,0.0,27.045111056312326,30.41,2,2,74.98,7.03,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0108,29,30.1,Diabetes Type 2,,0.0,0.0,0.0,4.382502814723306,0.88,1,0,74.98,2.48,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0109,84,27.5,Heart Failure,,0.0,0.0,0.0,1.984464157723377,0.4,1,0,0.0,2.54,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0110,62,27.7,,Rheumatoid Arthritis,100.0,20.0,50.0,0.0,47.5,1,1,0.0,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0111,72,22.2,Heart Failure,,87.5,40.0,0.0,41.75230666542266,44.6,1,2,171.89,6.574999999999999,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0112,41,25.8,Diabetes Type 2,COPD,75.0,20.0,0.0,6.417369945638593,28.78,2,1,0.0,3.43,0.0,0.0,LOW,3,High-Risk Complex
+PAT0113,69,21.4,,Heart Failure,0.0,0.0,0.0,0.0,0.0,1,0,58.595,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0114,22,27.7,CKD,COPD,0.0,0.0,0.0,3.603221889265451,0.72,2,0,47.23,2.865,0.0,0.0,LOW,3,High-Risk Complex
+PAT0115,19,25.0,Rheumatoid Arthritis,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0116,23,21.2,Asthma,,75.0,20.0,0.0,0.0,27.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0117,74,14.0,Hypertension,Heart Failure,37.5,40.0,0.0,49.50122956975838,31.15,2,2,0.0,12.08,0.0,0.0,LOW,3,High-Risk Complex
+PAT0118,18,23.9,,Asthma,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0119,13,22.2,,Epilepsy,75.0,20.0,0.0,32.16880362574475,33.93,1,1,243.25,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0120,29,14.0,Epilepsy,Epilepsy,25.0,20.0,0.0,0.0,12.5,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0121,68,19.1,Asthma,,100.0,20.0,0.0,3.976781365775159,35.8,1,1,0.0,2.94,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0122,42,30.5,Hypertension,Heart Failure,75.0,40.0,0.0,33.712115695948,39.24,2,2,0.0,8.91,0.0,0.0,LOW,3,High-Risk Complex
+PAT0123,14,22.3,,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0124,51,20.5,Heart Failure,Heart Failure,0.0,0.0,0.0,0.0,0.0,2,0,20.33,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0125,51,19.3,Epilepsy,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0126,32,28.4,Rheumatoid Arthritis,Asthma,66.66666666666666,60.0,0.0,20.646784933529112,39.13,2,3,177.465,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0127,49,23.1,,COPD,100.0,40.0,0.0,65.73876849363558,53.15,1,2,221.11,9.66,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0128,8,19.0,Diabetes Type 2,CKD,100.0,20.0,0.0,27.48612442078619,40.5,2,1,0.0,7.66,0.0,0.0,LOW,3,High-Risk Complex
+PAT0129,57,25.3,Heart Failure,Asthma,62.5,40.0,0.0,26.180541573805062,33.99,2,2,209.06,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0130,60,22.9,Asthma,Heart Failure,100.0,20.0,0.0,0.0,35.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0131,37,28.2,Asthma,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0132,82,35.1,,CKD,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0133,8,18.2,Diabetes Type 2,Hypertension,0.0,0.0,0.0,0.0,0.0,2,0,40.25,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0134,48,24.6,Heart Failure,,100.0,20.0,0.0,36.815802297074185,42.36,1,1,117.4,7.5,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0135,39,22.1,Heart Failure,,75.0,20.0,0.0,25.442298679715392,32.59,1,1,204.845,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0136,64,25.3,Rheumatoid Arthritis,COPD,66.66666666666666,60.0,0.0,0.0,35.0,2,3,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0137,68,17.4,CKD,Heart Failure,33.33333333333333,60.0,0.0,14.066235482574815,27.81,2,3,139.89333333333335,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0138,76,19.5,,CKD,50.0,40.0,0.0,73.3336641188977,39.67,1,2,268.17,9.53,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0139,55,15.2,Hypertension,Hypertension,37.5,40.0,0.0,0.27811177382374924,21.31,2,2,61.17,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0140,63,34.0,,CKD,58.333333333333336,60.0,50.0,28.72717305187476,50.75,1,3,223.6,0.0,0.5,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0141,67,23.5,CKD,,0.0,0.0,0.0,0.0,0.0,1,0,38.22,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0142,79,20.8,,Epilepsy,0.0,0.0,0.0,0.0,0.0,1,0,0.0,1.84,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0143,19,26.3,Hypertension,Asthma,25.0,20.0,0.0,0.0,12.5,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0144,66,29.0,,,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0145,40,21.5,Rheumatoid Arthritis,Heart Failure,0.0,0.0,0.0,0.0,0.0,2,0,38.79,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0146,40,23.4,Asthma,CKD,62.5,40.0,0.0,24.52715772559474,33.66,2,2,199.62,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0147,37,24.4,,,50.0,20.0,0.0,22.106867959046376,24.42,0,1,0.0,6.58,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0148,33,21.4,Diabetes Type 2,,75.0,40.0,0.0,0.0,32.5,1,2,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0149,57,19.2,Hypertension,Diabetes Type 2,25.0,20.0,0.0,32.37525015268993,18.98,2,1,185.465,4.215,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0150,27,16.9,CKD,Hypertension,0.0,0.0,0.0,0.0,0.0,2,0,21.95,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0151,41,18.3,Diabetes Type 2,Heart Failure,25.0,40.0,0.0,9.445284508498316,19.39,2,2,113.51,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0152,28,26.3,,Epilepsy,50.0,40.0,0.0,0.0,25.0,1,2,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0153,17,25.5,CKD,Heart Failure,0.0,0.0,0.0,9.20661403691109,1.84,2,0,18.13,3.99,0.0,0.0,LOW,3,High-Risk Complex
+PAT0154,51,26.8,,,0.0,0.0,0.0,0.0,0.0,0,0,5.85,1.3533333333333333,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0155,52,22.1,,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.89,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0156,81,22.4,Diabetes Type 2,Hypertension,75.0,20.0,0.0,48.156415454323415,37.13,2,1,0.0,11.809999999999999,0.0,0.0,LOW,3,High-Risk Complex
+PAT0157,26,21.9,Hypertension,Rheumatoid Arthritis,58.333333333333336,60.0,50.0,16.445893874278642,48.29,2,3,153.48,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0158,76,29.3,COPD,,75.0,20.0,0.0,12.29470570939135,29.96,1,1,0.0,4.61,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0159,74,35.0,Asthma,,0.0,0.0,0.0,0.0,0.0,1,0,31.22,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0160,53,24.1,,Epilepsy,50.0,40.0,0.0,45.471187446886006,34.09,1,2,319.20000000000005,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0161,7,29.5,Heart Failure,Asthma,75.0,40.0,0.0,41.04864031955208,40.71,2,2,149.53,7.22,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0162,58,23.8,Hypertension,Rheumatoid Arthritis,75.0,40.0,0.0,24.92474049417921,37.48,2,2,201.89,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0163,10,21.8,,Heart Failure,62.5,40.0,0.0,0.0,28.75,1,2,0.0,2.11,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0164,35,26.4,Hypertension,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0165,76,14.0,Epilepsy,Asthma,25.0,20.0,0.0,0.0,12.5,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0166,35,24.8,Epilepsy,,25.0,20.0,0.0,0.0,12.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0167,47,18.4,Epilepsy,,100.0,20.0,0.0,0.0,35.0,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0168,80,16.4,CKD,Hypertension,100.0,20.0,0.0,82.60403502253327,51.52,2,1,384.8,7.29,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0169,36,22.1,,,0.0,0.0,0.0,0.0,0.0,0,0,34.44,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0170,64,17.9,Hypertension,,75.0,40.0,0.0,0.0,32.5,1,2,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0171,79,20.4,,,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0172,67,22.3,,Hypertension,0.0,0.0,0.0,0.7392659026910131,0.15,1,0,0.0,2.29,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0173,11,24.9,,Rheumatoid Arthritis,25.0,20.0,0.0,60.95250692217134,24.69,1,1,217.955,8.81,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0174,66,19.9,,CKD,62.5,40.0,0.0,26.2856295302591,34.01,1,2,209.66,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0175,60,27.9,,CKD,25.0,20.0,0.0,13.158392303207926,15.13,1,1,134.71,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0176,56,15.2,Hypertension,Diabetes Type 2,50.0,20.0,0.0,54.699661489492094,30.94,2,1,371.89,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0177,6,24.0,COPD,COPD,50.0,40.0,0.0,0.0,25.0,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0178,40,22.7,,Asthma,0.0,0.0,0.0,0.0,0.0,1,0,27.16,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0179,77,26.8,Diabetes Type 2,,100.0,20.0,0.0,0.0,35.0,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0180,48,20.6,CKD,Rheumatoid Arthritis,50.0,20.0,0.0,12.681993567282918,22.54,2,1,131.99,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0181,60,26.8,Asthma,Epilepsy,75.0,20.0,0.0,14.735294289254783,30.45,2,1,0.0,5.1,0.0,0.0,LOW,3,High-Risk Complex
+PAT0182,16,30.0,Diabetes Type 2,Asthma,62.5,40.0,0.0,38.2944452744671,36.41,2,2,0.0,9.83,0.0,0.0,LOW,3,High-Risk Complex
+PAT0183,18,28.6,Epilepsy,Diabetes Type 2,50.0,60.0,50.0,8.217506883926884,44.14,2,3,106.5,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0184,53,25.2,Asthma,Epilepsy,37.5,40.0,0.0,23.48503549075879,25.95,2,2,193.67,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0185,51,24.5,CKD,Hypertension,62.5,40.0,0.0,21.5400325633885,33.06,2,2,182.565,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0186,61,27.9,COPD,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,2,0,41.37,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0187,67,32.2,,,100.0,20.0,0.0,0.0,35.0,0,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0188,64,22.9,Epilepsy,,100.0,20.0,0.0,0.0,35.0,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0189,24,22.8,Epilepsy,,25.0,20.0,0.0,54.5194663822961,23.4,1,1,138.0,10.33,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0190,81,16.7,,Hypertension,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0191,60,26.1,Epilepsy,Rheumatoid Arthritis,25.0,20.0,0.0,0.0,12.5,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0192,66,25.8,Heart Failure,Rheumatoid Arthritis,0.0,0.0,0.0,0.2772360408532984,0.06,2,0,61.165,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0193,61,23.6,,Asthma,25.0,20.0,0.0,0.0,12.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0194,76,19.6,,Epilepsy,100.0,20.0,0.0,26.739005467766763,40.35,1,1,0.0,7.51,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0195,62,20.8,,Asthma,75.0,20.0,0.0,29.570503902418476,33.41,1,1,228.415,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0196,67,22.1,,Diabetes Type 2,41.66666666666667,60.0,50.0,14.478997622647094,42.9,1,3,142.25,0.95,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0197,43,29.7,Heart Failure,Asthma,91.66666666666666,60.0,0.0,14.735294289254785,45.45,2,3,0.0,5.1000000000000005,0.0,0.0,LOW,3,High-Risk Complex
+PAT0198,54,21.6,Rheumatoid Arthritis,CKD,100.0,20.0,50.0,44.25210644163725,56.35,2,1,252.565,4.24,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0199,11,31.9,Rheumatoid Arthritis,Epilepsy,0.0,0.0,0.0,0.5151302167851881,0.1,2,0,0.0,2.245,0.0,0.0,LOW,3,High-Risk Complex
+PAT0200,33,16.2,Rheumatoid Arthritis,,75.0,20.0,0.0,0.0,27.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0201,39,25.8,,COPD,50.0,40.0,0.0,25.502724254676462,30.1,1,2,205.19,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0202,61,16.2,,,75.0,60.0,0.0,0.0,37.5,0,3,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0203,31,26.5,CKD,,87.5,40.0,0.0,41.980232109362895,44.65,1,2,0.0,10.57,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0204,57,19.0,Heart Failure,COPD,75.0,40.0,0.0,0.0,32.5,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0205,85,20.3,Rheumatoid Arthritis,Rheumatoid Arthritis,91.66666666666666,60.0,50.0,76.03341015348947,70.21,2,3,229.83666666666667,11.42,0.3333333333333333,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0206,16,27.0,COPD,Rheumatoid Arthritis,50.0,60.0,0.0,39.73887525030464,37.95,2,3,0.0,10.12,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0207,78,30.5,Rheumatoid Arthritis,Hypertension,50.0,20.0,0.0,0.0,20.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0208,30,30.9,Heart Failure,CKD,62.5,40.0,0.0,0.0,28.75,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0209,11,21.4,Hypertension,COPD,75.0,20.0,50.0,0.0,40.0,2,1,0.0,0.0,0.5,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0210,61,26.8,Rheumatoid Arthritis,Diabetes Type 2,0.0,0.0,0.0,5.794770818122409,1.16,2,0,0.0,3.3049999999999997,0.0,0.0,LOW,3,High-Risk Complex
+PAT0211,18,20.9,Asthma,Rheumatoid Arthritis,50.0,20.0,0.0,0.0,20.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0212,57,33.1,Diabetes Type 2,,0.0,0.0,0.0,0.0,0.0,1,0,32.64,1.8900000000000001,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0213,36,24.2,CKD,COPD,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0214,42,26.4,,,0.0,0.0,0.0,1.835040367119492,0.37,0,0,0.0,2.51,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0215,21,18.0,Diabetes Type 2,Hypertension,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0216,69,30.1,Diabetes Type 2,,58.333333333333336,60.0,0.0,0.0,32.5,1,3,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0217,44,33.4,,,25.0,20.0,0.0,22.405715540254146,16.98,0,1,0.0,6.640000000000001,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0218,12,29.3,,Asthma,75.0,40.0,0.0,14.95942997516061,35.49,1,2,0.0,5.1450000000000005,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0219,25,20.3,CKD,Diabetes Type 2,0.0,0.0,0.0,2.7647883975436587,0.55,2,0,22.06,2.6966666666666668,0.0,0.0,LOW,3,High-Risk Complex
+PAT0220,13,24.6,Hypertension,Rheumatoid Arthritis,25.0,40.0,0.0,24.54992678282645,22.41,2,2,199.75,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0221,78,23.5,Heart Failure,Epilepsy,75.0,40.0,0.0,0.0,32.5,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0222,58,22.5,Diabetes Type 2,,0.0,0.0,0.0,4.723900318794576,0.94,1,0,0.0,3.09,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0223,27,25.4,Heart Failure,Diabetes Type 2,0.0,0.0,0.0,4.873324109398461,0.97,2,0,0.0,3.12,0.0,0.0,LOW,3,High-Risk Complex
+PAT0224,77,29.8,COPD,,0.0,0.0,0.0,6.4671778758398855,1.29,1,0,10.45,3.44,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0225,34,18.3,CKD,Diabetes Type 2,25.0,20.0,0.0,19.62480455701352,16.42,2,1,171.63,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0226,23,22.8,Rheumatoid Arthritis,Diabetes Type 2,50.0,20.0,0.0,51.230007460567705,30.25,2,1,352.08,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0227,14,23.1,Epilepsy,Heart Failure,62.5,40.0,0.0,0.0,28.75,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0228,22,23.6,Rheumatoid Arthritis,Heart Failure,100.0,20.0,0.0,0.0,35.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0229,62,23.2,Heart Failure,Asthma,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0230,70,27.8,,,0.0,0.0,0.0,0.0,0.0,0,0,48.45,1.54,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0231,20,33.0,,Diabetes Type 2,100.0,20.0,0.0,0.0,35.0,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0232,7,25.1,Heart Failure,Diabetes Type 2,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0233,60,26.5,CKD,CKD,87.5,40.0,0.0,16.378955985897502,39.53,2,2,0.0,5.43,0.0,0.0,LOW,3,High-Risk Complex
+PAT0234,36,20.4,CKD,Epilepsy,37.5,40.0,0.0,26.465061851659648,26.54,2,2,0.0,7.455,0.0,0.0,LOW,3,High-Risk Complex
+PAT0235,36,19.0,,Heart Failure,0.0,0.0,0.0,0.0,0.0,1,0,38.93,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0236,33,18.6,COPD,Asthma,50.0,20.0,0.0,19.1168794341523,23.82,2,1,168.73,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0237,12,25.5,Heart Failure,Heart Failure,75.0,20.0,0.0,0.0,27.5,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0238,77,14.0,Hypertension,Diabetes Type 2,0.0,0.0,0.0,3.9269734355738652,0.79,2,0,0.0,2.93,0.0,0.0,LOW,3,High-Risk Complex
+PAT0239,66,34.6,Hypertension,Hypertension,25.0,20.0,0.0,25.572782892312496,17.61,2,1,205.59,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0240,72,24.5,Heart Failure,CKD,0.0,0.0,0.0,0.0,0.0,2,0,40.945,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0241,67,22.9,Asthma,Epilepsy,50.0,20.0,0.0,32.73803005653749,26.55,2,1,246.5,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0242,5,22.3,Heart Failure,,0.0,0.0,0.0,2.3331196691324383,0.47,1,0,22.63,2.61,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0243,23,23.6,,,0.0,0.0,0.0,3.7775496449699806,0.76,0,0,0.0,2.9,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0244,13,26.1,Epilepsy,Asthma,25.0,20.0,0.0,17.22569079931951,15.95,2,1,0.0,5.6,0.0,0.0,LOW,3,High-Risk Complex
+PAT0245,17,28.3,Hypertension,CKD,62.5,40.0,0.0,9.277143778171842,30.61,2,2,112.55,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0246,48,17.5,Heart Failure,,0.0,0.0,0.0,0.0,0.0,1,0,54.96,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0247,26,20.7,,CKD,62.5,40.0,0.0,0.0,28.75,1,2,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0248,78,21.5,Diabetes Type 2,CKD,0.0,0.0,0.0,0.0,0.0,2,0,14.93,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0249,26,16.5,CKD,Diabetes Type 2,25.0,20.0,0.0,25.99488618406958,17.7,2,1,208.0,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0250,52,15.1,CKD,,100.0,20.0,0.0,43.872933457012095,43.77,1,1,0.0,10.95,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0251,15,20.5,,Epilepsy,75.0,20.0,0.0,0.0,27.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0252,35,17.4,,,100.0,40.0,0.0,20.612630053007543,44.12,0,2,0.0,6.28,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0253,27,27.1,Epilepsy,COPD,100.0,20.0,0.0,0.0,35.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0254,13,23.6,,Rheumatoid Arthritis,25.0,20.0,0.0,27.934395792597837,18.09,1,1,0.0,7.75,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0255,19,22.3,,Heart Failure,75.0,20.0,50.0,22.754371051663206,44.55,1,1,0.0,6.71,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0256,82,25.8,,Epilepsy,50.0,20.0,0.0,25.593423073137,25.12,1,1,0.0,7.28,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0257,65,32.9,,Diabetes Type 2,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0258,46,19.9,COPD,Epilepsy,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0259,70,24.9,COPD,Hypertension,50.0,20.0,0.0,24.348224818104633,24.87,2,1,0.0,7.03,0.0,0.0,LOW,3,High-Risk Complex
+PAT0260,30,22.9,COPD,Heart Failure,100.0,40.0,0.0,0.0,40.0,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0261,80,20.6,Asthma,,50.0,20.0,0.0,0.0,20.0,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0262,39,23.2,,Asthma,100.0,20.0,0.0,34.30559207364367,41.86,1,1,255.45,0.76,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0263,40,20.6,,Epilepsy,0.0,0.0,0.0,0.0,0.0,1,0,36.69,1.07,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0264,52,26.5,Rheumatoid Arthritis,Diabetes Type 2,87.5,40.0,0.0,33.92789728715132,43.04,2,2,131.34,6.43,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0265,38,18.3,,Epilepsy,0.0,0.0,0.0,3.7775496449699806,0.76,1,0,0.0,2.9,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0266,68,15.3,,,0.0,0.0,0.0,5.122363760404934,1.02,0,0,0.0,3.17,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0267,73,21.2,,Asthma,75.0,20.0,0.0,0.0,27.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0268,76,20.6,COPD,CKD,50.0,20.0,50.0,38.242918441274526,40.15,2,1,251.67,3.065,0.2,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0269,64,27.5,,Diabetes Type 2,0.0,0.0,0.0,4.222413072732255,0.84,1,0,83.69,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0270,22,20.4,Asthma,Diabetes Type 2,0.0,0.0,0.0,0.19137867047677373,0.04,2,0,41.47,2.18,0.0,0.0,LOW,3,High-Risk Complex
+PAT0271,12,28.1,Diabetes Type 2,Asthma,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.5,0.0,0.0,LOW,3,High-Risk Complex
+PAT0272,66,24.6,,COPD,100.0,20.0,0.0,7.585227679261711,36.52,1,1,102.89,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0273,33,23.1,Hypertension,CKD,0.0,0.0,0.0,0.0,0.0,2,0,8.39,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0274,48,20.6,COPD,Asthma,87.5,40.0,0.0,27.59397458811197,41.77,2,2,217.13,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0275,32,23.9,,Hypertension,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0276,11,18.5,Rheumatoid Arthritis,Asthma,50.0,20.0,0.0,0.0,20.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0277,58,21.0,,Diabetes Type 2,50.0,60.0,0.0,31.117924061204295,36.22,1,3,237.25,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0278,82,18.9,CKD,Asthma,62.5,40.0,0.0,0.0,28.75,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0279,66,24.3,,Diabetes Type 2,75.0,20.0,0.0,14.536062568449607,30.41,1,1,0.0,5.0600000000000005,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0280,38,24.8,,Heart Failure,25.0,20.0,0.0,0.0,12.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0281,6,28.5,Heart Failure,Heart Failure,75.0,20.0,0.0,0.0,27.5,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0282,39,19.2,Hypertension,Asthma,0.0,0.0,50.0,0.0,12.5,2,0,30.78,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0283,61,26.3,Rheumatoid Arthritis,Hypertension,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0284,72,28.5,,Diabetes Type 2,50.0,20.0,0.0,14.789007094186529,22.96,1,1,144.02,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0285,54,29.5,Rheumatoid Arthritis,Asthma,0.0,0.0,0.0,1.1875372745026636,0.24,2,0,0.0,2.38,0.0,0.0,LOW,3,High-Risk Complex
+PAT0286,40,31.3,COPD,Diabetes Type 2,75.0,20.0,0.0,0.0,27.5,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0287,68,22.4,,,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0288,43,25.2,Hypertension,COPD,41.66666666666667,60.0,50.0,0.0,40.0,2,3,0.0,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0289,65,23.6,,CKD,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0290,26,20.3,Epilepsy,COPD,0.0,0.0,0.0,0.0,0.0,2,0,33.31,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0291,10,32.2,,Hypertension,0.0,0.0,50.0,0.6894579724897175,12.64,1,0,0.0,2.28,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0292,27,20.7,,Heart Failure,75.0,20.0,0.0,0.0,27.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0293,36,22.8,,CKD,83.33333333333334,60.0,0.0,43.344139648954624,48.67,1,3,270.7,3.42,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0294,85,36.0,,Asthma,0.0,0.0,0.0,0.0,0.0,1,0,7.51,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0295,19,24.9,Hypertension,,100.0,20.0,0.0,21.513388136716337,39.3,1,1,115.06,4.51,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0296,12,18.7,CKD,COPD,0.0,0.0,0.0,0.0,0.0,2,0,17.435,2.06,0.0,0.0,LOW,3,High-Risk Complex
+PAT0297,83,29.5,CKD,,0.0,0.0,0.0,6.516985806041182,1.3,1,0,0.0,3.45,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0298,45,19.1,Rheumatoid Arthritis,COPD,75.0,20.0,0.0,0.0,27.5,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0299,30,26.4,Diabetes Type 2,Epilepsy,62.5,40.0,0.0,0.0,28.75,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0300,25,14.0,Hypertension,Asthma,0.0,0.0,0.0,0.6894579724897175,0.14,2,0,0.0,2.28,0.0,0.0,LOW,3,High-Risk Complex
+PAT0301,83,26.6,Asthma,,0.0,0.0,0.0,2.9308148315479734,0.59,1,0,17.78,2.73,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0302,56,21.3,CKD,COPD,0.0,0.0,0.0,0.0,0.0,2,0,26.99,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0303,6,27.6,Heart Failure,Epilepsy,87.5,40.0,79.24812503605781,9.953732989930504,58.05,2,2,0.0,4.14,0.6666666666666666,79.25,CRITICAL,2,Lab-Elevated Undiagnosed
+PAT0304,8,27.2,CKD,,25.0,20.0,0.0,47.05976705528298,21.91,1,1,328.27,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0305,26,32.1,Epilepsy,Diabetes Type 2,50.0,40.0,0.0,56.27144198838071,36.25,2,2,165.35,9.72,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0306,60,23.1,Hypertension,Diabetes Type 2,0.0,0.0,0.0,1.1875372745026636,0.24,2,0,0.0,2.38,0.0,0.0,LOW,3,High-Risk Complex
+PAT0307,14,21.6,Hypertension,Epilepsy,0.0,0.0,0.0,0.0,0.0,2,0,29.64,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0308,13,23.0,Diabetes Type 2,CKD,75.0,20.0,0.0,47.12241264331391,36.92,2,1,226.865,5.72,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0309,53,19.3,,CKD,100.0,20.0,50.0,43.70460980959196,56.24,1,1,173.51,6.91,0.5,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0310,52,28.6,Hypertension,,75.0,40.0,0.0,26.41628061081401,37.78,1,2,146.75,4.38,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0311,44,26.3,COPD,,75.0,20.0,0.0,0.0,27.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0312,11,31.7,Diabetes Type 2,CKD,50.0,20.0,0.0,33.46307604494153,26.69,2,1,0.0,8.86,0.0,0.0,LOW,3,High-Risk Complex
+PAT0313,50,29.1,Heart Failure,,91.66666666666666,60.0,0.0,0.0,42.5,1,3,48.67,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0314,51,29.2,COPD,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0315,47,28.1,,Diabetes Type 2,0.0,0.0,0.0,0.0,0.0,1,0,20.28,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0316,85,21.0,,Epilepsy,75.0,20.0,0.0,56.3561903164022,38.77,1,1,206.5,8.29,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0317,74,16.8,,,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0318,35,25.9,Asthma,,37.5,40.0,50.0,0.0,33.75,1,2,0.0,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0319,66,25.7,,COPD,100.0,20.0,50.0,0.0,47.5,1,1,0.0,0.0,0.5,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0320,10,24.0,CKD,,62.5,40.0,0.0,50.18797998718373,38.79,1,2,172.84666666666666,8.235,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0321,51,16.3,Heart Failure,Rheumatoid Arthritis,50.0,60.0,0.0,5.570635132216583,31.11,2,3,0.0,3.26,0.0,0.0,LOW,3,High-Risk Complex
+PAT0322,61,19.5,Asthma,Asthma,62.5,40.0,50.0,44.499295321909656,50.15,2,2,147.05,8.0,0.5,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0323,34,21.0,,Epilepsy,75.0,40.0,0.0,0.0,32.5,1,2,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0324,25,26.6,CKD,Asthma,0.0,0.0,0.0,5.471019271813997,1.09,2,0,23.89,3.24,0.0,0.0,LOW,3,High-Risk Complex
+PAT0325,7,29.7,Asthma,COPD,0.0,0.0,0.0,8.210455432885196,1.64,2,0,0.0,3.79,0.0,0.0,LOW,3,High-Risk Complex
+PAT0326,84,19.5,,Diabetes Type 2,87.5,40.0,0.0,0.0,36.25,1,2,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0327,30,14.7,,Hypertension,0.0,0.0,0.0,4.358642163985086,0.87,1,0,0.0,3.016666666666667,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0328,21,23.1,Heart Failure,Hypertension,100.0,20.0,0.0,39.992011344276534,43.0,2,1,68.99,9.84,0.0,0.0,LOW,3,High-Risk Complex
+PAT0329,53,19.7,Rheumatoid Arthritis,COPD,75.0,40.0,0.0,61.47756087643322,44.8,2,2,247.39999999999998,7.88,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0330,37,31.1,Epilepsy,,25.0,20.0,0.0,0.0,12.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0331,18,28.2,,Epilepsy,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0332,27,29.9,Epilepsy,Asthma,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0333,25,28.8,,Hypertension,25.0,20.0,0.0,23.40187414428003,17.18,1,1,0.0,6.84,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0334,16,27.7,Epilepsy,,0.0,0.0,0.0,1.0879214141000741,0.22,1,0,51.78,2.36,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0335,27,21.4,,,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0336,9,20.8,Epilepsy,Heart Failure,100.0,20.0,0.0,15.929211421712921,38.19,2,1,150.53,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0337,13,29.5,COPD,,0.0,0.0,50.0,6.516985806041182,13.8,1,0,42.49,3.45,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0338,27,21.7,,CKD,66.66666666666666,60.0,0.0,29.454031417348574,40.89,1,3,227.75,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0339,77,21.2,CKD,Diabetes Type 2,62.5,40.0,0.0,0.0,28.75,2,2,25.94,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0340,34,24.8,CKD,COPD,50.0,20.0,50.0,36.07457267395344,39.71,2,1,265.55,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0341,14,21.8,COPD,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,2,0,36.41,0.5,0.0,0.0,LOW,3,High-Risk Complex
+PAT0342,31,23.6,Diabetes Type 2,Diabetes Type 2,50.0,20.0,0.0,49.875260075185736,29.98,2,1,184.19,7.773333333333333,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0343,10,27.0,CKD,Epilepsy,0.0,0.0,0.0,0.0,0.0,2,0,29.845,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0344,59,21.0,Asthma,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0345,6,27.6,CKD,COPD,100.0,20.0,0.0,100.0,55.0,2,1,347.905,12.08,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0346,68,24.7,Asthma,,100.0,20.0,0.0,24.39803274830593,39.88,1,1,0.0,7.04,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0347,39,26.4,Hypertension,Asthma,75.0,40.0,0.0,0.0,32.5,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0348,71,19.1,Hypertension,Epilepsy,50.0,20.0,0.0,12.48944143583168,22.5,2,1,60.22,4.626666666666666,0.0,0.0,LOW,3,High-Risk Complex
+PAT0349,65,25.6,Epilepsy,Diabetes Type 2,0.0,0.0,0.0,0.0,0.0,2,0,49.22,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0350,73,22.8,Rheumatoid Arthritis,Diabetes Type 2,100.0,20.0,0.0,15.531628653128445,38.11,2,1,148.26,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0351,26,17.9,Heart Failure,COPD,87.5,40.0,0.0,23.768772973184713,41.0,2,2,195.29,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0352,82,16.5,Asthma,Hypertension,50.0,20.0,0.0,27.967601079398708,25.59,2,1,0.0,7.756666666666667,0.0,0.0,LOW,3,High-Risk Complex
+PAT0353,15,25.6,,Diabetes Type 2,75.0,20.0,0.0,9.804309199326623,29.46,1,1,0.0,4.11,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0354,54,28.9,Asthma,Hypertension,0.0,0.0,0.0,2.4327355295350275,0.49,2,0,39.98,2.63,0.0,0.0,LOW,3,High-Risk Complex
+PAT0355,65,15.6,Rheumatoid Arthritis,,0.0,0.0,0.0,0.0,0.0,1,0,49.3,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0356,44,26.4,Heart Failure,Epilepsy,75.0,20.0,0.0,22.04883341922017,31.91,2,1,185.47,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0357,22,21.7,CKD,,62.5,40.0,0.0,0.0,28.75,1,2,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0358,76,28.7,COPD,CKD,0.0,0.0,0.0,2.79799368434452,0.56,2,0,0.0,2.703333333333333,0.0,0.0,LOW,3,High-Risk Complex
+PAT0359,39,22.9,Diabetes Type 2,,0.0,0.0,0.0,8.310071293287786,1.66,1,0,48.019999999999996,3.81,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0360,67,31.7,CKD,CKD,0.0,0.0,0.0,0.0,0.0,2,0,15.0,1.74,0.0,0.0,LOW,3,High-Risk Complex
+PAT0361,16,27.6,Hypertension,Heart Failure,87.5,40.0,79.24812503605781,0.0,56.06,2,2,0.0,0.0,0.6666666666666666,79.25,CRITICAL,2,Lab-Elevated Undiagnosed
+PAT0362,14,28.8,Diabetes Type 2,COPD,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0363,30,17.0,,Hypertension,41.66666666666667,60.0,50.0,0.0,40.0,1,3,0.0,0.0,0.3333333333333333,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0364,43,26.4,Heart Failure,Hypertension,66.66666666666666,60.0,50.0,0.0,47.5,2,3,0.0,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0365,6,30.3,COPD,Asthma,0.0,0.0,0.0,0.0,0.0,2,0,0.0,1.9933333333333334,0.0,0.0,LOW,3,High-Risk Complex
+PAT0366,12,23.3,COPD,Heart Failure,75.0,20.0,0.0,15.233879443175322,30.55,2,1,146.56,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0367,29,28.8,,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0368,64,25.1,Rheumatoid Arthritis,CKD,0.0,0.0,0.0,0.0,0.0,2,0,0.0,1.56,0.0,0.0,LOW,3,High-Risk Complex
+PAT0369,69,22.4,,,87.5,40.0,50.0,9.965469892945842,50.74,0,2,116.48,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0370,24,26.5,,,50.0,20.0,0.0,33.77927655840299,26.76,0,1,252.445,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0371,9,26.0,,CKD,0.0,0.0,0.0,0.3906103912819521,0.08,1,0,0.0,2.22,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0372,6,29.5,Hypertension,Heart Failure,50.0,40.0,0.0,0.0,25.0,2,2,0.0,0.9,0.0,0.0,LOW,3,High-Risk Complex
+PAT0373,12,26.1,Diabetes Type 2,COPD,0.0,0.0,0.0,2.731583110742795,0.55,2,0,50.78,2.69,0.0,0.0,LOW,3,High-Risk Complex
+PAT0374,36,21.3,,,0.0,0.0,0.0,0.0,0.0,0,0,0.0,1.7,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0375,18,25.9,,Heart Failure,0.0,0.0,0.0,1.3736537198571728,0.27,1,0,67.425,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0376,46,27.0,CKD,Heart Failure,100.0,20.0,0.0,14.810024685477336,37.96,2,1,144.14,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0377,41,20.0,Hypertension,CKD,100.0,20.0,0.0,10.465883332988088,37.09,2,1,113.41,2.35,0.0,0.0,LOW,3,High-Risk Complex
+PAT0378,24,21.4,,COPD,37.5,40.0,50.0,18.14831876883418,37.38,1,2,163.2,0.0,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0379,56,21.6,,Diabetes Type 2,0.0,0.0,0.0,10.761316903311869,2.15,1,0,72.44,3.85,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0380,53,23.2,COPD,,75.0,20.0,0.0,89.1426181718573,45.33,1,1,306.39,11.36,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0381,11,24.1,,Epilepsy,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0382,33,25.7,,Hypertension,75.0,20.0,0.0,32.81557295232471,34.06,1,1,0.0,8.73,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0383,60,24.9,COPD,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0384,39,22.1,Epilepsy,Heart Failure,62.5,40.0,0.0,0.0,28.75,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0385,8,24.8,COPD,COPD,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.5,0.0,0.0,LOW,3,High-Risk Complex
+PAT0386,19,21.8,Diabetes Type 2,CKD,0.0,0.0,0.0,0.0,0.0,2,0,32.9,1.7933333333333332,0.0,0.0,LOW,3,High-Risk Complex
+PAT0387,73,25.8,,Hypertension,50.0,20.0,0.0,13.344047692943406,22.67,1,1,135.77,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0388,26,30.0,Hypertension,Diabetes Type 2,75.0,40.0,0.0,38.794599280172314,40.26,2,2,281.08,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0389,51,25.1,Diabetes Type 2,Heart Failure,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0390,69,23.8,Heart Failure,Rheumatoid Arthritis,25.0,20.0,0.0,26.141310305351233,17.73,2,1,0.0,7.39,0.0,0.0,LOW,3,High-Risk Complex
+PAT0391,50,22.2,Hypertension,,75.0,20.0,50.0,0.0,40.0,1,1,0.0,0.0,0.3333333333333333,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0392,22,27.5,,Asthma,50.0,40.0,0.0,0.0,25.0,1,2,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0393,21,25.2,Asthma,,25.0,20.0,0.0,28.581898885214667,18.22,1,1,0.0,7.88,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0394,20,26.9,Rheumatoid Arthritis,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,1.56,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0395,28,37.5,COPD,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0396,22,26.7,Rheumatoid Arthritis,Rheumatoid Arthritis,50.0,20.0,0.0,31.112669663381592,26.22,2,1,237.22,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0397,6,34.3,,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0398,82,19.5,Rheumatoid Arthritis,Rheumatoid Arthritis,75.0,20.0,0.0,0.0,27.5,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0399,10,19.4,CKD,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0400,71,22.6,,,62.5,40.0,0.0,33.42183264724021,35.43,0,2,179.07,4.6499999999999995,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0401,27,15.3,Asthma,Diabetes Type 2,100.0,20.0,0.0,40.37189683929577,43.07,2,1,205.67,5.11,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0402,15,27.3,Epilepsy,Hypertension,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0403,25,26.4,Asthma,Diabetes Type 2,50.0,20.0,0.0,0.0,20.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0404,6,22.4,,,100.0,20.0,0.0,0.0,35.0,0,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0405,81,33.8,Hypertension,,0.0,0.0,0.0,0.0,0.0,1,0,23.7,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0406,78,24.9,Asthma,Asthma,25.0,20.0,0.0,41.02421542293898,20.7,2,1,293.81,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0407,78,25.2,Heart Failure,Heart Failure,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0408,13,21.8,Epilepsy,,0.0,0.0,0.0,0.0,0.0,1,0,16.74,1.96,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0409,78,23.7,Heart Failure,CKD,75.0,20.0,0.0,1.984464157723377,27.9,2,1,0.0,2.54,0.0,0.0,LOW,3,High-Risk Complex
+PAT0410,83,18.2,CKD,COPD,0.0,0.0,0.0,6.317754085236003,1.26,2,0,0.0,3.41,0.0,0.0,LOW,3,High-Risk Complex
+PAT0411,31,29.6,COPD,CKD,75.0,60.0,0.0,41.354602557672884,45.77,2,3,133.07666666666668,7.86,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0412,46,14.0,,Hypertension,100.0,20.0,0.0,0.0,35.0,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0413,66,31.4,Heart Failure,Rheumatoid Arthritis,50.0,40.0,0.0,31.974390906304762,31.39,2,2,242.14,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0414,77,20.5,,Heart Failure,25.0,60.0,50.0,27.544057808796296,40.51,1,3,216.845,0.0,0.2,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0415,48,30.8,CKD,Heart Failure,0.0,0.0,0.0,4.474860667788105,0.89,2,0,0.0,3.04,0.0,0.0,LOW,3,High-Risk Complex
+PAT0416,52,23.9,Heart Failure,Hypertension,100.0,20.0,0.0,32.14253163663124,41.43,2,1,243.1,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0417,69,26.8,,,0.0,0.0,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0418,71,27.9,Hypertension,Diabetes Type 2,0.0,0.0,0.0,0.0,0.0,2,0,21.25,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0419,78,24.8,Rheumatoid Arthritis,,75.0,20.0,0.0,0.0,27.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0420,6,18.1,,Heart Failure,25.0,20.0,0.0,6.944191144892034,13.89,1,1,99.23,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0421,36,26.3,,Hypertension,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0422,27,27.9,COPD,,0.0,0.0,0.0,2.980622761749269,0.6,1,0,43.78,2.74,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0423,21,31.3,COPD,Asthma,62.5,40.0,0.0,0.0,28.75,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0424,47,29.0,Diabetes Type 2,Heart Failure,100.0,20.0,0.0,0.0,35.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0425,82,19.7,,Rheumatoid Arthritis,0.0,0.0,0.0,9.605077478521446,1.92,1,0,0.0,4.07,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0426,75,22.1,,Epilepsy,0.0,0.0,0.0,8.366558404866947,1.67,1,0,89.48,2.77,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0427,35,27.6,Rheumatoid Arthritis,Heart Failure,25.0,20.0,50.0,58.616080796595284,36.72,2,1,0.0,13.91,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0428,56,30.4,,Hypertension,25.0,20.0,0.0,25.557019698844393,17.61,1,1,205.5,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0429,5,24.8,,Heart Failure,62.5,40.0,0.0,4.325436877184219,29.62,1,2,0.0,3.01,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0430,60,17.9,Epilepsy,Asthma,0.0,0.0,0.0,1.635808646314316,0.33,2,0,32.59,2.47,0.0,0.0,LOW,3,High-Risk Complex
+PAT0431,5,22.1,Epilepsy,,62.5,40.0,0.0,25.51936318111502,33.85,1,2,205.285,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0432,74,16.5,Heart Failure,Epilepsy,0.0,0.0,0.0,3.2794703429570338,0.66,2,0,0.0,2.8,0.0,0.0,LOW,3,High-Risk Complex
+PAT0433,6,25.2,Epilepsy,Rheumatoid Arthritis,75.0,40.0,0.0,0.0,32.5,2,2,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0434,59,24.8,,Hypertension,50.0,40.0,0.0,18.122233542942816,28.62,1,2,0.0,5.78,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0435,69,23.3,Diabetes Type 2,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0436,72,34.7,Diabetes Type 2,COPD,0.0,0.0,0.0,0.0,0.0,2,0,9.8,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0437,14,22.2,,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,1,0,57.3,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0438,42,19.4,,CKD,75.0,40.0,0.0,35.91694073927236,39.68,1,2,264.65,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0439,11,22.4,Diabetes Type 2,CKD,75.0,20.0,0.0,27.784972001993957,33.06,2,1,0.0,7.72,0.0,0.0,LOW,3,High-Risk Complex
+PAT0440,6,21.4,Heart Failure,Asthma,0.0,0.0,0.0,0.0,0.0,2,0,40.4,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0441,9,23.5,Rheumatoid Arthritis,,75.0,40.0,0.0,0.0,32.5,1,2,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0442,11,26.1,CKD,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,2,0,27.38,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0443,65,24.1,Hypertension,Diabetes Type 2,0.0,0.0,0.0,1.237345204703959,0.25,2,0,0.0,2.39,0.0,0.0,LOW,3,High-Risk Complex
+PAT0444,83,30.0,CKD,,25.0,20.0,0.0,25.920448881581294,17.68,1,1,207.575,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0445,35,23.9,Diabetes Type 2,Hypertension,0.0,0.0,0.0,1.469782212309999,0.29,2,0,49.965,2.4366666666666665,0.0,0.0,LOW,3,High-Risk Complex
+PAT0446,49,18.5,Diabetes Type 2,Hypertension,100.0,20.0,0.0,0.0,35.0,2,1,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0447,20,23.9,Asthma,CKD,75.0,20.0,0.0,77.86494873861906,43.07,2,1,232.9,11.68,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0448,63,22.3,Diabetes Type 2,CKD,100.0,20.0,0.0,4.145348571332622,35.83,2,1,83.25,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0449,38,27.9,Rheumatoid Arthritis,Diabetes Type 2,100.0,20.0,0.0,26.90427663352819,40.38,2,1,152.38,4.28,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0450,18,23.5,CKD,Rheumatoid Arthritis,0.0,0.0,0.0,3.080238622151856,0.62,2,0,18.84,2.76,0.0,0.0,LOW,3,High-Risk Complex
+PAT0451,9,22.7,Epilepsy,Diabetes Type 2,62.5,40.0,0.0,5.530758130585121,29.86,2,2,91.16,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0452,66,21.5,,,0.0,0.0,0.0,8.210455432885196,1.64,0,0,24.725,3.79,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0453,15,28.6,COPD,CKD,66.66666666666666,60.0,100.0,22.50533140065673,64.5,2,3,0.0,6.66,0.5,100.0,CRITICAL,2,Lab-Elevated Undiagnosed
+PAT0454,15,18.1,,COPD,37.5,40.0,0.0,59.024030897576075,33.05,1,2,396.58,1.95,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0455,44,14.0,Hypertension,Epilepsy,62.5,40.0,0.0,0.0,28.75,2,2,0.0,0.5,0.0,0.0,LOW,3,High-Risk Complex
+PAT0456,63,24.5,Asthma,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0457,21,30.8,Diabetes Type 2,Diabetes Type 2,75.0,20.0,0.0,30.873063674474217,33.67,2,1,0.0,8.34,0.0,0.0,LOW,3,High-Risk Complex
+PAT0458,13,25.1,,,0.0,0.0,0.0,5.471019271813997,1.09,0,0,0.0,3.24,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0459,10,21.1,Rheumatoid Arthritis,COPD,0.0,0.0,0.0,1.1520932783332267,0.23,2,0,66.16,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0460,83,22.3,Asthma,Diabetes Type 2,75.0,20.0,0.0,65.32733752303771,40.57,2,1,294.69,6.99,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0461,21,26.2,Rheumatoid Arthritis,,0.0,0.0,0.0,3.0304306919505626,0.61,1,0,30.03,2.75,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0462,58,30.7,,,87.5,40.0,0.0,42.313149496222906,44.71,0,2,229.83499999999998,4.65,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0463,40,26.6,Hypertension,,50.0,40.0,0.0,17.629884850327556,28.53,1,2,160.24,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0464,83,25.2,Asthma,Hypertension,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0465,61,21.2,Diabetes Type 2,COPD,75.0,20.0,0.0,20.26397454159848,31.55,2,1,0.0,6.21,0.0,0.0,LOW,3,High-Risk Complex
+PAT0466,65,22.3,Asthma,Epilepsy,37.5,40.0,0.0,7.250697684549667,22.7,2,2,100.98,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0467,50,27.5,Rheumatoid Arthritis,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,2,0,29.86,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0468,82,24.0,,Rheumatoid Arthritis,0.0,0.0,0.0,0.0,0.0,1,0,51.72,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0469,6,23.6,,Hypertension,75.0,60.0,0.0,43.381688579391394,46.18,1,3,307.27,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0470,69,17.2,COPD,Diabetes Type 2,75.0,20.0,0.0,42.85975172900297,36.07,2,1,304.29,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0471,32,27.0,Rheumatoid Arthritis,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,1.7249999999999999,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0472,56,27.3,Diabetes Type 2,Epilepsy,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0473,83,16.8,Heart Failure,Hypertension,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0474,51,22.4,COPD,Asthma,100.0,20.0,0.0,29.428633698636673,40.89,2,1,0.0,8.05,0.0,0.0,LOW,3,High-Risk Complex
+PAT0475,79,29.3,Epilepsy,CKD,0.0,0.0,0.0,0.0,0.0,2,0,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0476,69,19.4,Heart Failure,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0477,27,21.8,COPD,,0.0,0.0,0.0,0.0,0.0,1,0,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0478,21,35.4,Diabetes Type 2,Hypertension,0.0,0.0,0.0,0.0,0.0,2,0,22.03,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0479,48,20.1,,Asthma,25.0,20.0,0.0,12.561142417360765,15.01,1,1,131.3,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0480,52,17.9,,Asthma,75.0,20.0,0.0,0.0,27.5,1,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0481,24,25.7,COPD,,25.0,40.0,0.0,22.09026531564595,21.92,1,2,0.0,6.576666666666667,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0482,52,26.4,Rheumatoid Arthritis,Asthma,25.0,20.0,0.0,45.5671154920598,21.61,2,1,115.04,9.34,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0483,74,28.5,Rheumatoid Arthritis,Heart Failure,100.0,20.0,0.0,23.304634498846006,39.66,2,1,192.64,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0484,75,23.9,Diabetes Type 2,Heart Failure,0.0,0.0,0.0,0.0,0.0,2,0,0.0,1.71,0.0,0.0,LOW,3,High-Risk Complex
+PAT0485,33,26.0,COPD,Rheumatoid Arthritis,0.0,0.0,0.0,1.386768995307842,0.28,2,0,0.0,2.42,0.0,0.0,LOW,3,High-Risk Complex
+PAT0486,51,17.0,Heart Failure,Heart Failure,0.0,0.0,0.0,1.9346562275220813,0.39,2,0,0.0,2.53,0.0,0.0,LOW,3,High-Risk Complex
+PAT0487,61,24.3,,,25.0,20.0,0.0,0.0,12.5,0,1,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0488,47,19.8,CKD,Epilepsy,25.0,40.0,50.0,57.14674685565709,41.43,2,2,0.0,13.615,0.25,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0489,30,26.2,Rheumatoid Arthritis,COPD,0.0,0.0,0.0,0.639650042288424,0.13,2,0,35.9,2.27,0.0,0.0,LOW,3,High-Risk Complex
+PAT0490,65,28.6,,COPD,75.0,40.0,50.0,14.27933050538441,47.86,1,2,141.11,0.0,0.5,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0491,81,24.3,,Hypertension,50.0,40.0,0.0,17.05131726785001,28.41,1,2,156.93666666666667,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0492,64,18.6,Epilepsy,,50.0,20.0,0.0,16.880257427622034,23.38,1,1,155.96,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0493,14,16.9,,CKD,87.5,40.0,0.0,0.0,36.25,1,2,0.0,0.0,0.0,0.0,LOW,1,Moderate Poly-Allergic
+PAT0494,73,23.8,Rheumatoid Arthritis,Epilepsy,0.0,0.0,0.0,0.0,0.0,2,0,51.67,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0495,33,28.4,Diabetes Type 2,Diabetes Type 2,41.66666666666667,60.0,0.0,0.0,27.5,2,3,0.0,0.0,0.0,0.0,LOW,3,High-Risk Complex
+PAT0496,51,17.5,CKD,Hypertension,0.0,0.0,0.0,1.4365769255091354,0.29,2,0,27.06,2.4299999999999997,0.0,0.0,LOW,3,High-Risk Complex
+PAT0497,34,23.4,Epilepsy,Hypertension,50.0,20.0,0.0,23.441248842236277,24.69,2,1,193.42000000000002,0.0,0.0,0.0,LOW,0,Low-Risk Single-Allergen
+PAT0498,80,27.4,Hypertension,Diabetes Type 2,75.0,20.0,0.0,19.417239728176472,31.38,2,1,0.0,6.04,0.0,0.0,LOW,3,High-Risk Complex
+PAT0499,28,24.0,,COPD,25.0,20.0,50.0,38.69290871607746,32.74,1,1,0.0,9.91,1.0,50.0,HIGH,2,Lab-Elevated Undiagnosed
+PAT0500,6,23.5,COPD,,0.0,0.0,0.0,0.0,0.0,1,0,58.76333333333333,1.62,0.0,0.0,LOW,1,Moderate Poly-Allergic

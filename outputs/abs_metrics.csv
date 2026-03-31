@@ -1,0 +1,6 @@
+Metric,Value,Target,Pass
+ABS_vs_Reaction_Correlation,0.8914,0.6,True
+ABS_Weight_Severity,0.0,,True
+ABS_Weight_Allergen_Count,0.0,,True
+ABS_Weight_Reaction_History,1.0,,True
+ABS_Weight_Lab_Marker,0.0,,True

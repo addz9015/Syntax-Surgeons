@@ -1,0 +1,10 @@
+Metric,Value,Target,Passed
+Null Patient_IDs (all tables),0.0,0.0,True
+Orphan Patient_ID foreign keys,0.0,0.0,True
+Orphan Medicine_ID in prescriptions,0.0,0.0,True
+Orphan Prescription_ID in events,0.0,0.0,True
+Orphan Allergy_Key in events,218.0,0.0,False
+Duplicate Patient_ID,0.0,0.0,True
+Duplicate Medicine_ID,0.0,0.0,True
+Duplicate Prescription_ID,0.0,0.0,True
+Duplicate Event_ID,0.0,0.0,True

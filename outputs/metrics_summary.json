@@ -1,0 +1,104 @@
+{
+  "quality_scores": {
+    "Completeness_Score": 100.0,
+    "Consistency_Score": 100.0,
+    "Referential_Integrity_Score": 100.0,
+    "Data_Quality_Score": 100.0
+  },
+  "conflict_metrics": {
+    "Conflict_Accuracy": 1.0,
+    "Conflict_Macro_Precision": 1.0,
+    "Conflict_Macro_Recall": 1.0,
+    "Critical_Recall": 1.0
+  },
+  "model_metrics": {
+    "Model_F1": 0.9677,
+    "Model_Precision": 0.9375,
+    "Model_Recall": 1.0,
+    "Model_AUC_ROC": 0.9968,
+    "Decision_Threshold": 0.71,
+    "Model_Name": "XGBoost",
+    "Split_Seed": 13,
+    "Explanation_Coverage_High_Risk": 1.0
+  },
+  "top_model_features": [
+    {
+      "feature": "num__Allergy_Burden_Score",
+      "coefficient": 0.46279293298721313
+    },
+    {
+      "feature": "cat__Conflict_Type_NONE",
+      "coefficient": 0.1111011728644371
+    },
+    {
+      "feature": "cat__Ward_Cardiology",
+      "coefficient": 0.059848394244909286
+    },
+    {
+      "feature": "cat__Allergen_Class_Involved_PPI",
+      "coefficient": 0.045352302491664886
+    },
+    {
+      "feature": "cat__Reaction_Severity_MILD",
+      "coefficient": 0.04515360668301582
+    },
+    {
+      "feature": "cat__Allergen_Class_Involved_Beta-blocker",
+      "coefficient": 0.044384948909282684
+    },
+    {
+      "feature": "cat__Ward_Paediatrics",
+      "coefficient": 0.025240458548069
+    },
+    {
+      "feature": "cat__Reaction_Severity_MODERATE",
+      "coefficient": 0.023501191288232803
+    },
+    {
+      "feature": "num__ML_Risk_Score",
+      "coefficient": 0.020191801711916924
+    },
+    {
+      "feature": "num__Override_Issued",
+      "coefficient": 0.019681325182318687
+    }
+  ],
+  "kpis": [
+    {
+      "KPI": "Conflict detection accuracy",
+      "Value": 1.0,
+      "Target": 0.95,
+      "Pass": true
+    },
+    {
+      "KPI": "CRITICAL recall",
+      "Value": 1.0,
+      "Target": 1.0,
+      "Pass": true
+    },
+    {
+      "KPI": "ML model F1-score",
+      "Value": 0.9677,
+      "Target": 0.82,
+      "Pass": true
+    },
+    {
+      "KPI": "SHAP/Explanation coverage for high risk",
+      "Value": 1.0,
+      "Target": 1.0,
+      "Pass": true
+    },
+    {
+      "KPI": "ABS correlation with reactions",
+      "Value": 0.8914,
+      "Target": 0.6,
+      "Pass": true
+    },
+    {
+      "KPI": "Data pipeline null Patient_ID",
+      "Value": 0.0,
+      "Target": 0.0,
+      "Pass": true
+    }
+  ]
+}

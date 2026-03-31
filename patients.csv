@@ -1,0 +1,501 @@
+Patient_ID,First_Name,Last_Name,Gender,Date_Of_Birth,Age,Blood_Type,Weight_kg,BMI,City,Phone,Email,Comorbidity_1,Comorbidity_2,Registration_Date,Primary_Doctor_ID,Ward,Is_Active
+PAT0001,Sanjay,Singh,Other,2007-02-11,19,AB+,70.0,28.1,Mumbai,9131994523,patient1@email.com,Diabetes Type 2,COPD,2020-08-10,DR033,Neurology,True
+PAT0002,Usha,Iyer,Male,1951-09-01,74,A+,68.1,25.1,Indore,9965241839,patient2@email.com,Asthma,Epilepsy,2021-10-25,DR018,General,True
+PAT0003,Manish,Patel,Female,2007-05-30,18,AB-,84.6,26.2,Jaipur,9234031070,patient3@email.com,Epilepsy,Diabetes Type 2,2024-03-11,DR019,Emergency,True
+PAT0004,Rohan,Deshpande,Female,1948-03-14,78,B-,62.9,25.6,Indore,9410727955,patient4@email.com,Diabetes Type 2,COPD,2019-02-18,DR025,Orthopaedics,True
+PAT0005,Vikram,Sinha,Female,2000-04-21,25,B+,56.9,22.4,Jaipur,9882893941,patient5@email.com,COPD,Asthma,2023-03-09,DR025,Orthopaedics,False
+PAT0006,Ananya,Reddy,Other,1949-11-03,76,A+,66.4,26.7,Indore,9438715135,patient6@email.com,Epilepsy,CKD,2018-09-29,DR014,Neurology,True
+PAT0007,Meera,Iyer,Female,1993-08-16,32,B+,72.9,22.0,Chennai,9899925830,patient7@email.com,None,None,2020-12-12,DR048,Neurology,True
+PAT0008,Praveen,Chauhan,Other,1970-02-02,56,A-,55.0,20.8,Indore,9150590821,patient8@email.com,Diabetes Type 2,Asthma,2019-10-18,DR044,Oncology,True
+PAT0009,Aarav,Deshpande,Female,1972-07-03,53,A-,51.2,20.3,Kochi,9676567501,patient9@email.com,CKD,None,2021-10-25,DR008,Orthopaedics,True
+PAT0010,Praveen,Joshi,Female,2020-11-17,5,A-,72.6,21.6,Nagpur,9771410971,patient10@email.com,CKD,None,2023-09-11,DR039,General,True
+PAT0011,Deepak,Chauhan,Male,1951-06-16,74,A+,113.5,34.2,Delhi,9489747629,patient11@email.com,CKD,COPD,2018-08-26,DR016,Neurology,False
+PAT0012,Rahul,Mehta,Male,1958-07-18,67,AB-,68.9,21.6,Jaipur,9277303722,patient12@email.com,CKD,None,2024-10-20,DR028,General,False
+PAT0013,Vijay,Bhat,Other,1995-09-28,30,AB-,70.7,23.5,Delhi,9366186631,patient13@email.com,COPD,Diabetes Type 2,2021-10-16,DR002,Neurology,True
+PAT0014,Ananya,Reddy,Other,1992-04-10,33,A-,45.4,20.1,Mumbai,9454794895,patient14@email.com,Diabetes Type 2,None,2020-09-01,DR018,Paediatrics,True
+PAT0015,Ashok,Das,Other,2004-12-01,21,B-,66.3,22.9,Delhi,9204078666,patient15@email.com,None,Epilepsy,2021-12-22,DR028,Oncology,True
+PAT0016,Arjun,Patel,Other,2014-05-07,11,AB+,46.1,15.3,Chandigarh,9464323393,patient16@email.com,Diabetes Type 2,COPD,2020-02-24,DR013,Neurology,True
+PAT0017,Rekha,Kumar,Female,1997-08-23,28,A+,79.4,23.9,Kochi,9680451872,patient17@email.com,Hypertension,Diabetes Type 2,2020-08-26,DR011,Oncology,True
+PAT0018,Nikhil,Sharma,Male,1970-01-19,56,AB+,92.0,27.9,Hyderabad,9941889393,patient18@email.com,Rheumatoid Arthritis,CKD,2022-09-29,DR045,Paediatrics,False
+PAT0019,Sanjay,Patel,Other,1958-06-24,67,O-,90.0,26.6,Mumbai,9153839920,patient19@email.com,None,Rheumatoid Arthritis,2023-08-22,DR034,General,True
+PAT0020,Gaurav,Singh,Other,2011-02-27,15,B-,89.2,27.6,Kolkata,9228727266,patient20@email.com,None,COPD,2024-06-29,DR039,Cardiology,True
+PAT0021,Deepak,Reddy,Female,1946-05-12,79,O+,52.9,20.9,Kolkata,9240529481,patient21@email.com,None,None,2021-05-13,DR030,Orthopaedics,False
+PAT0022,Arjun,Singh,Male,2019-06-17,6,B-,63.1,22.9,Jaipur,9384756779,patient22@email.com,Asthma,Heart Failure,2018-10-09,DR016,Orthopaedics,True
+PAT0023,Geeta,Sharma,Female,1951-05-19,74,O+,77.3,22.7,Kochi,9211225158,patient23@email.com,Asthma,CKD,2019-04-18,DR007,Paediatrics,True
+PAT0024,Divya,Deshpande,Female,1984-10-16,41,O+,54.5,18.6,Jaipur,9624557080,patient24@email.com,CKD,Hypertension,2019-01-14,DR041,Oncology,True
+PAT0025,Vijay,Menon,Male,2021-01-08,5,AB+,79.1,23.3,Jaipur,9110382761,patient25@email.com,Diabetes Type 2,Diabetes Type 2,2019-09-03,DR035,Cardiology,True
+PAT0026,Rohan,Gupta,Other,1951-02-12,75,O-,64.1,26.6,Indore,9142836793,patient26@email.com,Heart Failure,COPD,2020-10-19,DR043,Cardiology,True
+PAT0027,Aditya,Joshi,Other,1968-12-13,57,AB+,106.1,31.9,Mumbai,9292587044,patient27@email.com,Heart Failure,Epilepsy,2020-10-13,DR018,General,True
+PAT0028,Siddharth,Nair,Male,1972-08-15,53,AB-,75.9,23.3,Pune,9427696198,patient28@email.com,COPD,COPD,2018-04-07,DR043,General,True
+PAT0029,Sanjay,Bose,Female,2012-09-10,13,A+,83.6,28.1,Delhi,9380477683,patient29@email.com,Asthma,None,2020-12-23,DR003,Cardiology,True
+PAT0030,Kavya,Verma,Female,1980-07-23,45,B-,64.7,23.7,Hyderabad,9147659674,patient30@email.com,Epilepsy,Hypertension,2023-10-31,DR035,Paediatrics,True
+PAT0031,Padma,Bose,Other,1995-10-20,30,A-,70.2,23.4,Chandigarh,9422468580,patient31@email.com,None,CKD,2022-07-31,DR021,Oncology,True
+PAT0032,Nikhil,Deshpande,Other,2004-04-29,21,B+,63.4,25.8,Lucknow,9711072118,patient32@email.com,CKD,Epilepsy,2024-02-23,DR001,Orthopaedics,True
+PAT0033,Divya,Bhat,Female,1946-05-09,79,AB-,58.6,21.4,Indore,9954725078,patient33@email.com,Asthma,None,2018-12-14,DR019,Neurology,True
+PAT0034,Lakshmi,Reddy,Other,1978-12-12,47,B-,51.7,22.0,Bengaluru,9126226563,patient34@email.com,Hypertension,COPD,2023-05-01,DR040,Emergency,True
+PAT0035,Anjali,Verma,Female,1967-09-30,58,B-,88.7,28.9,Bengaluru,9804436922,patient35@email.com,Hypertension,Diabetes Type 2,2022-10-08,DR015,General,True
+PAT0036,Riya,Kumar,Other,1954-07-06,71,AB-,56.9,20.6,Bengaluru,9960514523,patient36@email.com,Rheumatoid Arthritis,None,2023-12-16,DR036,Neurology,True
+PAT0037,Vijay,Joshi,Female,1942-07-14,83,AB-,77.0,28.3,Ahmedabad,9378304807,patient37@email.com,COPD,None,2021-02-09,DR050,Emergency,True
+PAT0038,Suresh,Reddy,Other,1991-02-28,35,O+,40.3,15.8,Pune,9443285529,patient38@email.com,None,Diabetes Type 2,2019-07-21,DR010,General,True
+PAT0039,Ananya,Nair,Male,1993-09-07,32,AB+,82.0,28.7,Kolkata,9926561919,patient39@email.com,None,Hypertension,2024-06-16,DR025,Oncology,True
+PAT0040,Sanjay,Tiwari,Female,1982-09-08,43,B-,81.8,26.3,Ahmedabad,9335602191,patient40@email.com,CKD,Epilepsy,2023-06-13,DR002,Oncology,True
+PAT0041,Sanjay,Sharma,Other,1969-05-30,56,AB+,76.7,23.1,Lucknow,9706011277,patient41@email.com,None,Hypertension,2018-12-10,DR042,Oncology,True
+PAT0042,Deepak,Nair,Female,1997-09-24,28,AB-,36.8,16.0,Pune,9462388455,patient42@email.com,Epilepsy,CKD,2022-09-23,DR017,Emergency,True
+PAT0043,Rohan,Sharma,Male,1952-03-13,74,B-,87.2,35.0,Chennai,9121882877,patient43@email.com,None,Asthma,2020-09-04,DR009,Oncology,True
+PAT0044,Swati,Joshi,Other,1993-11-27,32,A-,77.7,28.1,Indore,9979717936,patient44@email.com,Asthma,CKD,2019-03-19,DR038,Cardiology,False
+PAT0045,Riya,Kumar,Other,1972-04-24,53,O+,43.8,18.8,Nagpur,9834717549,patient45@email.com,None,Diabetes Type 2,2024-05-07,DR003,Orthopaedics,True
+PAT0046,Sunita,Sharma,Other,1973-05-16,52,AB+,66.9,28.8,Nagpur,9626350075,patient46@email.com,Diabetes Type 2,Epilepsy,2022-01-23,DR041,Emergency,True
+PAT0047,Sanjay,Chauhan,Male,1965-06-03,60,AB-,80.3,26.9,Kolkata,9986625773,patient47@email.com,None,CKD,2021-08-13,DR016,Emergency,False
+PAT0048,Dinesh,Sinha,Female,1963-08-21,62,AB+,73.9,29.4,Pune,9130816384,patient48@email.com,Rheumatoid Arthritis,Heart Failure,2020-01-15,DR032,General,True
+PAT0049,Aarav,Bhat,Female,1977-07-01,48,B-,76.5,23.4,Delhi,9359154084,patient49@email.com,Epilepsy,Rheumatoid Arthritis,2024-03-24,DR049,General,True
+PAT0050,Sneha,Gupta,Other,1959-04-08,67,B-,83.7,30.5,Kolkata,9842800803,patient50@email.com,COPD,CKD,2024-07-10,DR024,Oncology,True
+PAT0051,Neha,Gupta,Female,1966-08-25,59,O+,79.6,30.2,Chennai,9229553265,patient51@email.com,COPD,Heart Failure,2019-05-05,DR048,Neurology,False
+PAT0052,Neha,Tiwari,Other,1997-08-02,28,O+,59.9,24.4,Delhi,9994027897,patient52@email.com,COPD,CKD,2020-07-20,DR024,General,True
+PAT0053,Rahul,Mishra,Other,1952-11-19,73,AB-,58.8,25.5,Delhi,9113169872,patient53@email.com,None,CKD,2023-04-07,DR031,Oncology,True
+PAT0054,Kavya,Singh,Male,1988-08-07,37,AB+,85.3,25.5,Ahmedabad,9179545125,patient54@email.com,None,None,2018-08-08,DR010,General,True
+PAT0055,Gaurav,Sinha,Female,2010-05-28,15,B-,83.7,26.8,Indore,9661107986,patient55@email.com,Epilepsy,Rheumatoid Arthritis,2022-12-19,DR020,Emergency,True
+PAT0056,Padma,Tiwari,Female,1982-03-11,44,A-,70.4,24.4,Indore,9323110563,patient56@email.com,None,COPD,2020-12-19,DR043,Cardiology,True
+PAT0057,Ashok,Gupta,Male,1950-06-18,75,A+,68.1,24.8,Chennai,9409350265,patient57@email.com,CKD,Rheumatoid Arthritis,2018-10-19,DR044,General,False
+PAT0058,Nisha,Kumar,Other,1946-01-08,80,B-,73.7,24.6,Kochi,9259976144,patient58@email.com,CKD,Asthma,2018-10-20,DR004,General,True
+PAT0059,Preeti,Iyer,Other,1948-11-14,77,AB-,79.7,28.8,Ahmedabad,9186373782,patient59@email.com,None,Hypertension,2022-11-05,DR048,Orthopaedics,True
+PAT0060,Dinesh,Shah,Male,2009-04-23,16,A+,55.4,22.2,Indore,9821856853,patient60@email.com,CKD,None,2018-06-14,DR049,Emergency,True
+PAT0061,Anjali,Singh,Other,1964-05-24,61,AB-,78.5,27.0,Pune,9538460431,patient61@email.com,Heart Failure,Heart Failure,2019-03-05,DR011,Orthopaedics,True
+PAT0062,Rekha,Patel,Female,1984-09-16,41,AB-,69.3,23.1,Delhi,9437710224,patient62@email.com,CKD,Heart Failure,2019-04-20,DR050,Oncology,True
+PAT0063,Anjali,Mishra,Male,1951-06-04,74,AB-,65.0,23.0,Indore,9155417727,patient63@email.com,COPD,CKD,2024-02-28,DR009,Orthopaedics,True
+PAT0064,Gaurav,Reddy,Other,1958-05-29,67,B+,59.2,24.9,Hyderabad,9691458887,patient64@email.com,Hypertension,None,2022-07-30,DR006,General,False
+PAT0065,Praveen,Kulkarni,Male,1961-11-17,64,O+,73.9,30.6,Kolkata,9996278008,patient65@email.com,Rheumatoid Arthritis,Rheumatoid Arthritis,2020-09-25,DR030,Neurology,True
+PAT0066,Vikram,Iyer,Male,1945-02-09,81,AB+,63.1,22.4,Pune,9945805127,patient66@email.com,None,CKD,2018-01-11,DR019,Paediatrics,True
+PAT0067,Ashok,Pillai,Other,1946-07-18,79,O-,71.5,29.7,Jaipur,9919128302,patient67@email.com,None,Epilepsy,2023-02-09,DR021,Emergency,True
+PAT0068,Rajesh,Patel,Other,1990-12-10,35,O-,70.8,24.5,Chandigarh,9607854378,patient68@email.com,Epilepsy,Epilepsy,2019-09-16,DR032,Cardiology,True
+PAT0069,Shweta,Sharma,Other,1978-07-16,47,B+,84.3,30.8,Kolkata,9803066091,patient69@email.com,Asthma,Diabetes Type 2,2023-04-08,DR017,Orthopaedics,True
+PAT0070,Sanjay,Verma,Female,2010-04-23,15,O-,57.6,17.8,Kochi,9871716956,patient70@email.com,Rheumatoid Arthritis,None,2018-05-28,DR040,Cardiology,True
+PAT0071,Arjun,Rao,Other,1985-02-18,41,B+,87.3,32.0,Chandigarh,9421549249,patient71@email.com,Hypertension,Hypertension,2021-08-21,DR004,Orthopaedics,True
+PAT0072,Dinesh,Deshpande,Female,2002-09-07,23,B+,61.3,24.4,Bengaluru,9287979290,patient72@email.com,Diabetes Type 2,None,2022-04-16,DR040,Paediatrics,True
+PAT0073,Aarav,Rao,Other,2002-04-29,23,O+,69.5,25.2,Kochi,9686905284,patient73@email.com,Asthma,Diabetes Type 2,2022-12-15,DR023,Neurology,True
+PAT0074,Karan,Verma,Female,1988-11-05,37,AB-,85.1,30.9,Delhi,9354697684,patient74@email.com,Epilepsy,None,2022-01-10,DR037,Orthopaedics,False
+PAT0075,Ananya,Sinha,Female,2018-06-16,7,AB-,79.0,31.0,Nagpur,9407298630,patient75@email.com,COPD,None,2021-12-14,DR015,Paediatrics,True
+PAT0076,Rohan,Gupta,Female,2003-05-19,22,AB-,69.8,23.6,Mumbai,9722312633,patient76@email.com,Heart Failure,Asthma,2019-01-05,DR019,Orthopaedics,True
+PAT0077,Praveen,Iyer,Male,1995-07-10,30,B+,95.8,28.3,Hyderabad,9985503942,patient77@email.com,Rheumatoid Arthritis,CKD,2021-10-19,DR008,Oncology,False
+PAT0078,Preeti,Menon,Male,1992-04-27,33,O-,92.8,28.6,Delhi,9948988297,patient78@email.com,Epilepsy,Hypertension,2020-12-19,DR035,Cardiology,True
+PAT0079,Siddharth,Chauhan,Other,1988-02-13,38,A+,57.9,17.3,Lucknow,9702806585,patient79@email.com,Heart Failure,None,2020-06-25,DR042,Cardiology,True
+PAT0080,Rahul,Patel,Female,1983-02-10,43,A+,60.6,20.3,Hyderabad,9628951656,patient80@email.com,Diabetes Type 2,Diabetes Type 2,2020-08-19,DR035,General,True
+PAT0081,Arjun,Chauhan,Female,1951-09-18,74,AB+,43.5,18.0,Hyderabad,9135128844,patient81@email.com,Heart Failure,COPD,2022-12-22,DR029,General,True
+PAT0082,Amit,Patel,Male,1973-05-17,52,AB+,80.3,28.1,Hyderabad,9303805386,patient82@email.com,Diabetes Type 2,Rheumatoid Arthritis,2019-01-11,DR043,General,True
+PAT0083,Divya,Singh,Other,2018-06-16,7,B-,96.8,28.4,Lucknow,9331875999,patient83@email.com,COPD,Heart Failure,2019-08-28,DR039,Cardiology,True
+PAT0084,Kavya,Deshpande,Male,2005-01-05,21,A+,73.6,25.8,Bengaluru,9115956152,patient84@email.com,Heart Failure,COPD,2024-08-08,DR021,Cardiology,True
+PAT0085,Vijay,Pillai,Male,2004-08-04,21,A-,75.0,24.2,Ahmedabad,9640992677,patient85@email.com,COPD,None,2018-06-27,DR047,Emergency,False
+PAT0086,Priya,Patel,Other,1954-05-23,71,AB-,49.0,19.0,Nagpur,9531233244,patient86@email.com,Epilepsy,None,2019-03-19,DR032,Paediatrics,False
+PAT0087,Usha,Menon,Male,2010-05-19,15,O-,55.8,23.4,Kolkata,9741444618,patient87@email.com,None,CKD,2023-02-02,DR033,Neurology,True
+PAT0088,Rekha,Tiwari,Other,2006-05-06,19,B-,86.7,26.8,Kolkata,9584853393,patient88@email.com,COPD,Epilepsy,2021-10-20,DR030,Oncology,True
+PAT0089,Ashok,Singh,Male,1981-01-22,45,A-,49.2,18.5,Nagpur,9191659287,patient89@email.com,Diabetes Type 2,Epilepsy,2019-01-31,DR048,Paediatrics,True
+PAT0090,Rekha,Bose,Male,1949-07-05,76,A-,63.6,27.5,Kolkata,9479673044,patient90@email.com,None,Epilepsy,2018-07-30,DR019,Neurology,True
+PAT0091,Amit,Menon,Male,1948-02-23,78,O-,61.0,21.9,Delhi,9918841563,patient91@email.com,CKD,None,2020-07-15,DR028,Emergency,True
+PAT0092,Priya,Sinha,Other,1942-07-09,83,O+,73.6,24.4,Mumbai,9293720285,patient92@email.com,CKD,CKD,2021-10-23,DR023,Cardiology,True
+PAT0093,Sneha,Tiwari,Male,1949-04-03,77,B-,73.0,23.6,Kolkata,9550791704,patient93@email.com,Rheumatoid Arthritis,Heart Failure,2019-10-07,DR024,Orthopaedics,True
+PAT0094,Meera,Joshi,Other,1945-03-24,81,A+,54.1,23.1,Kochi,9187597497,patient94@email.com,CKD,Rheumatoid Arthritis,2022-10-03,DR032,Neurology,True
+PAT0095,Usha,Chauhan,Female,1993-11-13,32,O+,67.0,24.6,Mumbai,9336779871,patient95@email.com,Epilepsy,None,2018-08-13,DR001,General,True
+PAT0096,Deepak,Kumar,Male,2003-11-08,22,A+,69.7,22.3,Ahmedabad,9902100304,patient96@email.com,Epilepsy,Asthma,2019-06-14,DR025,Neurology,True
+PAT0097,Nisha,Sharma,Other,1950-03-28,76,AB-,66.5,28.6,Delhi,9436146289,patient97@email.com,None,Epilepsy,2024-06-06,DR026,Paediatrics,True
+PAT0098,Aditya,Sinha,Female,2006-10-20,19,AB-,46.9,17.4,Nagpur,9840463141,patient98@email.com,Heart Failure,Diabetes Type 2,2022-11-24,DR007,General,True
+PAT0099,Sunita,Joshi,Female,1953-12-25,72,A-,100.8,32.5,Jaipur,9779919809,patient99@email.com,Diabetes Type 2,None,2023-09-20,DR013,Emergency,True
+PAT0100,Manish,Nair,Other,2003-01-21,23,B+,72.1,28.8,Lucknow,9264142683,patient100@email.com,None,Diabetes Type 2,2019-12-27,DR050,Paediatrics,True
+PAT0101,Padma,Bose,Other,1946-05-29,79,O-,42.6,14.8,Bengaluru,9572191734,patient101@email.com,Diabetes Type 2,Rheumatoid Arthritis,2022-12-17,DR041,Orthopaedics,True
+PAT0102,Lakshmi,Rao,Other,2014-02-24,12,AB-,73.0,27.7,Mumbai,9161085229,patient102@email.com,Heart Failure,CKD,2018-11-11,DR042,Emergency,False
+PAT0103,Vijay,Shah,Male,1943-03-30,83,B-,60.3,20.8,Pune,9749620068,patient103@email.com,Rheumatoid Arthritis,None,2019-09-10,DR004,Oncology,True
+PAT0104,Rohan,Reddy,Female,2011-01-05,15,AB-,61.8,22.0,Ahmedabad,9662714327,patient104@email.com,None,None,2019-10-13,DR024,Orthopaedics,False
+PAT0105,Sunita,Singh,Female,1968-05-25,57,O-,58.8,25.5,Delhi,9699108439,patient105@email.com,None,Epilepsy,2021-03-09,DR017,Paediatrics,True
+PAT0106,Meera,Pillai,Other,2001-06-11,24,O+,46.5,17.8,Kochi,9849987147,patient106@email.com,None,Epilepsy,2019-06-13,DR039,Paediatrics,False
+PAT0107,Geeta,Singh,Female,1949-05-10,76,AB+,59.9,18.8,Jaipur,9488509962,patient107@email.com,Hypertension,Heart Failure,2021-06-19,DR012,General,True
+PAT0108,Meera,Singh,Female,1997-01-26,29,O+,75.1,30.1,Nagpur,9946237594,patient108@email.com,Diabetes Type 2,None,2024-01-20,DR048,Neurology,True
+PAT0109,Padma,Joshi,Female,1941-05-01,84,AB-,66.6,27.5,Mumbai,9541156077,patient109@email.com,Heart Failure,None,2020-08-30,DR029,Neurology,True
+PAT0110,Lakshmi,Chauhan,Other,1963-12-14,62,B-,69.3,27.7,Pune,9828326405,patient110@email.com,None,Rheumatoid Arthritis,2023-03-07,DR050,Orthopaedics,True
+PAT0111,Rahul,Iyer,Other,1953-06-12,72,A+,54.7,22.2,Kochi,9616030284,patient111@email.com,Heart Failure,None,2019-02-25,DR046,Emergency,True
+PAT0112,Neha,Rao,Male,1985-01-17,41,B+,60.3,25.8,Nagpur,9569732588,patient112@email.com,Diabetes Type 2,COPD,2023-01-22,DR023,Cardiology,True
+PAT0113,Priya,Bose,Female,1956-12-23,69,A-,50.0,21.4,Nagpur,9867407868,patient113@email.com,None,Heart Failure,2019-08-22,DR009,Cardiology,True
+PAT0114,Vijay,Sinha,Female,2003-08-08,22,A+,86.3,27.7,Delhi,9120405269,patient114@email.com,CKD,COPD,2019-09-05,DR036,Paediatrics,True
+PAT0115,Rajesh,Mishra,Female,2006-12-03,19,AB-,59.5,25.0,Delhi,9219032752,patient115@email.com,Rheumatoid Arthritis,None,2024-01-05,DR002,Paediatrics,True
+PAT0116,Padma,Pillai,Male,2003-04-05,23,B-,54.4,21.2,Lucknow,9547286055,patient116@email.com,Asthma,None,2018-12-17,DR034,Orthopaedics,True
+PAT0117,Ashok,Patel,Other,1951-10-01,74,AB+,40.2,14.0,Pune,9372354893,patient117@email.com,Hypertension,Heart Failure,2018-10-04,DR023,General,True
+PAT0118,Rahul,Patel,Other,2007-10-16,18,O-,74.9,23.9,Jaipur,9463512350,patient118@email.com,None,Asthma,2023-03-19,DR045,Oncology,True
+PAT0119,Rohan,Nair,Male,2012-12-20,13,A+,50.8,22.2,Pune,9432941445,patient119@email.com,None,Epilepsy,2024-02-03,DR031,Orthopaedics,True
+PAT0120,Sunita,Iyer,Other,1997-03-13,29,A-,35.8,14.0,Indore,9495157577,patient120@email.com,Epilepsy,Epilepsy,2022-12-07,DR025,Orthopaedics,False
+PAT0121,Nisha,Singh,Female,1958-03-05,68,AB+,48.5,19.1,Lucknow,9982982227,patient121@email.com,Asthma,None,2021-04-18,DR021,Cardiology,True
+PAT0122,Nisha,Joshi,Other,1983-06-06,42,AB-,78.8,30.5,Pune,9580101819,patient122@email.com,Hypertension,Heart Failure,2024-11-23,DR028,Orthopaedics,True
+PAT0123,Aditya,Sharma,Male,2011-04-21,14,B+,62.9,22.3,Nagpur,9752376434,patient123@email.com,None,Rheumatoid Arthritis,2018-05-23,DR009,Cardiology,True
+PAT0124,Rohan,Sinha,Other,1974-06-26,51,B+,54.2,20.5,Kochi,9583100677,patient124@email.com,Heart Failure,Heart Failure,2022-12-24,DR049,Cardiology,True
+PAT0125,Priya,Tiwari,Other,1975-02-13,51,B+,48.6,19.3,Ahmedabad,9655924752,patient125@email.com,Epilepsy,None,2019-04-28,DR017,Emergency,True
+PAT0126,Anjali,Nair,Female,1993-11-12,32,A-,97.1,28.4,Bengaluru,9179512774,patient126@email.com,Rheumatoid Arthritis,Asthma,2022-12-29,DR006,Emergency,True
+PAT0127,Aditya,Kulkarni,Female,1976-11-09,49,B+,59.3,23.1,Indore,9488149273,patient127@email.com,None,COPD,2019-05-13,DR013,Emergency,True
+PAT0128,Swati,Rao,Female,2017-06-12,8,B+,50.3,19.0,Lucknow,9192573170,patient128@email.com,Diabetes Type 2,CKD,2022-06-19,DR046,Paediatrics,True
+PAT0129,Vikram,Rao,Female,1968-05-20,57,AB-,85.7,25.3,Kochi,9655511084,patient129@email.com,Heart Failure,Asthma,2024-03-08,DR041,Neurology,True
+PAT0130,Kavya,Bhat,Male,1966-03-17,60,B+,64.3,22.9,Hyderabad,9276799196,patient130@email.com,Asthma,Heart Failure,2020-07-12,DR023,Neurology,True
+PAT0131,Lakshmi,Sinha,Male,1988-05-23,37,A-,71.8,28.2,Jaipur,9788255012,patient131@email.com,Asthma,None,2024-07-06,DR010,General,True
+PAT0132,Rohan,Sharma,Other,1943-07-06,82,A-,91.9,35.1,Mumbai,9788755699,patient132@email.com,None,CKD,2020-05-13,DR050,Neurology,True
+PAT0133,Ashok,Reddy,Other,2017-10-29,8,AB+,46.7,18.2,Hyderabad,9586989309,patient133@email.com,Diabetes Type 2,Hypertension,2019-10-10,DR029,Oncology,True
+PAT0134,Deepak,Tiwari,Male,1977-11-02,48,O-,72.1,24.6,Kolkata,9240409084,patient134@email.com,Heart Failure,None,2024-04-19,DR007,Orthopaedics,True
+PAT0135,Padma,Das,Male,1986-09-25,39,B-,50.9,22.1,Nagpur,9271476207,patient135@email.com,Heart Failure,None,2021-07-04,DR013,Emergency,True
+PAT0136,Anjali,Sharma,Other,1961-11-09,64,A-,70.9,25.3,Kolkata,9642716859,patient136@email.com,Rheumatoid Arthritis,COPD,2020-05-31,DR038,Orthopaedics,True
+PAT0137,Sanjay,Sharma,Female,1957-11-21,68,A-,52.4,17.4,Kolkata,9243811545,patient137@email.com,CKD,Heart Failure,2022-07-10,DR024,Cardiology,True
+PAT0138,Suresh,Singh,Other,1949-07-09,76,AB+,48.0,19.5,Jaipur,9583564328,patient138@email.com,None,CKD,2024-12-27,DR044,Neurology,True
+PAT0139,Meera,Nair,Male,1970-10-08,55,AB+,43.7,15.2,Jaipur,9143223380,patient139@email.com,Hypertension,Hypertension,2019-07-16,DR046,Orthopaedics,True
+PAT0140,Rahul,Bose,Other,1962-07-26,63,O-,81.9,34.0,Bengaluru,9521931770,patient140@email.com,None,CKD,2024-08-28,DR022,Neurology,True
+PAT0141,Sunita,Deshpande,Other,1958-10-10,67,A-,74.9,23.5,Kolkata,9726745401,patient141@email.com,CKD,None,2018-04-20,DR039,Oncology,True
+PAT0142,Usha,Chauhan,Other,1947-03-24,79,B+,60.3,20.8,Jaipur,9775410705,patient142@email.com,None,Epilepsy,2019-08-29,DR044,General,True
+PAT0143,Divya,Das,Other,2006-09-05,19,AB-,71.3,26.3,Nagpur,9890099255,patient143@email.com,Hypertension,Asthma,2023-10-26,DR014,Neurology,True
+PAT0144,Pooja,Rao,Other,1959-11-07,66,O-,82.2,29.0,Jaipur,9480412754,patient144@email.com,None,None,2020-12-18,DR040,Oncology,True
+PAT0145,Suresh,Kulkarni,Male,1985-11-08,40,B-,72.8,21.5,Chandigarh,9856975382,patient145@email.com,Rheumatoid Arthritis,Heart Failure,2023-05-20,DR023,Neurology,False
+PAT0146,Sanjay,Verma,Other,1985-06-20,40,AB+,60.0,23.4,Nagpur,9470585534,patient146@email.com,Asthma,CKD,2018-06-22,DR019,Paediatrics,True
+PAT0147,Rekha,Kulkarni,Female,1988-11-21,37,O+,78.2,24.4,Bengaluru,9217281149,patient147@email.com,None,None,2020-09-07,DR016,Cardiology,True
+PAT0148,Arjun,Das,Other,1993-03-12,33,O-,63.6,21.4,Chandigarh,9607239833,patient148@email.com,Diabetes Type 2,None,2019-07-18,DR001,Neurology,False
+PAT0149,Karan,Gupta,Male,1968-05-15,57,O-,53.3,19.2,Hyderabad,9793527609,patient149@email.com,Hypertension,Diabetes Type 2,2024-06-09,DR015,Neurology,True
+PAT0150,Rohan,Verma,Male,1999-01-06,27,AB-,45.8,16.9,Bengaluru,9904236062,patient150@email.com,CKD,Hypertension,2018-02-07,DR020,Neurology,True
+PAT0151,Praveen,Rao,Female,1985-01-31,41,O+,51.9,18.3,Chennai,9968457290,patient151@email.com,Diabetes Type 2,Heart Failure,2019-10-28,DR047,Oncology,True
+PAT0152,Suresh,Shah,Other,1997-10-16,28,B-,59.6,26.3,Bengaluru,9756007396,patient152@email.com,None,Epilepsy,2022-10-18,DR033,Orthopaedics,True
+PAT0153,Aarav,Iyer,Other,2008-11-27,17,AB+,66.4,25.5,Chennai,9579678614,patient153@email.com,CKD,Heart Failure,2021-05-21,DR038,Paediatrics,True
+PAT0154,Kavya,Rao,Female,1975-03-12,51,O+,81.4,26.8,Bengaluru,9535312769,patient154@email.com,None,None,2021-06-27,DR045,Cardiology,True
+PAT0155,Shweta,Tiwari,Female,1974-01-24,52,O-,52.9,22.1,Kolkata,9853703117,patient155@email.com,None,Rheumatoid Arthritis,2024-01-11,DR043,Emergency,True
+PAT0156,Geeta,Rao,Male,1945-03-09,81,O-,73.0,22.4,Delhi,9705771555,patient156@email.com,Diabetes Type 2,Hypertension,2024-02-22,DR033,General,True
+PAT0157,Usha,Chauhan,Male,1999-12-22,26,A-,52.0,21.9,Jaipur,9578333394,patient157@email.com,Hypertension,Rheumatoid Arthritis,2019-06-25,DR033,Oncology,True
+PAT0158,Priya,Verma,Male,1949-11-12,76,O+,80.9,29.3,Nagpur,9103237836,patient158@email.com,COPD,None,2018-10-27,DR003,Oncology,True
+PAT0159,Rohan,Gupta,Male,1951-08-20,74,AB+,81.3,35.0,Bengaluru,9925677464,patient159@email.com,Asthma,None,2022-09-18,DR024,Oncology,True
+PAT0160,Sanjay,Mehta,Female,1972-05-09,53,O-,56.3,24.1,Delhi,9291634595,patient160@email.com,None,Epilepsy,2023-12-07,DR009,Paediatrics,False
+PAT0161,Sanjay,Verma,Male,2018-08-27,7,B-,90.5,29.5,Chennai,9594592624,patient161@email.com,Heart Failure,Asthma,2021-02-03,DR013,Paediatrics,True
+PAT0162,Riya,Nair,Male,1968-04-05,58,A-,70.0,23.8,Delhi,9737742679,patient162@email.com,Hypertension,Rheumatoid Arthritis,2024-09-14,DR044,Paediatrics,True
+PAT0163,Rahul,Bhat,Male,2016-03-04,10,O+,54.1,21.8,Chennai,9975943821,patient163@email.com,None,Heart Failure,2024-06-23,DR039,Emergency,True
+PAT0164,Geeta,Reddy,Female,1991-01-25,35,AB+,68.1,26.4,Hyderabad,9395444277,patient164@email.com,Hypertension,None,2024-08-20,DR048,General,True
+PAT0165,Nikhil,Bhat,Female,1949-05-10,76,O-,46.9,14.0,Chandigarh,9547025173,patient165@email.com,Epilepsy,Asthma,2021-05-13,DR025,General,True
+PAT0166,Meera,Rao,Female,1990-11-06,35,A+,80.1,24.8,Jaipur,9543109075,patient166@email.com,Epilepsy,None,2023-12-11,DR009,Oncology,True
+PAT0167,Sanjay,Tiwari,Male,1979-02-23,47,B-,59.4,18.4,Mumbai,9388258432,patient167@email.com,Epilepsy,None,2024-10-13,DR039,Cardiology,True
+PAT0168,Divya,Chauhan,Male,1945-07-07,80,B-,50.4,16.4,Nagpur,9457517705,patient168@email.com,CKD,Hypertension,2020-05-17,DR013,Paediatrics,True
+PAT0169,Rekha,Bose,Female,1989-12-07,36,O+,59.4,22.1,Kolkata,9600632621,patient169@email.com,None,None,2022-01-11,DR020,Orthopaedics,True
+PAT0170,Deepak,Nair,Female,1961-08-18,64,O-,42.1,17.9,Pune,9544454140,patient170@email.com,Hypertension,None,2020-06-25,DR048,General,True
+PAT0171,Siddharth,Verma,Other,1946-11-02,79,B-,49.2,20.4,Ahmedabad,9691247918,patient171@email.com,None,None,2021-10-14,DR017,Emergency,True
+PAT0172,Aditya,Mehta,Other,1958-10-18,67,AB-,61.5,22.3,Bengaluru,9682115008,patient172@email.com,None,Hypertension,2023-11-17,DR003,Emergency,True
+PAT0173,Vikram,Kulkarni,Other,2014-12-05,11,B+,80.2,24.9,Mumbai,9334848459,patient173@email.com,None,Rheumatoid Arthritis,2022-03-09,DR004,Neurology,True
+PAT0174,Aarav,Menon,Other,1960-04-07,66,AB+,59.6,19.9,Mumbai,9117959560,patient174@email.com,None,CKD,2024-01-04,DR019,Cardiology,True
+PAT0175,Geeta,Mehta,Other,1966-02-24,60,B-,65.9,27.9,Chennai,9765484610,patient175@email.com,None,CKD,2021-12-22,DR018,Emergency,True
+PAT0176,Siddharth,Gupta,Female,1969-12-10,56,A-,41.9,15.2,Kochi,9797818850,patient176@email.com,Hypertension,Diabetes Type 2,2022-07-19,DR025,Oncology,True
+PAT0177,Sunita,Shah,Male,2019-05-06,6,A-,77.4,24.0,Jaipur,9145689604,patient177@email.com,COPD,COPD,2024-05-10,DR031,Orthopaedics,True
+PAT0178,Rohan,Joshi,Male,1985-06-25,40,O-,74.8,22.7,Mumbai,9322434334,patient178@email.com,None,Asthma,2022-06-20,DR005,Orthopaedics,True
+PAT0179,Nikhil,Tiwari,Male,1948-10-31,77,B+,88.2,26.8,Indore,9840141559,patient179@email.com,Diabetes Type 2,None,2021-11-17,DR004,Cardiology,True
+PAT0180,Gaurav,Verma,Male,1977-06-01,48,O-,60.4,20.6,Mumbai,9780884334,patient180@email.com,CKD,Rheumatoid Arthritis,2023-07-03,DR015,Orthopaedics,True
+PAT0181,Suresh,Reddy,Female,1965-06-02,60,A-,71.5,26.8,Delhi,9387732777,patient181@email.com,Asthma,Epilepsy,2019-09-24,DR048,Oncology,True
+PAT0182,Vijay,Pillai,Male,2009-10-28,16,O+,67.7,30.0,Delhi,9242278314,patient182@email.com,Diabetes Type 2,Asthma,2022-11-01,DR029,Neurology,True
+PAT0183,Deepak,Verma,Female,2007-06-02,18,A+,67.2,28.6,Hyderabad,9544325176,patient183@email.com,Epilepsy,Diabetes Type 2,2024-04-10,DR016,Neurology,True
+PAT0184,Lakshmi,Iyer,Other,1972-11-26,53,AB-,61.3,25.2,Bengaluru,9167932588,patient184@email.com,Asthma,Epilepsy,2021-02-04,DR027,Orthopaedics,True
+PAT0185,Padma,Nair,Male,1974-06-12,51,AB-,72.4,24.5,Delhi,9245480775,patient185@email.com,CKD,Hypertension,2022-06-09,DR022,Emergency,True
+PAT0186,Gaurav,Mehta,Female,1964-05-16,61,O+,73.0,27.9,Pune,9747693166,patient186@email.com,COPD,Rheumatoid Arthritis,2021-07-10,DR012,Oncology,False
+PAT0187,Preeti,Pillai,Female,1958-11-24,67,A-,83.9,32.2,Lucknow,9314533665,patient187@email.com,None,None,2020-01-07,DR044,Emergency,True
+PAT0188,Vijay,Gupta,Other,1961-12-29,64,A-,76.7,22.9,Nagpur,9954330018,patient188@email.com,Epilepsy,None,2023-08-08,DR009,Paediatrics,True
+PAT0189,Ashok,Shah,Female,2001-06-03,24,AB+,53.1,22.8,Jaipur,9643971182,patient189@email.com,Epilepsy,None,2018-05-31,DR024,Paediatrics,True
+PAT0190,Arjun,Reddy,Other,1945-03-07,81,O-,49.6,16.7,Bengaluru,9794710793,patient190@email.com,None,Hypertension,2024-04-25,DR042,Paediatrics,True
+PAT0191,Rekha,Shah,Female,1965-07-23,60,B-,65.0,26.1,Ahmedabad,9501707828,patient191@email.com,Epilepsy,Rheumatoid Arthritis,2024-08-07,DR045,Neurology,True
+PAT0192,Sneha,Kumar,Male,1959-09-16,66,B+,60.9,25.8,Pune,9434889710,patient192@email.com,Heart Failure,Rheumatoid Arthritis,2020-04-27,DR034,Oncology,True
+PAT0193,Kavya,Sharma,Male,1965-03-23,61,O-,54.8,23.6,Kochi,9217427280,patient193@email.com,None,Asthma,2020-09-26,DR034,General,True
+PAT0194,Siddharth,Verma,Female,1949-08-25,76,B+,53.3,19.6,Bengaluru,9787708952,patient194@email.com,None,Epilepsy,2022-06-09,DR002,Paediatrics,True
+PAT0195,Neha,Kulkarni,Male,1963-12-31,62,A-,63.5,20.8,Lucknow,9209255425,patient195@email.com,None,Asthma,2022-02-07,DR021,General,True
+PAT0196,Deepak,Sinha,Female,1958-05-24,67,AB+,62.7,22.1,Lucknow,9521490916,patient196@email.com,None,Diabetes Type 2,2021-11-26,DR023,Emergency,True
+PAT0197,Kavya,Reddy,Male,1982-11-01,43,O+,89.4,29.7,Delhi,9296542559,patient197@email.com,Heart Failure,Asthma,2023-09-24,DR025,Oncology,True
+PAT0198,Sanjay,Kulkarni,Other,1971-08-07,54,B+,58.7,21.6,Jaipur,9279170491,patient198@email.com,Rheumatoid Arthritis,CKD,2019-07-29,DR012,Orthopaedics,True
+PAT0199,Nikhil,Menon,Other,2014-12-24,11,AB-,88.9,31.9,Kolkata,9835187452,patient199@email.com,Rheumatoid Arthritis,Epilepsy,2022-12-24,DR032,General,True
+PAT0200,Siddharth,Menon,Male,1992-11-18,33,O+,41.6,16.2,Bengaluru,9938313402,patient200@email.com,Rheumatoid Arthritis,None,2023-07-22,DR036,Neurology,True
+PAT0201,Vijay,Menon,Male,1987-03-19,39,B-,68.4,25.8,Kolkata,9209968815,patient201@email.com,None,COPD,2021-05-04,DR003,Oncology,True
+PAT0202,Riya,Nair,Male,1965-02-13,61,O-,52.7,16.2,Nagpur,9863166250,patient202@email.com,None,None,2022-10-20,DR011,Neurology,True
+PAT0203,Sanjay,Joshi,Male,1994-06-06,31,O-,75.4,26.5,Chandigarh,9414214115,patient203@email.com,CKD,None,2020-12-31,DR033,Paediatrics,True
+PAT0204,Rahul,Kulkarni,Male,1968-11-23,57,B+,63.0,19.0,Chennai,9257027702,patient204@email.com,Heart Failure,COPD,2022-05-28,DR032,General,True
+PAT0205,Preeti,Bhat,Female,1941-03-04,85,O+,60.2,20.3,Chandigarh,9496287154,patient205@email.com,Rheumatoid Arthritis,Rheumatoid Arthritis,2021-09-02,DR038,Cardiology,True
+PAT0206,Amit,Singh,Other,2009-08-12,16,AB+,83.2,27.0,Chennai,9561325766,patient206@email.com,COPD,Rheumatoid Arthritis,2021-01-04,DR021,Emergency,True
+PAT0207,Ananya,Patel,Other,1947-05-05,78,A-,96.2,30.5,Kochi,9941695219,patient207@email.com,Rheumatoid Arthritis,Hypertension,2019-05-24,DR011,Oncology,True
+PAT0208,Lakshmi,Joshi,Female,1996-01-30,30,O+,105.6,30.9,Delhi,9802858478,patient208@email.com,Heart Failure,CKD,2018-12-04,DR024,Paediatrics,False
+PAT0209,Nisha,Mishra,Male,2014-12-04,11,A-,65.1,21.4,Chandigarh,9202202698,patient209@email.com,Hypertension,COPD,2023-05-08,DR005,General,True
+PAT0210,Sunita,Kumar,Other,1964-04-23,61,AB+,60.6,26.8,Chandigarh,9241921987,patient210@email.com,Rheumatoid Arthritis,Diabetes Type 2,2020-07-26,DR025,Cardiology,True
+PAT0211,Meera,Singh,Male,2008-01-26,18,A+,50.1,20.9,Lucknow,9797953888,patient211@email.com,Asthma,Rheumatoid Arthritis,2021-12-09,DR047,General,True
+PAT0212,Divya,Singh,Male,1968-08-30,57,A-,97.4,33.1,Bengaluru,9907932366,patient212@email.com,Diabetes Type 2,None,2022-04-22,DR023,Oncology,True
+PAT0213,Gaurav,Gupta,Male,1989-06-05,36,A+,69.4,24.2,Nagpur,9806957378,patient213@email.com,CKD,COPD,2023-10-22,DR039,Neurology,True
+PAT0214,Anjali,Verma,Female,1983-12-09,42,A-,78.7,26.4,Chennai,9636422667,patient214@email.com,None,None,2018-10-18,DR034,Cardiology,False
+PAT0215,Pooja,Chauhan,Female,2004-06-29,21,A-,48.8,18.0,Mumbai,9730676755,patient215@email.com,Diabetes Type 2,Hypertension,2020-12-09,DR014,Cardiology,False
+PAT0216,Praveen,Das,Female,1956-04-17,69,AB+,77.1,30.1,Chandigarh,9531942087,patient216@email.com,Diabetes Type 2,None,2024-01-07,DR035,Neurology,True
+PAT0217,Sanjay,Bose,Male,1982-01-21,44,AB+,113.2,33.4,Lucknow,9781068259,patient217@email.com,None,None,2018-09-28,DR020,Paediatrics,True
+PAT0218,Kavya,Rao,Male,2013-08-23,12,A+,73.7,29.3,Hyderabad,9815197502,patient218@email.com,None,Asthma,2019-05-05,DR001,Paediatrics,True
+PAT0219,Aditya,Pillai,Male,2000-11-24,25,B+,57.4,20.3,Chandigarh,9938725480,patient219@email.com,CKD,Diabetes Type 2,2018-05-01,DR022,Emergency,True
+PAT0220,Vikram,Chauhan,Other,2012-06-11,13,AB-,62.4,24.6,Jaipur,9486680089,patient220@email.com,Hypertension,Rheumatoid Arthritis,2024-05-10,DR011,Orthopaedics,True
+PAT0221,Rohan,Sharma,Male,1948-04-17,78,B-,72.7,23.5,Mumbai,9606553372,patient221@email.com,Heart Failure,Epilepsy,2019-09-07,DR012,Emergency,True
+PAT0222,Rajesh,Tiwari,Other,1967-12-08,58,O-,56.1,22.5,Hyderabad,9986907524,patient222@email.com,Diabetes Type 2,None,2022-03-08,DR008,Neurology,True
+PAT0223,Vikram,Rao,Male,1998-09-13,27,O+,58.4,25.4,Indore,9433609196,patient223@email.com,Heart Failure,Diabetes Type 2,2024-03-15,DR030,Cardiology,True
+PAT0224,Riya,Rao,Female,1948-06-04,77,O-,93.8,29.8,Lucknow,9629741991,patient224@email.com,COPD,None,2020-10-01,DR010,Cardiology,False
+PAT0225,Sunita,Sharma,Male,1992-04-03,34,AB+,55.6,18.3,Nagpur,9892510222,patient225@email.com,CKD,Diabetes Type 2,2020-04-20,DR034,General,True
+PAT0226,Rohan,Reddy,Male,2003-02-17,23,AB+,69.8,22.8,Chandigarh,9499960213,patient226@email.com,Rheumatoid Arthritis,Diabetes Type 2,2024-07-06,DR007,Neurology,True
+PAT0227,Riya,Gupta,Female,2012-01-27,14,O+,69.3,23.1,Nagpur,9438238241,patient227@email.com,Epilepsy,Heart Failure,2021-07-26,DR029,Orthopaedics,True
+PAT0228,Arjun,Mehta,Male,2003-06-10,22,A-,74.2,23.6,Bengaluru,9582718617,patient228@email.com,Rheumatoid Arthritis,Heart Failure,2022-07-24,DR008,Neurology,True
+PAT0229,Lakshmi,Kulkarni,Male,1964-01-25,62,A+,55.2,23.2,Chennai,9997567367,patient229@email.com,Heart Failure,Asthma,2019-01-09,DR046,General,False
+PAT0230,Manish,Joshi,Female,1955-11-15,70,A+,64.0,27.8,Kolkata,9585547305,patient230@email.com,None,None,2020-10-20,DR007,Oncology,True
+PAT0231,Karan,Verma,Male,2006-01-28,20,O-,112.2,33.0,Kochi,9776776838,patient231@email.com,None,Diabetes Type 2,2024-07-13,DR038,Orthopaedics,False
+PAT0232,Vijay,Mehta,Male,2018-12-21,7,A-,85.8,25.1,Nagpur,9990514408,patient232@email.com,Heart Failure,Diabetes Type 2,2018-06-24,DR030,Cardiology,True
+PAT0233,Nisha,Joshi,Other,1965-04-30,60,O-,60.4,26.5,Chennai,9300951978,patient233@email.com,CKD,CKD,2023-01-01,DR010,Cardiology,True
+PAT0234,Rajesh,Menon,Other,1989-07-27,36,AB-,60.8,20.4,Mumbai,9194190297,patient234@email.com,CKD,Epilepsy,2019-07-17,DR027,General,True
+PAT0235,Amit,Chauhan,Other,1989-09-25,36,AB-,60.1,19.0,Pune,9707363258,patient235@email.com,None,Heart Failure,2022-05-10,DR018,General,True
+PAT0236,Ananya,Chauhan,Other,1992-11-15,33,O-,42.4,18.6,Indore,9727053322,patient236@email.com,COPD,Asthma,2019-02-15,DR016,Paediatrics,True
+PAT0237,Amit,Joshi,Other,2013-09-16,12,B+,73.8,25.5,Chennai,9736212983,patient237@email.com,Heart Failure,Heart Failure,2024-08-20,DR002,Paediatrics,True
+PAT0238,Anjali,Menon,Other,1949-01-12,77,O+,33.6,14.0,Bengaluru,9626602103,patient238@email.com,Hypertension,Diabetes Type 2,2018-08-19,DR015,Neurology,True
+PAT0239,Sunita,Kulkarni,Other,1960-02-09,66,B+,85.3,34.6,Indore,9447450846,patient239@email.com,Hypertension,Hypertension,2019-08-29,DR038,Paediatrics,False
+PAT0240,Swati,Kulkarni,Male,1954-03-11,72,AB+,79.5,24.5,Lucknow,9208482467,patient240@email.com,Heart Failure,CKD,2021-08-14,DR009,General,True
+PAT0241,Padma,Pillai,Female,1958-04-26,67,B-,77.5,22.9,Kochi,9732380409,patient241@email.com,Asthma,Epilepsy,2021-06-10,DR047,Paediatrics,True
+PAT0242,Preeti,Shah,Male,2020-06-11,5,A+,74.8,22.3,Bengaluru,9746809909,patient242@email.com,Heart Failure,None,2020-06-23,DR041,Neurology,True
+PAT0243,Aditya,Mishra,Female,2002-10-24,23,A-,62.0,23.6,Nagpur,9861246240,patient243@email.com,None,None,2021-10-07,DR029,Cardiology,True
+PAT0244,Aarav,Patel,Male,2013-02-06,13,AB+,68.7,26.1,Ahmedabad,9886606608,patient244@email.com,Epilepsy,Asthma,2022-08-23,DR032,Oncology,True
+PAT0245,Siddharth,Joshi,Female,2008-04-17,17,AB-,82.0,28.3,Delhi,9958128631,patient245@email.com,Hypertension,CKD,2018-03-24,DR021,Orthopaedics,False
+PAT0246,Aditya,Tiwari,Male,1977-10-01,48,A-,42.6,17.5,Jaipur,9199970392,patient246@email.com,Heart Failure,None,2024-11-18,DR031,Paediatrics,True
+PAT0247,Divya,Nair,Other,1999-10-19,26,AB+,47.7,20.7,Chandigarh,9694973692,patient247@email.com,None,CKD,2021-02-27,DR020,General,True
+PAT0248,Meera,Patel,Female,1947-08-11,78,O-,61.6,21.5,Mumbai,9559138405,patient248@email.com,Diabetes Type 2,CKD,2024-09-24,DR031,General,True
+PAT0249,Lakshmi,Verma,Male,2000-02-06,26,AB-,45.8,16.5,Ahmedabad,9809786356,patient249@email.com,CKD,Diabetes Type 2,2024-02-07,DR025,General,True
+PAT0250,Manish,Rao,Female,1974-03-21,52,AB-,37.0,15.1,Hyderabad,9342925794,patient250@email.com,CKD,None,2018-09-10,DR010,Emergency,True
+PAT0251,Siddharth,Menon,Male,2010-06-06,15,A+,55.5,20.5,Nagpur,9515652006,patient251@email.com,None,Epilepsy,2024-01-03,DR044,Emergency,False
+PAT0252,Preeti,Kulkarni,Other,1991-02-27,35,A+,48.3,17.4,Jaipur,9713342728,patient252@email.com,None,None,2024-12-15,DR010,Cardiology,False
+PAT0253,Rahul,Patel,Female,1998-12-29,27,AB+,67.2,27.1,Delhi,9833500385,patient253@email.com,Epilepsy,COPD,2019-08-29,DR039,Orthopaedics,True
+PAT0254,Preeti,Menon,Other,2012-06-22,13,O-,55.3,23.6,Nagpur,9396568375,patient254@email.com,None,Rheumatoid Arthritis,2018-02-20,DR045,Neurology,True
+PAT0255,Arjun,Shah,Female,2007-02-12,19,A-,64.9,22.3,Indore,9407189861,patient255@email.com,None,Heart Failure,2022-08-11,DR017,Oncology,True
+PAT0256,Neha,Verma,Other,1944-01-22,82,B+,71.6,25.8,Lucknow,9753538609,patient256@email.com,None,Epilepsy,2018-06-08,DR026,Orthopaedics,True
+PAT0257,Lakshmi,Iyer,Male,1960-11-11,65,AB-,74.7,32.9,Nagpur,9847520637,patient257@email.com,None,Diabetes Type 2,2020-07-22,DR009,Orthopaedics,False
+PAT0258,Gaurav,Mishra,Female,1979-09-10,46,A-,50.6,19.9,Chennai,9574289591,patient258@email.com,COPD,Epilepsy,2023-06-08,DR049,Neurology,True
+PAT0259,Rahul,Bhat,Male,1955-09-23,70,A+,76.1,24.9,Bengaluru,9306978174,patient259@email.com,COPD,Hypertension,2020-10-18,DR003,Oncology,True
+PAT0260,Praveen,Verma,Female,1995-08-13,30,A-,58.3,22.9,Kochi,9132816979,patient260@email.com,COPD,Heart Failure,2023-06-26,DR039,Oncology,True
+PAT0261,Sneha,Gupta,Female,1945-12-08,80,A+,66.2,20.6,Kolkata,9153312407,patient261@email.com,Asthma,None,2020-05-27,DR015,Paediatrics,True
+PAT0262,Priya,Deshpande,Male,1986-07-21,39,A+,69.3,23.2,Ahmedabad,9242071170,patient262@email.com,None,Asthma,2024-09-28,DR001,General,True
+PAT0263,Divya,Rao,Female,1985-12-01,40,O+,54.2,20.6,Kochi,9659030686,patient263@email.com,None,Epilepsy,2024-07-22,DR007,Cardiology,True
+PAT0264,Gaurav,Gupta,Other,1973-06-12,52,O+,76.3,26.5,Kochi,9216076355,patient264@email.com,Rheumatoid Arthritis,Diabetes Type 2,2021-10-09,DR018,Paediatrics,True
+PAT0265,Meera,Bhat,Female,1988-01-03,38,B-,54.6,18.3,Mumbai,9964823687,patient265@email.com,None,Epilepsy,2021-08-02,DR044,General,True
+PAT0266,Rajesh,Verma,Other,1957-12-05,68,AB+,52.3,15.3,Chandigarh,9137923492,patient266@email.com,None,None,2020-02-17,DR022,Paediatrics,True
+PAT0267,Praveen,Gupta,Other,1952-10-16,73,B+,70.9,21.2,Nagpur,9806108387,patient267@email.com,None,Asthma,2021-04-18,DR007,Oncology,True
+PAT0268,Sunita,Mishra,Female,1950-01-15,76,A-,64.3,20.6,Chennai,9481482646,patient268@email.com,COPD,CKD,2022-09-19,DR022,Orthopaedics,True
+PAT0269,Usha,Sinha,Female,1961-06-21,64,A-,89.4,27.5,Ahmedabad,9308889819,patient269@email.com,None,Diabetes Type 2,2022-04-13,DR034,Orthopaedics,True
+PAT0270,Rajesh,Shah,Male,2003-10-12,22,AB-,69.6,20.4,Bengaluru,9439714150,patient270@email.com,Asthma,Diabetes Type 2,2023-06-21,DR022,Paediatrics,False
+PAT0271,Dinesh,Joshi,Female,2014-01-06,12,AB-,87.7,28.1,Indore,9919876144,patient271@email.com,Diabetes Type 2,Asthma,2024-11-21,DR028,Paediatrics,True
+PAT0272,Sanjay,Nair,Female,1960-03-27,66,O-,65.7,24.6,Mumbai,9445973716,patient272@email.com,None,COPD,2018-03-15,DR044,Cardiology,True
+PAT0273,Praveen,Shah,Male,1992-09-23,33,O+,55.1,23.1,Bengaluru,9170101400,patient273@email.com,Hypertension,CKD,2021-04-06,DR030,Paediatrics,True
+PAT0274,Rahul,Bose,Other,1977-04-25,48,AB-,56.2,20.6,Pune,9905430477,patient274@email.com,COPD,Asthma,2022-07-11,DR002,General,True
+PAT0275,Rohan,Verma,Male,1993-10-02,32,O+,58.1,23.9,Indore,9674165650,patient275@email.com,None,Hypertension,2024-08-29,DR004,Paediatrics,True
+PAT0276,Vijay,Verma,Male,2014-09-01,11,A-,56.1,18.5,Jaipur,9371375678,patient276@email.com,Rheumatoid Arthritis,Asthma,2020-04-21,DR045,Paediatrics,True
+PAT0277,Rahul,Das,Female,1967-06-08,58,A-,53.4,21.0,Jaipur,9871769353,patient277@email.com,None,Diabetes Type 2,2021-03-03,DR008,Emergency,True
+PAT0278,Geeta,Nair,Male,1943-12-07,82,O-,46.6,18.9,Chandigarh,9539972403,patient278@email.com,CKD,Asthma,2018-06-11,DR036,Oncology,False
+PAT0279,Dinesh,Deshpande,Other,1960-02-19,66,AB-,73.2,24.3,Bengaluru,9196725534,patient279@email.com,None,Diabetes Type 2,2019-02-19,DR017,Paediatrics,True
+PAT0280,Pooja,Patel,Female,1988-02-17,38,O+,68.5,24.8,Pune,9960707259,patient280@email.com,None,Heart Failure,2022-10-11,DR048,Cardiology,True
+PAT0281,Vijay,Sinha,Male,2019-09-30,6,O+,69.3,28.5,Chandigarh,9199805719,patient281@email.com,Heart Failure,Heart Failure,2020-01-20,DR008,Oncology,True
+PAT0282,Ashok,Das,Female,1986-04-21,39,B+,61.7,19.2,Delhi,9242283221,patient282@email.com,Hypertension,Asthma,2019-03-01,DR027,Neurology,True
+PAT0283,Rahul,Chauhan,Other,1965-03-31,61,AB-,69.5,26.3,Delhi,9541613113,patient283@email.com,Rheumatoid Arthritis,Hypertension,2018-09-17,DR017,Paediatrics,True
+PAT0284,Dinesh,Reddy,Other,1953-06-26,72,O-,89.1,28.5,Jaipur,9661677752,patient284@email.com,None,Diabetes Type 2,2022-11-08,DR043,Paediatrics,True
+PAT0285,Ananya,Sharma,Female,1971-06-04,54,B+,96.9,29.5,Jaipur,9603895158,patient285@email.com,Rheumatoid Arthritis,Asthma,2018-11-03,DR049,Oncology,True
+PAT0286,Rekha,Mishra,Female,1985-12-16,40,AB+,72.1,31.3,Kolkata,9977357994,patient286@email.com,COPD,Diabetes Type 2,2023-02-24,DR029,Emergency,True
+PAT0287,Priya,Kumar,Male,1957-05-17,68,AB+,62.8,22.4,Kolkata,9138474240,patient287@email.com,None,None,2018-01-01,DR006,Emergency,True
+PAT0288,Divya,Mishra,Other,1982-06-27,43,AB-,82.7,25.2,Pune,9490136011,patient288@email.com,Hypertension,COPD,2023-02-05,DR022,Neurology,True
+PAT0289,Siddharth,Sharma,Other,1961-02-25,65,O-,64.9,23.6,Pune,9991081037,patient289@email.com,None,CKD,2024-02-22,DR034,Orthopaedics,True
+PAT0290,Arjun,Iyer,Male,1999-09-09,26,B-,56.8,20.3,Chennai,9229649816,patient290@email.com,Epilepsy,COPD,2023-02-16,DR013,Paediatrics,True
+PAT0291,Shweta,Deshpande,Female,2015-08-15,10,B+,93.7,32.2,Ahmedabad,9104657489,patient291@email.com,None,Hypertension,2024-03-16,DR028,Emergency,True
+PAT0292,Rahul,Kumar,Other,1999-01-08,27,AB+,62.8,20.7,Kochi,9744831376,patient292@email.com,None,Heart Failure,2023-08-27,DR025,Oncology,False
+PAT0293,Rahul,Mehta,Other,1989-08-20,36,AB+,77.2,22.8,Lucknow,9851634610,patient293@email.com,None,CKD,2024-02-22,DR021,Paediatrics,True
+PAT0294,Padma,Kulkarni,Other,1941-01-03,85,O+,89.4,36.0,Kochi,9470756153,patient294@email.com,None,Asthma,2019-12-30,DR033,Neurology,True
+PAT0295,Rajesh,Deshpande,Female,2006-04-28,19,O+,72.3,24.9,Nagpur,9553533911,patient295@email.com,Hypertension,None,2019-03-13,DR002,Oncology,True
+PAT0296,Suresh,Deshpande,Other,2014-01-10,12,O+,46.1,18.7,Bengaluru,9166607238,patient296@email.com,CKD,COPD,2024-01-26,DR003,Orthopaedics,True
+PAT0297,Rekha,Verma,Male,1942-05-24,83,B-,95.9,29.5,Jaipur,9942143413,patient297@email.com,CKD,None,2018-07-12,DR025,Oncology,True
+PAT0298,Aarav,Tiwari,Other,1981-03-14,45,O+,64.5,19.1,Chennai,9766323040,patient298@email.com,Rheumatoid Arthritis,COPD,2022-02-15,DR049,Neurology,True
+PAT0299,Vikram,Joshi,Other,1996-01-07,30,B+,67.8,26.4,Chandigarh,9651738859,patient299@email.com,Diabetes Type 2,Epilepsy,2018-06-16,DR028,Orthopaedics,True
+PAT0300,Aarav,Bose,Male,2000-11-26,25,AB-,40.7,14.0,Chandigarh,9266221352,patient300@email.com,Hypertension,Asthma,2021-08-14,DR039,Cardiology,True
+PAT0301,Amit,Singh,Other,1942-07-13,83,O-,83.9,26.6,Jaipur,9336182414,patient301@email.com,Asthma,None,2018-10-07,DR033,General,True
+PAT0302,Divya,Deshpande,Other,1969-12-21,56,O-,50.0,21.3,Pune,9487403718,patient302@email.com,CKD,COPD,2024-12-07,DR034,Oncology,False
+PAT0303,Padma,Sinha,Other,2019-05-08,6,B-,69.3,27.6,Mumbai,9832883943,patient303@email.com,Heart Failure,Epilepsy,2019-04-10,DR025,Orthopaedics,True
+PAT0304,Praveen,Bhat,Female,2017-09-22,8,AB-,90.0,27.2,Ahmedabad,9147085363,patient304@email.com,CKD,None,2020-02-28,DR021,Neurology,True
+PAT0305,Vikram,Nair,Male,1999-05-21,26,B-,91.3,32.1,Nagpur,9835948208,patient305@email.com,Epilepsy,Diabetes Type 2,2020-04-22,DR035,Emergency,True
+PAT0306,Meera,Sharma,Other,1966-03-09,60,AB-,68.8,23.1,Chandigarh,9456176676,patient306@email.com,Hypertension,Diabetes Type 2,2018-10-28,DR004,General,True
+PAT0307,Vijay,Mishra,Other,2011-09-17,14,AB+,54.6,21.6,Kolkata,9439736473,patient307@email.com,Hypertension,Epilepsy,2019-04-30,DR035,Cardiology,True
+PAT0308,Rohan,Kulkarni,Other,2012-06-07,13,A-,71.6,23.0,Pune,9639917068,patient308@email.com,Diabetes Type 2,CKD,2021-05-19,DR039,Cardiology,True
+PAT0309,Siddharth,Mehta,Female,1972-07-13,53,AB+,53.6,19.3,Indore,9956292577,patient309@email.com,None,CKD,2019-08-14,DR020,Paediatrics,True
+PAT0310,Rekha,Menon,Other,1974-04-07,52,B+,96.3,28.6,Delhi,9144853569,patient310@email.com,Hypertension,None,2024-09-09,DR026,Neurology,True
+PAT0311,Rajesh,Mishra,Male,1981-12-23,44,B+,80.9,26.3,Bengaluru,9297560682,patient311@email.com,COPD,None,2020-11-01,DR013,Cardiology,True
+PAT0312,Shweta,Mishra,Other,2014-06-25,11,A-,102.5,31.7,Hyderabad,9821216549,patient312@email.com,Diabetes Type 2,CKD,2019-02-07,DR013,Paediatrics,True
+PAT0313,Vikram,Nair,Female,1975-05-30,50,O-,68.6,29.1,Ahmedabad,9583877436,patient313@email.com,Heart Failure,None,2021-06-06,DR045,Neurology,True
+PAT0314,Aditya,Sharma,Other,1974-09-05,51,O-,92.8,29.2,Chennai,9943596127,patient314@email.com,COPD,None,2022-11-22,DR018,Emergency,True
+PAT0315,Anjali,Menon,Other,1978-11-06,47,A-,74.3,28.1,Bengaluru,9793155758,patient315@email.com,None,Diabetes Type 2,2021-02-23,DR009,Neurology,True
+PAT0316,Priya,Bhat,Other,1941-03-13,85,A+,49.0,21.0,Nagpur,9724800158,patient316@email.com,None,Epilepsy,2024-08-13,DR014,Cardiology,True
+PAT0317,Usha,Tiwari,Other,1951-12-25,74,O+,44.5,16.8,Bengaluru,9598969054,patient317@email.com,None,None,2019-01-06,DR026,Orthopaedics,True
+PAT0318,Aditya,Bhat,Other,1990-05-29,35,B+,83.6,25.9,Ahmedabad,9270963770,patient318@email.com,Asthma,None,2024-05-06,DR043,Emergency,False
+PAT0319,Vikram,Iyer,Other,1959-12-19,66,O-,80.2,25.7,Chennai,9145965208,patient319@email.com,None,COPD,2023-10-23,DR024,Oncology,True
+PAT0320,Deepak,Kumar,Female,2015-05-05,10,O+,55.0,24.0,Nagpur,9896619486,patient320@email.com,CKD,None,2024-02-08,DR037,General,True
+PAT0321,Nikhil,Reddy,Female,1974-12-05,51,AB+,38.0,16.3,Pune,9977501292,patient321@email.com,Heart Failure,Rheumatoid Arthritis,2023-05-29,DR039,Cardiology,True
+PAT0322,Praveen,Mishra,Male,1965-03-06,61,O+,47.3,19.5,Chennai,9261319410,patient322@email.com,Asthma,Asthma,2022-01-23,DR039,Paediatrics,True
+PAT0323,Ashok,Chauhan,Other,1991-04-28,34,B-,49.8,21.0,Lucknow,9273136853,patient323@email.com,None,Epilepsy,2018-04-02,DR016,Cardiology,True
+PAT0324,Rohan,Shah,Other,2000-07-17,25,B+,63.7,26.6,Mumbai,9278607682,patient324@email.com,CKD,Asthma,2023-10-18,DR026,Neurology,False
+PAT0325,Divya,Rao,Other,2019-02-17,7,AB-,94.9,29.7,Nagpur,9617187507,patient325@email.com,Asthma,COPD,2022-08-10,DR039,General,True
+PAT0326,Aditya,Tiwari,Male,1941-12-06,84,O-,58.4,19.5,Ahmedabad,9740522822,patient326@email.com,None,Diabetes Type 2,2020-07-30,DR025,Oncology,True
+PAT0327,Gaurav,Kumar,Male,1996-01-21,30,B+,44.5,14.7,Ahmedabad,9760080817,patient327@email.com,None,Hypertension,2023-12-17,DR033,Emergency,True
+PAT0328,Aarav,Deshpande,Female,2004-07-02,21,AB+,76.2,23.1,Jaipur,9551706031,patient328@email.com,Heart Failure,Hypertension,2023-12-11,DR028,General,False
+PAT0329,Dinesh,Kumar,Female,1972-04-21,53,AB+,65.1,19.7,Bengaluru,9373286650,patient329@email.com,Rheumatoid Arthritis,COPD,2018-12-10,DR019,Neurology,True
+PAT0330,Aarav,Shah,Female,1988-04-10,37,A-,76.3,31.1,Jaipur,9107724556,patient330@email.com,Epilepsy,None,2020-04-21,DR045,Emergency,True
+PAT0331,Nisha,Shah,Female,2007-07-04,18,O-,71.2,28.2,Lucknow,9395880875,patient331@email.com,None,Epilepsy,2020-04-14,DR027,Neurology,True
+PAT0332,Ashok,Iyer,Female,1998-06-26,27,O+,79.4,29.9,Lucknow,9469749767,patient332@email.com,Epilepsy,Asthma,2019-05-03,DR048,General,True
+PAT0333,Padma,Kulkarni,Other,2000-06-28,25,A+,90.8,28.8,Bengaluru,9517796891,patient333@email.com,None,Hypertension,2019-01-09,DR010,Oncology,False
+PAT0334,Swati,Singh,Female,2009-12-11,16,A+,64.2,27.7,Chandigarh,9512666911,patient334@email.com,Epilepsy,None,2023-11-05,DR019,Paediatrics,False
+PAT0335,Geeta,Gupta,Male,1998-05-05,27,B-,52.8,21.4,Mumbai,9941770040,patient335@email.com,None,None,2023-10-14,DR045,General,True
+PAT0336,Aarav,Joshi,Other,2016-05-01,9,A-,55.0,20.8,Hyderabad,9937167377,patient336@email.com,Epilepsy,Heart Failure,2022-06-07,DR026,Neurology,True
+PAT0337,Usha,Pillai,Male,2012-06-20,13,O-,90.8,29.5,Nagpur,9396898040,patient337@email.com,COPD,None,2020-03-07,DR030,Oncology,True
+PAT0338,Rekha,Singh,Female,1999-02-11,27,O+,58.5,21.7,Pune,9225637455,patient338@email.com,None,CKD,2024-01-13,DR037,Orthopaedics,True
+PAT0339,Shweta,Shah,Female,1948-08-27,77,A+,55.6,21.2,Ahmedabad,9224842139,patient339@email.com,CKD,Diabetes Type 2,2022-04-17,DR041,Emergency,False
+PAT0340,Amit,Bhat,Other,1991-09-09,34,A+,78.6,24.8,Chandigarh,9993543297,patient340@email.com,CKD,COPD,2021-03-22,DR006,Oncology,True
+PAT0341,Dinesh,Iyer,Female,2011-12-13,14,B+,56.5,21.8,Chandigarh,9833480882,patient341@email.com,COPD,Rheumatoid Arthritis,2020-03-28,DR016,Paediatrics,True
+PAT0342,Padma,Pillai,Female,1994-12-01,31,B+,58.9,23.6,Indore,9214556759,patient342@email.com,Diabetes Type 2,Diabetes Type 2,2023-07-11,DR040,Cardiology,True
+PAT0343,Neha,Chauhan,Other,2015-06-12,10,B+,70.0,27.0,Indore,9648825565,patient343@email.com,CKD,Epilepsy,2020-06-28,DR049,Neurology,True
+PAT0344,Rohan,Bhat,Other,1966-07-12,59,O-,58.4,21.0,Kolkata,9836950507,patient344@email.com,Asthma,Rheumatoid Arthritis,2019-05-09,DR045,Neurology,True
+PAT0345,Swati,Sinha,Other,2019-10-17,6,O+,80.1,27.6,Bengaluru,9689015467,patient345@email.com,CKD,COPD,2021-01-08,DR031,Neurology,True
+PAT0346,Swati,Pillai,Male,1957-09-14,68,AB+,67.1,24.7,Hyderabad,9583966573,patient346@email.com,Asthma,None,2019-06-22,DR037,Paediatrics,True
+PAT0347,Meera,Tiwari,Male,1986-12-30,39,B+,85.5,26.4,Ahmedabad,9965079822,patient347@email.com,Hypertension,Asthma,2022-09-23,DR032,General,False
+PAT0348,Anjali,Gupta,Other,1954-11-07,71,O+,54.4,19.1,Jaipur,9709707672,patient348@email.com,Hypertension,Epilepsy,2019-02-10,DR045,General,True
+PAT0349,Swati,Pillai,Female,1960-12-03,65,O+,79.4,25.6,Pune,9121298026,patient349@email.com,Epilepsy,Diabetes Type 2,2021-12-09,DR044,Neurology,True
+PAT0350,Amit,Bose,Other,1952-11-23,73,AB-,55.6,22.8,Indore,9890838947,patient350@email.com,Rheumatoid Arthritis,Diabetes Type 2,2022-04-10,DR040,Orthopaedics,True
+PAT0351,Dinesh,Verma,Male,1999-05-28,26,A-,48.6,17.9,Delhi,9273945628,patient351@email.com,Heart Failure,COPD,2021-07-08,DR021,Paediatrics,True
+PAT0352,Vijay,Pillai,Female,1943-12-03,82,AB-,49.1,16.5,Kolkata,9279656450,patient352@email.com,Asthma,Hypertension,2019-05-28,DR047,General,True
+PAT0353,Rekha,Patel,Other,2010-08-04,15,A+,60.2,25.6,Indore,9526288946,patient353@email.com,None,Diabetes Type 2,2019-03-02,DR017,Neurology,True
+PAT0354,Suresh,Rao,Other,1971-12-08,54,B+,74.8,28.9,Bengaluru,9665585273,patient354@email.com,Asthma,Hypertension,2018-05-24,DR043,Orthopaedics,True
+PAT0355,Vijay,Mehta,Female,1960-07-09,65,B+,52.1,15.6,Lucknow,9741651145,patient355@email.com,Rheumatoid Arthritis,None,2024-04-29,DR028,Neurology,True
+PAT0356,Sanjay,Reddy,Other,1981-08-07,44,A-,87.3,26.4,Ahmedabad,9430570947,patient356@email.com,Heart Failure,Epilepsy,2020-11-30,DR010,Orthopaedics,True
+PAT0357,Ashok,Gupta,Other,2003-07-28,22,A+,49.0,21.7,Indore,9562176397,patient357@email.com,CKD,None,2020-08-05,DR001,Neurology,True
+PAT0358,Aditya,Kulkarni,Female,1949-12-12,76,AB+,78.4,28.7,Nagpur,9506258874,patient358@email.com,COPD,CKD,2018-11-21,DR028,Paediatrics,True
+PAT0359,Karan,Singh,Other,1986-09-10,39,B+,72.8,22.9,Bengaluru,9410950586,patient359@email.com,Diabetes Type 2,None,2023-02-09,DR040,Oncology,True
+PAT0360,Meera,Patel,Other,1959-04-07,67,A+,77.7,31.7,Bengaluru,9209815321,patient360@email.com,CKD,CKD,2019-05-28,DR046,Oncology,True
+PAT0361,Anjali,Pillai,Male,2009-10-26,16,AB-,72.4,27.6,Chandigarh,9949785821,patient361@email.com,Hypertension,Heart Failure,2018-11-25,DR049,General,True
+PAT0362,Karan,Iyer,Female,2012-01-01,14,AB+,82.3,28.8,Nagpur,9113545781,patient362@email.com,Diabetes Type 2,COPD,2022-04-26,DR050,Oncology,True
+PAT0363,Ashok,Verma,Male,1995-12-22,30,O+,48.1,17.0,Pune,9270307732,patient363@email.com,None,Hypertension,2024-03-01,DR034,Cardiology,True
+PAT0364,Divya,Kumar,Other,1983-03-15,43,B-,65.0,26.4,Kochi,9566177523,patient364@email.com,Heart Failure,Hypertension,2019-11-17,DR018,Neurology,True
+PAT0365,Gaurav,Mehta,Male,2019-04-14,6,O-,91.9,30.3,Indore,9196078316,patient365@email.com,COPD,Asthma,2023-08-10,DR006,Paediatrics,True
+PAT0366,Meera,Kulkarni,Other,2013-05-07,12,A-,53.9,23.3,Bengaluru,9623817304,patient366@email.com,COPD,Heart Failure,2024-04-06,DR042,Emergency,True
+PAT0367,Rohan,Chauhan,Female,1996-11-29,29,AB-,88.6,28.8,Jaipur,9416447391,patient367@email.com,None,Rheumatoid Arthritis,2020-02-17,DR037,General,True
+PAT0368,Rekha,Joshi,Female,1961-06-13,64,A-,64.0,25.1,Jaipur,9266457342,patient368@email.com,Rheumatoid Arthritis,CKD,2020-12-14,DR035,Orthopaedics,True
+PAT0369,Padma,Reddy,Other,1956-10-12,69,O-,50.8,22.4,Chandigarh,9168012695,patient369@email.com,None,None,2022-05-07,DR013,Neurology,True
+PAT0370,Rajesh,Mishra,Other,2001-10-22,24,O-,77.9,26.5,Delhi,9203354415,patient370@email.com,None,None,2018-10-01,DR003,Emergency,False
+PAT0371,Nikhil,Deshpande,Male,2016-06-13,9,AB-,61.2,26.0,Jaipur,9769983207,patient371@email.com,None,CKD,2018-07-21,DR024,General,True
+PAT0372,Anjali,Singh,Male,2019-12-16,6,AB-,98.3,29.5,Indore,9786031600,patient372@email.com,Hypertension,Heart Failure,2024-04-04,DR048,Oncology,True
+PAT0373,Lakshmi,Singh,Other,2014-02-25,12,B-,59.8,26.1,Jaipur,9204281005,patient373@email.com,Diabetes Type 2,COPD,2023-12-18,DR025,General,True
+PAT0374,Rekha,Tiwari,Other,1990-01-07,36,AB+,61.5,21.3,Chandigarh,9213294985,patient374@email.com,None,None,2022-01-06,DR044,Oncology,True
+PAT0375,Aditya,Menon,Female,2007-10-14,18,AB-,69.7,25.9,Pune,9438395096,patient375@email.com,None,Heart Failure,2022-03-03,DR027,Emergency,True
+PAT0376,Sanjay,Nair,Other,1979-06-27,46,AB+,79.2,27.0,Indore,9690814307,patient376@email.com,CKD,Heart Failure,2023-01-28,DR029,Oncology,True
+PAT0377,Aarav,Gupta,Male,1984-11-06,41,B-,68.3,20.0,Chennai,9438126323,patient377@email.com,Hypertension,CKD,2024-03-17,DR033,Neurology,True
+PAT0378,Amit,Mehta,Other,2001-08-13,24,B+,50.3,21.4,Hyderabad,9494152254,patient378@email.com,None,COPD,2020-08-12,DR017,Emergency,True
+PAT0379,Ashok,Joshi,Other,1969-10-29,56,AB-,50.4,21.6,Nagpur,9840447097,patient379@email.com,None,Diabetes Type 2,2024-09-04,DR042,Orthopaedics,True
+PAT0380,Sunita,Pillai,Other,1973-03-15,53,AB+,54.1,23.2,Kolkata,9229429404,patient380@email.com,COPD,None,2024-10-03,DR001,Paediatrics,True
+PAT0381,Deepak,Bhat,Female,2015-01-16,11,B-,68.7,24.1,Bengaluru,9154245232,patient381@email.com,None,Epilepsy,2022-12-31,DR049,Neurology,True
+PAT0382,Meera,Mehta,Male,1992-09-18,33,O-,70.1,25.7,Delhi,9610945043,patient382@email.com,None,Hypertension,2024-02-24,DR026,Orthopaedics,True
+PAT0383,Karan,Chauhan,Other,1965-07-02,60,AB+,59.6,24.9,Kochi,9713461653,patient383@email.com,COPD,None,2024-11-28,DR048,Neurology,True
+PAT0384,Dinesh,Singh,Male,1986-10-26,39,A-,69.4,22.1,Kochi,9544080348,patient384@email.com,Epilepsy,Heart Failure,2021-11-27,DR013,Orthopaedics,True
+PAT0385,Padma,Mehta,Other,2017-08-18,8,AB-,65.3,24.8,Mumbai,9978505410,patient385@email.com,COPD,COPD,2022-03-12,DR010,Emergency,True
+PAT0386,Padma,Mehta,Male,2006-12-01,19,O+,67.4,21.8,Mumbai,9468584828,patient386@email.com,Diabetes Type 2,CKD,2023-01-18,DR031,Cardiology,True
+PAT0387,Ashok,Sinha,Other,1952-07-11,73,B+,80.2,25.8,Chandigarh,9850282713,patient387@email.com,None,Hypertension,2022-03-23,DR038,Paediatrics,True
+PAT0388,Padma,Iyer,Female,1999-12-25,26,A+,69.4,30.0,Ahmedabad,9803040905,patient388@email.com,Hypertension,Diabetes Type 2,2022-05-11,DR043,Orthopaedics,True
+PAT0389,Nikhil,Reddy,Other,1974-05-15,51,AB+,81.6,25.1,Jaipur,9862022549,patient389@email.com,Diabetes Type 2,Heart Failure,2023-06-09,DR039,Neurology,True
+PAT0390,Priya,Patel,Male,1956-07-03,69,B-,80.4,23.8,Jaipur,9427413432,patient390@email.com,Heart Failure,Rheumatoid Arthritis,2022-05-31,DR048,General,True
+PAT0391,Neha,Patel,Other,1975-07-30,50,O+,75.9,22.2,Kolkata,9974947794,patient391@email.com,Hypertension,None,2021-02-21,DR015,General,True
+PAT0392,Geeta,Deshpande,Female,2003-09-22,22,B-,64.4,27.5,Kolkata,9358085454,patient392@email.com,None,Asthma,2022-10-13,DR020,Neurology,True
+PAT0393,Rahul,Gupta,Other,2004-12-22,21,B+,71.9,25.2,Kolkata,9926834891,patient393@email.com,Asthma,None,2024-05-02,DR011,Orthopaedics,True
+PAT0394,Priya,Bose,Other,2006-01-20,20,AB+,65.8,26.9,Kolkata,9425717549,patient394@email.com,Rheumatoid Arthritis,None,2021-01-26,DR010,Emergency,True
+PAT0395,Dinesh,Sinha,Male,1997-05-31,28,B-,110.4,37.5,Lucknow,9349304100,patient395@email.com,COPD,None,2018-04-17,DR023,Cardiology,True
+PAT0396,Ashok,Kulkarni,Female,2003-05-31,22,O-,75.0,26.7,Bengaluru,9516032315,patient396@email.com,Rheumatoid Arthritis,Rheumatoid Arthritis,2019-07-18,DR011,General,True
+PAT0397,Karan,Nair,Female,2019-04-23,6,A-,85.4,34.3,Bengaluru,9571678892,patient397@email.com,None,Rheumatoid Arthritis,2021-08-23,DR030,General,True
+PAT0398,Deepak,Verma,Male,1943-10-08,82,A+,60.2,19.5,Jaipur,9217377475,patient398@email.com,Rheumatoid Arthritis,Rheumatoid Arthritis,2018-06-23,DR016,Neurology,True
+PAT0399,Karan,Gupta,Other,2016-03-07,10,AB-,57.4,19.4,Kolkata,9427012523,patient399@email.com,CKD,Rheumatoid Arthritis,2019-11-13,DR028,Orthopaedics,True
+PAT0400,Vijay,Singh,Male,1954-08-23,71,A-,74.6,22.6,Bengaluru,9936156197,patient400@email.com,None,None,2019-07-09,DR026,Oncology,True
+PAT0401,Sneha,Iyer,Male,1998-08-17,27,O-,50.3,15.3,Chandigarh,9796403636,patient401@email.com,Asthma,Diabetes Type 2,2019-01-09,DR008,Paediatrics,True
+PAT0402,Praveen,Sinha,Female,2010-09-19,15,B+,77.4,27.3,Kolkata,9690929397,patient402@email.com,Epilepsy,Hypertension,2019-12-01,DR022,Neurology,True
+PAT0403,Lakshmi,Gupta,Male,2000-09-03,25,AB-,80.8,26.4,Hyderabad,9772648626,patient403@email.com,Asthma,Diabetes Type 2,2019-06-23,DR013,Cardiology,True
+PAT0404,Sanjay,Sharma,Female,2019-07-20,6,AB-,61.8,22.4,Chennai,9332866519,patient404@email.com,None,None,2023-05-03,DR030,Oncology,True
+PAT0405,Rekha,Nair,Other,1944-06-02,81,A+,86.2,33.8,Bengaluru,9259188853,patient405@email.com,Hypertension,None,2021-11-30,DR003,General,True
+PAT0406,Sunita,Singh,Other,1947-11-18,78,A+,80.1,24.9,Delhi,9547704086,patient406@email.com,Asthma,Asthma,2021-03-10,DR040,Paediatrics,True
+PAT0407,Swati,Patel,Other,1947-06-27,78,A-,69.4,25.2,Indore,9421365006,patient407@email.com,Heart Failure,Heart Failure,2022-04-02,DR005,Emergency,True
+PAT0408,Kavya,Kulkarni,Other,2013-01-24,13,O+,56.0,21.8,Pune,9665918566,patient408@email.com,Epilepsy,None,2020-05-09,DR045,General,True
+PAT0409,Gaurav,Kulkarni,Male,1947-08-15,78,O+,80.7,23.7,Kolkata,9753741918,patient409@email.com,Heart Failure,CKD,2023-11-23,DR037,Neurology,True
+PAT0410,Anjali,Chauhan,Male,1942-07-28,83,B+,52.4,18.2,Lucknow,9349882959,patient410@email.com,CKD,COPD,2018-01-07,DR008,Cardiology,True
+PAT0411,Amit,Menon,Male,1994-10-19,31,B-,80.1,29.6,Mumbai,9787858676,patient411@email.com,COPD,CKD,2020-11-08,DR005,Orthopaedics,True
+PAT0412,Sunita,Bose,Other,1980-02-12,46,AB+,43.8,14.0,Chandigarh,9710874853,patient412@email.com,None,Hypertension,2019-12-21,DR013,Orthopaedics,True
+PAT0413,Meera,Mishra,Other,1959-08-13,66,AB-,93.5,31.4,Nagpur,9676564508,patient413@email.com,Heart Failure,Rheumatoid Arthritis,2022-08-23,DR048,Cardiology,True
+PAT0414,Rekha,Menon,Female,1948-11-08,77,A+,63.0,20.5,Chennai,9719975993,patient414@email.com,None,Heart Failure,2021-12-19,DR005,General,True
+PAT0415,Gaurav,Verma,Male,1977-06-23,48,B+,99.2,30.8,Lucknow,9225460968,patient415@email.com,CKD,Heart Failure,2018-05-10,DR018,Oncology,True
+PAT0416,Divya,Bhat,Male,1973-11-09,52,O+,65.7,23.9,Bengaluru,9220507410,patient416@email.com,Heart Failure,Hypertension,2020-04-07,DR006,Oncology,True
+PAT0417,Lakshmi,Bose,Female,1956-07-22,69,B+,74.7,26.8,Indore,9205496809,patient417@email.com,None,None,2019-06-28,DR014,Paediatrics,True
+PAT0418,Rohan,Deshpande,Female,1954-11-09,71,A-,66.2,27.9,Pune,9601304182,patient418@email.com,Hypertension,Diabetes Type 2,2023-11-03,DR050,Paediatrics,True
+PAT0419,Karan,Gupta,Male,1948-01-07,78,O+,61.4,24.8,Jaipur,9442684477,patient419@email.com,Rheumatoid Arthritis,None,2019-04-27,DR018,General,True
+PAT0420,Praveen,Kumar,Male,2019-06-19,6,B-,61.0,18.1,Jaipur,9476151232,patient420@email.com,None,Heart Failure,2021-01-15,DR010,Paediatrics,True
+PAT0421,Vijay,Patel,Other,1989-07-06,36,B+,86.4,26.3,Mumbai,9605448473,patient421@email.com,None,Hypertension,2019-03-10,DR025,Cardiology,True
+PAT0422,Vijay,Sinha,Female,1998-06-07,27,O-,85.1,27.9,Hyderabad,9456838867,patient422@email.com,COPD,None,2023-12-26,DR006,Emergency,True
+PAT0423,Shweta,Gupta,Other,2005-02-14,21,AB-,95.3,31.3,Ahmedabad,9348779766,patient423@email.com,COPD,Asthma,2024-12-01,DR017,Orthopaedics,True
+PAT0424,Shweta,Chauhan,Other,1978-10-27,47,A+,91.5,29.0,Delhi,9610386386,patient424@email.com,Diabetes Type 2,Heart Failure,2023-05-15,DR030,Emergency,True
+PAT0425,Deepak,Menon,Female,1944-02-25,82,A-,53.1,19.7,Indore,9424396864,patient425@email.com,None,Rheumatoid Arthritis,2022-06-30,DR038,Oncology,True
+PAT0426,Nikhil,Singh,Male,1950-08-15,75,O-,53.5,22.1,Chennai,9973935331,patient426@email.com,None,Epilepsy,2022-11-19,DR037,Emergency,True
+PAT0427,Dinesh,Chauhan,Other,1990-04-09,35,A-,85.4,27.6,Lucknow,9740031190,patient427@email.com,Rheumatoid Arthritis,Heart Failure,2024-03-23,DR007,Emergency,True
+PAT0428,Gaurav,Verma,Female,1970-02-17,56,O-,70.6,30.4,Ahmedabad,9792551787,patient428@email.com,None,Hypertension,2019-01-06,DR014,Emergency,True
+PAT0429,Nikhil,Sinha,Other,2020-11-02,5,AB-,68.2,24.8,Chennai,9320827549,patient429@email.com,None,Heart Failure,2021-05-12,DR037,Emergency,False
+PAT0430,Sneha,Shah,Female,1965-10-20,60,A+,54.9,17.9,Lucknow,9648063464,patient430@email.com,Epilepsy,Asthma,2021-04-19,DR004,Orthopaedics,False
+PAT0431,Priya,Reddy,Male,2020-11-07,5,AB+,58.4,22.1,Chandigarh,9733683639,patient431@email.com,Epilepsy,None,2021-07-27,DR046,Oncology,True
+PAT0432,Ashok,Mehta,Female,1952-01-20,74,B-,40.9,16.5,Jaipur,9512955792,patient432@email.com,Heart Failure,Epilepsy,2019-09-24,DR019,Emergency,True
+PAT0433,Nisha,Mehta,Male,2019-07-26,6,A-,77.4,25.2,Bengaluru,9789603056,patient433@email.com,Epilepsy,Rheumatoid Arthritis,2024-10-11,DR028,Neurology,True
+PAT0434,Nikhil,Pillai,Other,1966-08-27,59,B-,71.1,24.8,Bengaluru,9556095308,patient434@email.com,None,Hypertension,2024-06-25,DR032,Emergency,True
+PAT0435,Rohan,Shah,Other,1957-03-30,69,AB-,67.5,23.3,Chandigarh,9495758262,patient435@email.com,Diabetes Type 2,None,2023-05-27,DR045,Cardiology,True
+PAT0436,Shweta,Bhat,Other,1953-11-25,72,A-,118.0,34.7,Jaipur,9755058332,patient436@email.com,Diabetes Type 2,COPD,2023-04-20,DR041,Paediatrics,True
+PAT0437,Ananya,Bose,Other,2011-05-25,14,A+,64.4,22.2,Ahmedabad,9587516124,patient437@email.com,None,Rheumatoid Arthritis,2024-06-08,DR047,Orthopaedics,True
+PAT0438,Gaurav,Tiwari,Female,1983-04-20,42,O+,47.1,19.4,Chandigarh,9942910475,patient438@email.com,None,CKD,2018-09-09,DR041,Oncology,True
+PAT0439,Suresh,Chauhan,Other,2015-03-20,11,A-,69.2,22.4,Bengaluru,9642879692,patient439@email.com,Diabetes Type 2,CKD,2020-10-29,DR009,Neurology,True
+PAT0440,Pooja,Shah,Female,2019-05-27,6,B+,66.3,21.4,Kochi,9579590189,patient440@email.com,Heart Failure,Asthma,2020-12-06,DR045,General,True
+PAT0441,Anjali,Das,Other,2017-01-13,9,AB+,56.5,23.5,Chennai,9809386103,patient441@email.com,Rheumatoid Arthritis,None,2019-11-17,DR014,Neurology,True
+PAT0442,Ananya,Joshi,Female,2015-02-02,11,AB-,77.6,26.1,Kolkata,9611350152,patient442@email.com,CKD,Rheumatoid Arthritis,2023-12-22,DR015,Oncology,True
+PAT0443,Vijay,Verma,Female,1960-11-19,65,O-,65.8,24.1,Jaipur,9833232853,patient443@email.com,Hypertension,Diabetes Type 2,2023-12-17,DR041,Orthopaedics,False
+PAT0444,Sunita,Iyer,Female,1942-12-02,83,O+,99.5,30.0,Indore,9205523897,patient444@email.com,CKD,None,2024-07-20,DR026,Oncology,True
+PAT0445,Pooja,Bose,Other,1990-10-18,35,A+,58.8,23.9,Kochi,9109101213,patient445@email.com,Diabetes Type 2,Hypertension,2022-08-12,DR007,Neurology,True
+PAT0446,Manish,Nair,Female,1976-11-17,49,A+,46.0,18.5,Mumbai,9765072705,patient446@email.com,Diabetes Type 2,Hypertension,2024-08-30,DR043,Emergency,True
+PAT0447,Nikhil,Deshpande,Other,2006-01-28,20,B+,77.4,23.9,Delhi,9846952406,patient447@email.com,Asthma,CKD,2021-04-21,DR030,Paediatrics,False
+PAT0448,Nisha,Kulkarni,Other,1962-11-25,63,O-,74.1,22.3,Hyderabad,9273909699,patient448@email.com,Diabetes Type 2,CKD,2018-09-13,DR025,Oncology,True
+PAT0449,Karan,Sinha,Male,1987-08-01,38,AB+,76.3,27.9,Bengaluru,9793082286,patient449@email.com,Rheumatoid Arthritis,Diabetes Type 2,2019-08-13,DR035,Emergency,True
+PAT0450,Arjun,Patel,Other,2007-11-23,18,A-,77.8,23.5,Delhi,9713476544,patient450@email.com,CKD,Rheumatoid Arthritis,2018-03-18,DR032,General,True
+PAT0451,Dinesh,Sharma,Male,2016-09-13,9,AB-,69.1,22.7,Ahmedabad,9568213353,patient451@email.com,Epilepsy,Diabetes Type 2,2024-01-22,DR015,Cardiology,True
+PAT0452,Amit,Bose,Other,1959-07-16,66,O+,51.1,21.5,Kolkata,9159264825,patient452@email.com,None,None,2019-01-07,DR024,Neurology,True
+PAT0453,Pooja,Menon,Female,2010-12-21,15,A+,73.4,28.6,Kolkata,9809457825,patient453@email.com,COPD,CKD,2022-05-17,DR007,Paediatrics,True
+PAT0454,Karan,Mehta,Female,2010-08-22,15,A+,59.3,18.1,Chennai,9127235036,patient454@email.com,None,COPD,2023-06-27,DR025,Cardiology,True
+PAT0455,Rohan,Bose,Other,1982-04-02,44,A+,44.6,14.0,Pune,9945870756,patient455@email.com,Hypertension,Epilepsy,2019-04-30,DR014,Emergency,True
+PAT0456,Meera,Tiwari,Other,1962-07-15,63,B-,82.0,24.5,Delhi,9139597095,patient456@email.com,Asthma,Rheumatoid Arthritis,2018-03-20,DR031,Neurology,True
+PAT0457,Shweta,Sinha,Other,2005-02-14,21,B+,101.6,30.8,Nagpur,9734627040,patient457@email.com,Diabetes Type 2,Diabetes Type 2,2019-04-13,DR032,Neurology,True
+PAT0458,Sunita,Tiwari,Male,2012-08-27,13,AB+,79.7,25.1,Pune,9229710628,patient458@email.com,None,None,2024-02-14,DR009,Orthopaedics,True
+PAT0459,Rajesh,Joshi,Male,2016-01-20,10,O-,50.2,21.1,Jaipur,9277173978,patient459@email.com,Rheumatoid Arthritis,COPD,2024-07-11,DR003,General,True
+PAT0460,Priya,Chauhan,Other,1943-01-30,83,A-,59.4,22.3,Mumbai,9107756709,patient460@email.com,Asthma,Diabetes Type 2,2024-08-28,DR019,Oncology,True
+PAT0461,Riya,Joshi,Female,2004-09-06,21,A+,74.2,26.2,Lucknow,9293274031,patient461@email.com,Rheumatoid Arthritis,None,2018-12-27,DR041,Emergency,True
+PAT0462,Karan,Kumar,Female,1967-12-15,58,A-,69.2,30.7,Lucknow,9488588565,patient462@email.com,None,None,2020-06-17,DR030,Emergency,True
+PAT0463,Anjali,Joshi,Male,1985-08-10,40,B+,64.1,26.6,Kochi,9146295027,patient463@email.com,Hypertension,None,2022-01-31,DR019,General,True
+PAT0464,Rohan,Kumar,Female,1942-08-31,83,A+,80.0,25.2,Jaipur,9288857880,patient464@email.com,Asthma,Hypertension,2023-06-10,DR033,Cardiology,True
+PAT0465,Deepak,Reddy,Male,1964-05-03,61,A-,52.2,21.2,Pune,9344579129,patient465@email.com,Diabetes Type 2,COPD,2022-08-17,DR013,Oncology,True
+PAT0466,Nisha,Mehta,Male,1961-03-19,65,B-,64.8,22.3,Lucknow,9588542730,patient466@email.com,Asthma,Epilepsy,2022-03-10,DR009,Oncology,True
+PAT0467,Dinesh,Patel,Other,1975-04-23,50,O+,65.6,27.5,Bengaluru,9219302664,patient467@email.com,Rheumatoid Arthritis,Rheumatoid Arthritis,2022-09-10,DR011,Emergency,True
+PAT0468,Padma,Joshi,Female,1943-05-29,82,B-,58.0,24.0,Delhi,9542055365,patient468@email.com,None,Rheumatoid Arthritis,2020-06-05,DR038,Oncology,True
+PAT0469,Nisha,Shah,Female,2019-10-16,6,B-,59.4,23.6,Lucknow,9259954997,patient469@email.com,None,Hypertension,2022-09-08,DR003,Cardiology,False
+PAT0470,Preeti,Chauhan,Other,1956-07-19,69,A-,39.3,17.2,Ahmedabad,9631808267,patient470@email.com,COPD,Diabetes Type 2,2024-04-06,DR049,Cardiology,True
+PAT0471,Priya,Chauhan,Female,1994-02-20,32,O+,80.5,27.0,Bengaluru,9855167444,patient471@email.com,Rheumatoid Arthritis,None,2024-07-18,DR002,Oncology,True
+PAT0472,Shweta,Kulkarni,Male,1969-10-06,56,A+,66.8,27.3,Nagpur,9773563645,patient472@email.com,Diabetes Type 2,Epilepsy,2021-09-25,DR034,Cardiology,True
+PAT0473,Padma,Bose,Female,1943-03-10,83,A+,53.0,16.8,Jaipur,9824403104,patient473@email.com,Heart Failure,Hypertension,2019-03-31,DR025,Orthopaedics,True
+PAT0474,Rekha,Kulkarni,Male,1974-05-16,51,A-,59.4,22.4,Jaipur,9861644944,patient474@email.com,COPD,Asthma,2021-10-03,DR016,Neurology,True
+PAT0475,Deepak,Pillai,Female,1946-12-25,79,O+,91.1,29.3,Jaipur,9830387900,patient475@email.com,Epilepsy,CKD,2018-08-12,DR005,Orthopaedics,True
+PAT0476,Ashok,Kulkarni,Female,1957-02-13,69,O+,55.0,19.4,Ahmedabad,9766741351,patient476@email.com,Heart Failure,None,2018-09-26,DR013,Oncology,True
+PAT0477,Kavya,Kulkarni,Female,1998-11-16,27,B+,51.6,21.8,Ahmedabad,9261596070,patient477@email.com,COPD,None,2018-04-03,DR019,Oncology,False
+PAT0478,Vijay,Tiwari,Other,2004-09-01,21,A+,98.2,35.4,Hyderabad,9303002339,patient478@email.com,Diabetes Type 2,Hypertension,2020-08-09,DR034,Paediatrics,True
+PAT0479,Geeta,Menon,Other,1977-05-06,48,AB-,56.1,20.1,Ahmedabad,9426505925,patient479@email.com,None,Asthma,2021-06-09,DR011,Emergency,True
+PAT0480,Meera,Pillai,Female,1974-03-19,52,O+,60.6,17.9,Ahmedabad,9278630985,patient480@email.com,None,Asthma,2024-01-02,DR019,General,False
+PAT0481,Rahul,Rao,Other,2001-06-15,24,O+,87.8,25.7,Pune,9298101702,patient481@email.com,COPD,None,2018-05-23,DR043,Orthopaedics,False
+PAT0482,Sanjay,Gupta,Male,1974-01-19,52,A-,72.5,26.4,Mumbai,9534395495,patient482@email.com,Rheumatoid Arthritis,Asthma,2023-02-20,DR021,General,True
+PAT0483,Suresh,Shah,Other,1951-08-19,74,B+,87.0,28.5,Indore,9706912715,patient483@email.com,Rheumatoid Arthritis,Heart Failure,2019-04-06,DR047,Oncology,False
+PAT0484,Preeti,Sinha,Male,1951-04-06,75,B-,56.7,23.9,Ahmedabad,9483748402,patient484@email.com,Diabetes Type 2,Heart Failure,2018-08-14,DR039,Paediatrics,True
+PAT0485,Sanjay,Rao,Other,1993-02-24,33,A-,64.0,26.0,Jaipur,9523509129,patient485@email.com,COPD,Rheumatoid Arthritis,2021-07-25,DR039,Neurology,True
+PAT0486,Swati,Verma,Male,1974-09-06,51,O-,45.7,17.0,Mumbai,9405641007,patient486@email.com,Heart Failure,Heart Failure,2021-06-15,DR029,Emergency,True
+PAT0487,Nisha,Tiwari,Male,1965-01-21,61,AB+,66.5,24.3,Bengaluru,9997123679,patient487@email.com,None,None,2018-12-19,DR010,General,True
+PAT0488,Nikhil,Singh,Other,1978-06-13,47,A+,45.9,19.8,Kolkata,9785912716,patient488@email.com,CKD,Epilepsy,2019-12-18,DR036,Oncology,True
+PAT0489,Lakshmi,Shah,Male,1996-03-16,30,O+,75.2,26.2,Ahmedabad,9700523461,patient489@email.com,Rheumatoid Arthritis,COPD,2018-04-20,DR001,General,True
+PAT0490,Suresh,Das,Other,1960-05-10,65,B+,68.1,28.6,Ahmedabad,9838565998,patient490@email.com,None,COPD,2018-04-27,DR008,Emergency,True
+PAT0491,Ashok,Kulkarni,Male,1944-12-08,81,A-,70.1,24.3,Pune,9650320457,patient491@email.com,None,Hypertension,2020-11-29,DR011,Neurology,True
+PAT0492,Amit,Joshi,Female,1962-02-05,64,A+,60.8,18.6,Hyderabad,9487796299,patient492@email.com,Epilepsy,None,2021-12-29,DR004,Orthopaedics,True
+PAT0493,Gaurav,Joshi,Other,2012-02-14,14,O-,41.3,16.9,Nagpur,9439528365,patient493@email.com,None,CKD,2021-01-16,DR044,Paediatrics,True
+PAT0494,Aarav,Mehta,Male,1953-02-03,73,O+,69.0,23.8,Pune,9936238554,patient494@email.com,Rheumatoid Arthritis,Epilepsy,2021-10-25,DR011,Cardiology,True
+PAT0495,Geeta,Menon,Other,1992-04-19,33,A-,81.6,28.4,Kolkata,9594448830,patient495@email.com,Diabetes Type 2,Diabetes Type 2,2019-06-22,DR002,Oncology,True
+PAT0496,Gaurav,Bhat,Other,1974-08-29,51,O-,42.0,17.5,Bengaluru,9862243827,patient496@email.com,CKD,Hypertension,2019-05-01,DR015,General,True
+PAT0497,Kavya,Singh,Male,1991-09-03,34,A+,79.5,23.4,Indore,9619964733,patient497@email.com,Epilepsy,Hypertension,2020-03-15,DR007,Cardiology,True
+PAT0498,Manish,Patel,Other,1946-02-18,80,A-,63.4,27.4,Hyderabad,9816815464,patient498@email.com,Hypertension,Diabetes Type 2,2019-05-23,DR039,General,True
+PAT0499,Usha,Pillai,Male,1997-11-15,28,O-,57.7,24.0,Bengaluru,9637552108,patient499@email.com,None,COPD,2023-08-31,DR037,Cardiology,True
+PAT0500,Suresh,Joshi,Other,2019-12-24,6,A+,66.7,23.5,Chandigarh,9205962980,patient500@email.com,COPD,None,2023-04-29,DR024,Paediatrics,True

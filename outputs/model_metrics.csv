@@ -1,0 +1,2 @@
+Model_F1,Model_Precision,Model_Recall,Model_AUC_ROC,Decision_Threshold,Model_Name,Split_Seed,Explanation_Coverage_High_Risk
+0.9677,0.9375,1.0,0.9968,0.71,XGBoost,13,1.0

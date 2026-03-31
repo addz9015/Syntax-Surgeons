@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Secrets
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Editor
+.vscode/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/bundle-analysis.html
+frontend/bundle-analysis.json
+
+# Word docs (binary, not needed in repo)
+*.docx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Do NOT ignore outputs/ or CSV files — they are required by the API at runtime

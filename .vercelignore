@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.vscode/
+.git/
+.streamlit/secrets.toml
+Dockerfile.api
+Dockerfile.dashboard
+docker-compose.yml
+VitalEdge_Plus_PRD_v2.docx
+PRD_extracted.txt

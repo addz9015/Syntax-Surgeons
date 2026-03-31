@@ -1,0 +1,7 @@
+KPI,Value,Target,Pass
+Conflict detection accuracy,1.0,0.95,True
+CRITICAL recall,1.0,1.0,True
+ML model F1-score,0.9677,0.82,True
+SHAP/Explanation coverage for high risk,1.0,1.0,True
+ABS correlation with reactions,0.8914,0.6,True
+Data pipeline null Patient_ID,0.0,0.0,True
